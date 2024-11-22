@@ -38,6 +38,19 @@ sections:
       view: citation
       columns: '1'
 
+  - block: collection
+    content:
+      title: Events
+      text: ""
+      count: 5
+      filters:
+        folders:
+          - event
+        publication_type: ''
+    design:
+      # view: citation
+      columns: '1'
+
   - block: markdown
     content:
       title:
