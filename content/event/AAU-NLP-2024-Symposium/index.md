@@ -28,7 +28,7 @@ authors: [johannes, ernests, mike]
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
   caption: 'Image credit: [Jørgen True/Studie-E](https://www.en.aau.dk/copenhagen/businesses-on-campus)'
