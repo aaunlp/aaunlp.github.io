@@ -31,7 +31,7 @@ education:
       institution: University of Copenhagen
       year: 2022
     - course: MS Human Language Technology
-      institution: Stockholm University
+      institution: University of Arizona
       year: 2016
     - course: BA Linguistics; Russian & Slavic Studies
       institution: University of Arizona
@@ -42,9 +42,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: 'mailto:test@example.org'
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://vbn.aau.dk/da/persons/hcle
   # - icon: twitter
   #   icon_pack: fab
   #   link: ''
