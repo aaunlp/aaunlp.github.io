@@ -18,7 +18,7 @@ abstract: "We're thrilled to announce the upcoming AAU-NLP 2024 Symposium, bring
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: '2024-12-03T12:30:00Z'
-date_end: '2024-12-03T18:00:00Z'
+date_end: '2024-12-03T19:30:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
