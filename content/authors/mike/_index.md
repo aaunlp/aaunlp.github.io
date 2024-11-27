@@ -49,15 +49,21 @@ social:
   - icon: graduation-cap
     icon_pack: fas
     link: https://vbn.aau.dk/da/persons/jjz
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
     link: https://x.com/mjjzha
+  - icon: bluesky
+    icon_pack: fab
+    link: https://bsky.app/profile/mjjzha.bsky.social
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.nl/citations?user=Zw6i1v0AAAAJ&hl=en
   - icon: github
     icon_pack: fab
     link: https://github.com/jjzha
+  - icon: globe
+    icon_pack: fas
+    link: https://jjzha.github.io
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

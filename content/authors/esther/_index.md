@@ -45,7 +45,7 @@ social:
   - icon: graduation-cap
     icon_pack: fas
     link: https://vbn.aau.dk/da/persons/espl
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
     link: https://x.com/EstherPloeger
   - icon: google-scholar
@@ -54,6 +54,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/esther2000
+  - icon: globe
+    icon_pack: fas
+    link: https://esther2000.github.io
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

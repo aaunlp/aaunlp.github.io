@@ -45,9 +45,12 @@ social:
   - icon: graduation-cap
     icon_pack: fas
     link: https://vbn.aau.dk/da/persons/jbjerva
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
     link: https://twitter.com/johannesbjerva
+  - icon: bluesky
+    icon_pack: fab
+    link: https://bsky.app/profile/bjerva.bsky.social
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=F9zlUBcAAAAJ&hl=en

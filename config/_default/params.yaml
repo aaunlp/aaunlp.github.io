@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night: dark
   font: native
-  font_size: M
+  font_size: S
 
 # SEO
 
@@ -39,7 +39,7 @@ header:
     show_language: false
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
@@ -115,4 +115,4 @@ extensions:
 
 publications:
   date_format: January 2006
-  citation_style: harvard
+  citation_style: apa
