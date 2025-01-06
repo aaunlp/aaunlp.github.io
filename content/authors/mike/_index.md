@@ -51,9 +51,9 @@ social:
   - icon: x-twitter
     icon_pack: fab
     link: https://x.com/mjjzha
-  - icon: bluesky
-    icon_pack: fab
-    link: https://bsky.app/profile/mjjzha.bsky.social
+  # - icon: bluesky
+  #   icon_pack: fab
+  #   link: https://bsky.app/profile/mjjzha.bsky.social
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.nl/citations?user=Zw6i1v0AAAAJ&hl=en
