@@ -21,9 +21,12 @@ organizations:
 bio: ''
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Machine Learning
+  # - Artificial Intelligence
+  # - Computational Linguistics
+  # - Machine Learning
+  - AI
+  - Typology
+  - LLM Security
 
 education:
   courses:

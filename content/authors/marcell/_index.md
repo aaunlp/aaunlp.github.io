@@ -24,8 +24,7 @@ organizations:
 bio: ''
 
 interests:
-  - Multilingual NLP
-  - Low-resource NLP
+  - Multilinguality
   - Typology
 
 education:

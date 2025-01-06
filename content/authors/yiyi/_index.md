@@ -24,9 +24,9 @@ organizations:
 bio: ''
 
 interests:
-  - Natural Language Processing
+  # - Natural Language Processing
   - LLM Security
-  - Multilinguality
+  # - Multilinguality
 
 education:
   courses:

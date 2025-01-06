@@ -24,8 +24,8 @@ organizations:
 bio: ''
 
 interests:
-  - LLM Factuality
-  - Multilinguality
+  - Factuality
+  # - Multilinguality
   - Knowledge Graphs
 
 education:

@@ -24,10 +24,9 @@ organizations:
 bio: ''
 
 interests:
-  - Natural Language Processing
-  - Information Extraction
-  - NLP x HR
-  - NLP x Education
+  # - Natural Language Processing
+  # - NLP x HR
+  - NLP Applications
 
 education:
   courses:

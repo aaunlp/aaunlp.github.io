@@ -24,9 +24,9 @@ organizations:
 bio: ''
 
 interests:
-  - Natural Language Processing
+  # - Natural Language Processing
   - NLP x Finance
-  - Artificial Intelligence
+  # - Artificial Intelligence
 
 education:
   courses:

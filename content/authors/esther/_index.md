@@ -24,7 +24,6 @@ organizations:
 bio: ''
 
 interests:
-  - Natural Language Processing
   - Typology
   - Machine Translation
 

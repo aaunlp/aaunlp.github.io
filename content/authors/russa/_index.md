@@ -24,8 +24,8 @@ organizations:
 bio: ''
 
 interests:
-  - Machine Learning
-  - Natural Language Processing
+  # - Machine Learning
+  # - Natural Language Processing
   - Information Extraction
   - Semantic Web
 

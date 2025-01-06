@@ -20,10 +20,10 @@ sections:
       title: Latest News
       subtitle:
       text: |
+        * **[20 December 2024]** We have multiple papers accepted by AAAI, NoDaLiDa, and JoWS, congratulations Yiyi, Heather, Russa, Ernests, Esther, and Mike!
+        * **[1 December 2024]** AAU is hiring faculty at Asst/P level, including NLP, ML and AI: [Apply by 14 February](https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/1219351).
         * **[22 November 2024]** We are organizing the AAU NLP Symposium, check it out [here](http://typnlp.github.io/event/aau-nlp-2024-symposium/)!
         * **[11 August 2024]** Our members will be at ACL 2024 presenting work on Creoles, NLP Security, Multilingual Instruction tuning, and hosting the KALLM Workshop! 
-        * **[10 April 2024]** CreoleVal is accepted to TACL! 
-        * **[16 March 2024]** Some of our members will be at EACL 2024, come and say hi! 
 
   - block: collection
     content:

@@ -21,9 +21,9 @@ organizations:
 bio: ''
 
 interests:
-  - Low-resource NLP
-  - Cybersecurity
   - LLM Security
+  - Low-resource NLP
+  # - Cybersecurity
 
 education:
   courses:
