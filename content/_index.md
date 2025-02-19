@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        AAU NLP Research Group
+        AAU NLP Research Lab
       image:
         filename: 'typnlp-15.png'
       text: |
