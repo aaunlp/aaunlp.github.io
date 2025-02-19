@@ -13,7 +13,7 @@ year: 2024
 superuser: true
 
 # Role/position
-role: Student Assistant (2024--)
+role: Research Assistant (2024)
 
 # Organizations/Affiliations
 organizations:
@@ -58,5 +58,5 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Student Assistants
+  - Alumni
 ---

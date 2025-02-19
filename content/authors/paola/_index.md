@@ -13,7 +13,7 @@ year: 2024
 superuser: true
 
 # Role/position
-role: Student Assistant (2024)
+role: Research Assistant (2024)
 
 # Organizations/Affiliations
 organizations:
