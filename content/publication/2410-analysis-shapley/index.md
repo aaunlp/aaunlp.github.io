@@ -12,20 +12,20 @@ authors:
 author_notes:
   - 
 
-date: '2024-10-15'
+date: '2025-04-29'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-10-15'
+publishDate: '2025-02-25'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article']
+publication_types: ['paper_conference']
 
 # Publication name and optional abbreviated publication name.
-publication: 'ArXiv'
-publication_short: 'ArXiv'
+publication: 'Findings of the Association for Computational Linguistics: NAACL 2025'
+publication_short: 'In NAACL Findings'
 
 abstract: "Understanding how linguistic knowledge is encoded in language models is crucial for improving their generalisation capabilities. In this paper, we investigate the processing of morphosyntactic phenomena, by leveraging a recently proposed method for probing language models via Shapley Head Values (SHVs). Using the English language BLiMP dataset, we test our approach on two widely used models, BERT and RoBERTa, and compare how linguistic constructions such as anaphor agreement and filler-gap dependencies are handled. Through quantitative pruning and qualitative clustering analysis, we demonstrate that attention heads responsible for processing related linguistic phenomena cluster together. Our results show that SHV-based attributions reveal distinct patterns across both models, providing insights into how language models organize and process linguistic information. These findings support the hypothesis that language models learn subnetworks corresponding to linguistic theory, with potential implications for cross-linguistic model analysis and interpretability in Natural Language Processing (NLP)."
 
