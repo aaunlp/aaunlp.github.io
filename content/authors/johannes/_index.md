@@ -60,6 +60,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/jbjerva
+  - icon: globe
+    icon_pack: fas
+    link: https://vbn.aau.dk/en/persons/jbjerva
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -78,4 +81,18 @@ user_groups:
   - Faculty
 ---
 
-I am a researcher in Natural Language Processing (NLP) and Artificial Intelligence (AI). My research is characterised by a highly interdisciplinary perspective on NLP, focusing on the potential for broad societal impact. In 2022 I was awarded a Semper Ardens: Accelerate grant of 5 million DKK from the Carlsberg Foundation, enabling me to carry out fundamental research in this area. My most significant scientific contributions are in incorporating linguistic information in NLP methodology, including large language models (LLMs), and improving the state for low-resource languages in particular. My current efforts are on engaging this NLP research in real-world settings, including education (funded by a Villum Synergy grant of 3 million DKK) and the healthcare sector. I am a member of The Young Academy (Det Unge Akademi, DUA), under the Royal Danish Academy of Sciences and Letters. I focus on delivering high-quality teaching with elements of interactivity and tying theory to practice. As a result, I was in 2021 electedby the students at our department as Teacher of the Year. I engage actively in making NLP research accessible to the public, and am sought out for my expertise for interviews and podcasts by broadcasters such as DR and TV2.
+I am a full professor in Natural Language Processing (NLP) and Artificial Intelligence (AI) at Aalborg University (Copenhagen campus), where I lead the Copenhagen team spanning all research groups at the Department of Computer Science. In my research, I take an interdisciplinary view on NLP, drawing on linguistic typology in particular, with the overarching vision of societal impact for speakers of low-resource languages. I am a member of [The Young Academy (Det Unge Akademi, DUA)](https://youngacademy.dk/en/), under the Royal Danish Academy of Sciences and Letters.
+
+I have been awarded three prestigious excellence-based career grants:
+
+In 2022 I was awarded a [Semper Ardens: Accelerate grant from the Carlsberg Foundation](https://www.carlsbergfondet.dk/en/what-we-have-funded/CF21-0454) (5 million DKK), enabling me to carry out fundamental research in low-resource NLP.
+
+In 2025 I was awarded a [Data Science Ascending Investigator grant](https://datascience.novonordiskfonden.dk/projects/lm2-sec-linguistically-motivated-language-model-security/) from the Novo Nordisk Foundation (~10 million DKK), under the [NNF Research Leader Programme](https://researchleaderprogramme.com/recipients/johannes-bjerva/), to focus on the emerging field of Language Model Security (LM-SEC).
+
+In 2025, I was also awarded the [DFF: Sapere Aude starting grant](https://dff.dk/hvad-har-vi-stoettet/forskerportraetter/sapere-aude-portraetter/eksterne-personer/dff-forskningsledere-2025/johannes-bjerring-bjerva/) from [DFF (the Independent Research Fund Denmark)](https://dff.dk/), positioning me to continue developing my research leadership, and expanding my research group at a high international level.
+
+My most significant scientific contributions are in incorporating linguistic information in NLP methodology, including large language models (LLMs), and improving the state for low-resource languages in particular. My current efforts are on engaging this NLP research in real-world settings, including education (funded by a Villum Synergy grant of 3 million DKK), security, and in industrial collaborations in particular.
+
+As of 2025, I have been appointed to the [Industrial Researcher Committee ('Erhvervsforskerudvalget')](https://innovationsfonden.dk/en/industrial-researcher-committee) at Innovation Fund Denmark (Innovationsfonden). I have on several occasions served as an external reviewer for the European Research Council (ERC), and for various national funding agencies, including the Dutch Research Council (NWO), the Swiss National Science Foundation (SNSF), and the Deutsche Forschungsgemeinschaft (DFG).
+
+I teach on the [Software BSc.](https://www.aau.dk/uddannelser/bachelor/software-koebenhavn) and [Software MSc.](https://www.en.aau.dk/education/master/software-cph) programmes at AAU-CPH, where I aim to deliver engaging high-quality content, with elements of student-interactivity, constantly enforcing the connections between theory to practice. As a result, I was in 2021 elected by the students at our department as Teacher of the Year. I furthermore engage actively in making NLP research accessible to the public, and am sought out for my expertise for interviews and podcasts by broadcasters such as DR and TV2.
