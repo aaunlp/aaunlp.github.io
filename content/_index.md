@@ -13,7 +13,7 @@ sections:
         filename: 'typnlp-15.png'
       text: |
         <br>
-        <span style="font-size: 20px; line-height: 0.9">Welcome to the AAU NLP research group, led by [Prof. Dr. Johannes Bjerva](https://vbn.aau.dk/en/persons/jbjerva) at the Copenhagen Section of the Department of Computer Science, at Aalborg University. Our group engages in research in Natural Language Processing (NLP), with interdisciplinary overlap in Education and Cybersecurity. Our scope revolves around leveraging linguistic knowledge to develop robust NLP models and building NLP applications that aid multiple domains outside of NLP.</span>
+        <span style="font-size: 20px; line-height: 0.9">Welcome to the AAU NLP research group, led by <a href="https://vbn.aau.dk/en/persons/jbjerva">Prof. Dr. Johannes Bjerva</a> at the Copenhagen Section of the Department of Computer Science, at Aalborg University. Our group engages in research in Natural Language Processing (NLP), with interdisciplinary overlap in Education and Cybersecurity. Our scope revolves around leveraging linguistic knowledge to develop robust NLP models and building NLP applications that aid multiple domains outside of NLP.</span>
   
   - block: markdown
     content:
