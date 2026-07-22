@@ -1,0 +1,131 @@
+- title: "A Principled Framework for Evaluating on Typologically Diverse Languages"
+  authors: Esther Ploeger, Wessel Poelman, Andreas Holck Høeg-Petersen, Anders Schlichtkrull, Miryam de Lhoneux, and Johannes Bjerva
+  venue: Computational Linguistics
+  year: 2026
+  url: https://aclanthology.org/2026.cl-1.7/
+  faculty: [Johannes Bjerva]
+  themes: [Multilingual NLP, Linguistic typology, Evaluation]
+  impact: Provides reproducible, typology-informed language sampling and shows that language choice materially changes the conclusions of multilingual evaluation.
+  featured: true
+
+- title: "MultiHal: Multilingual Dataset for Knowledge-Graph Grounded Evaluation of LLM Hallucinations"
+  authors: Ernests Lavrinovics, Russa Biswas, Katja Hose, and Johannes Bjerva
+  venue: ICML · proceedings forthcoming
+  year: 2026
+  url: https://arxiv.org/abs/2505.14101
+  faculty: [Johannes Bjerva, Russa Biswas]
+  themes: [Factuality, Knowledge graphs, Multilingual NLP]
+  impact: Introduces a multilingual multihop benchmark built from 25,900 curated knowledge-graph paths for evaluating and reducing hallucinations.
+  featured: true
+
+- title: "Follow the Path: Reasoning over Knowledge Graph Paths to Improve Large Language Model Factuality"
+  authors: Mike Zhang, Johannes Bjerva, and Russa Biswas
+  venue: Findings of ACL
+  year: 2026
+  url: https://aclanthology.org/2026.findings-acl.561/
+  faculty: [Johannes Bjerva, Russa Biswas]
+  themes: [Factuality, Knowledge graphs, Reasoning]
+  impact: Grounds reasoning traces in knowledge-graph paths, improving factual question answering particularly for smaller models and multihop questions.
+  featured: true
+
+- title: "Shared Path: Unraveling Memorization in Multilingual LLMs through Language Similarities"
+  authors: Xiaoyu Luo, Yiyi Chen, Johannes Bjerva, and Qiongxiu Li
+  venue: EMNLP
+  year: 2025
+  url: https://aclanthology.org/2025.emnlp-main.978/
+  faculty: [Johannes Bjerva]
+  themes: [Security & privacy, Memorisation, Multilingual NLP]
+  impact: Studies memorisation across 95 languages and shows that linguistic similarity reveals vulnerabilities that training-token volume alone misses.
+  featured: true
+
+- title: "NLP Security and Ethics, in the Wild"
+  authors: Heather Lent, Erick Galinkin, Yiyi Chen, Jens Myrup Pedersen, Leon Derczynski, and Johannes Bjerva
+  venue: Transactions of the Association for Computational Linguistics
+  year: 2025
+  url: https://aclanthology.org/2025.tacl-1.33/
+  faculty: [Heather Lent, Johannes Bjerva]
+  themes: [Security & privacy, Research ethics]
+  impact: Audits ethical practice in NLP security and develops concrete guidance for harm minimisation and responsible disclosure.
+  featured: true
+
+- title: "Unstructured Evidence Attribution for Long Context Query Focused Summarization"
+  authors: Dustin Wright, Zain Muhammad Mujahid, Lu Wang, Isabelle Augenstein, and David Jurgens
+  venue: EMNLP
+  year: 2025
+  url: https://aclanthology.org/2025.emnlp-main.95/
+  faculty: [Dustin Wright]
+  themes: [Reliable information, Evidence attribution, Summarisation]
+  impact: Introduces SUnsET and improves the relevance, factual consistency, and evidential coverage of long-context summaries.
+  featured: true
+
+- title: "Against All Odds: Overcoming Typology, Script, and Language Confusion in Multilingual Embedding Inversion Attacks"
+  authors: Yiyi Chen, Russa Biswas, Heather Lent, and Johannes Bjerva
+  venue: AAAI
+  year: 2025
+  url: https://ojs.aaai.org/index.php/AAAI/article/view/34533
+  faculty: [Johannes Bjerva, Russa Biswas, Heather Lent]
+  themes: [Security & privacy, Multilingual NLP, Linguistic typology]
+  impact: Reveals systematic inversion vulnerabilities across 20 languages, eight language families, and twelve scripts.
+
+- title: "Knowledge Graphs, Large Language Models, and Hallucinations: An NLP Perspective"
+  authors: Ernests Lavrinovics, Russa Biswas, Johannes Bjerva, and Katja Hose
+  venue: Journal of Web Semantics
+  year: 2025
+  url: https://www.sciencedirect.com/science/article/pii/S1570826824000301
+  faculty: [Johannes Bjerva, Russa Biswas]
+  themes: [Knowledge graphs, Factuality, Survey]
+  impact: Organises the datasets, knowledge-integration methods, evaluation approaches, and open problems at the intersection of knowledge graphs and LLM hallucinations.
+
+- title: "Efficiency and Effectiveness of LLM-Based Summarization of Evidence in Crowdsourced Fact-Checking"
+  authors: Kevin Roitero, Dustin Wright, Michael Soprano, Isabelle Augenstein, and Stefano Mizzaro
+  venue: SIGIR
+  year: 2025
+  url: https://dl.acm.org/doi/10.1145/3726302.3729960
+  faculty: [Dustin Wright]
+  themes: [Fact-checking, Summarisation, Human evaluation]
+  impact: Shows that evidence summaries can preserve assessment accuracy while reducing time and cost in crowdsourced fact-checking.
+
+- title: "Efficiency Is Not Enough: A Critical Perspective on Environmentally Sustainable AI"
+  authors: Dustin Wright, Christian Igel, Gabrielle Samuel, and Raghavendra Selvan
+  venue: Communications of the ACM
+  year: 2025
+  url: https://dl.acm.org/doi/10.1145/3724500
+  faculty: [Dustin Wright]
+  themes: [Sustainable AI, Responsible AI]
+  impact: Argues that computational efficiency alone cannot make machine learning environmentally sustainable and develops a broader systems perspective.
+
+- title: "CreoleVal: Multilingual Multitask Benchmarks for Creoles"
+  authors: Heather Lent, Kushal Tatariya, Raj Dabre, Yiyi Chen, Marcell Fekete, Esther Ploeger, and collaborators
+  venue: Transactions of the Association for Computational Linguistics
+  year: 2024
+  url: https://aclanthology.org/2024.tacl-1.53/
+  faculty: [Heather Lent, Johannes Bjerva]
+  themes: [Low-resource NLP, Creole languages, Evaluation]
+  impact: Creates substantial evaluation infrastructure across eight NLP tasks and up to 28 Creole languages.
+
+- title: "Generating Scientific Claims for Zero-Shot Scientific Fact Checking"
+  authors: Dustin Wright, David Wadden, Kyle Lo, Bailey Kuehl, Arman Cohan, Isabelle Augenstein, and Lucy Lu Wang
+  venue: ACL
+  year: 2022
+  url: https://aclanthology.org/2022.acl-long.175/
+  faculty: [Dustin Wright]
+  themes: [Scientific fact-checking, Data generation]
+  impact: Uses scientific claim and negation generation to approach supervised performance in zero-shot biomedical fact-checking.
+
+- title: "What a Creole Wants, What a Creole Needs"
+  authors: Heather Lent, Kelechi Ogueji, Miryam de Lhoneux, Orevaoghene Ahia, and Anders Søgaard
+  venue: LREC
+  year: 2022
+  url: https://aclanthology.org/2022.lrec-1.691/
+  faculty: [Heather Lent]
+  themes: [Community-centred NLP, Creole languages, Research practice]
+  impact: Shows that useful language technology must be shaped by the priorities of the communities it is intended to serve.
+
+- title: "The Meaning Factory: Formal Semantics for Recognizing Textual Entailment and Determining Semantic Similarity"
+  authors: Johannes Bjerva, Johan Bos, Rob van der Goot, and Malvina Nissim
+  venue: SemEval
+  year: 2014
+  url: https://aclanthology.org/S14-2114/
+  faculty: [Johannes Bjerva]
+  themes: [Formal semantics, Textual inference]
+  impact: An early formal-semantics system for textual inference and semantic similarity that anchors the semantics tradition in the group's current work.

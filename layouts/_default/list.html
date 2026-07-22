@@ -1,0 +1,8 @@
+{{ define "main" }}
+<section class="page-hero shell">
+  <p class="eyebrow">AAU NLP</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+</section>
+<section class="shell page-space prose">{{ .Content }}</section>
+{{ end }}

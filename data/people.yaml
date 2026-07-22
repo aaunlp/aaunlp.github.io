@@ -1,0 +1,215 @@
+- name: Johannes Bjerva
+  slug: johannes-bjerva
+  initials: JB
+  group: Faculty
+  role: Professor of Natural Language Processing · Group Leader
+  image: "https://vbn.aau.dk/files-asset/730456705/JohannesBjerringBjerva.jpg?f=jpg&w=480"
+  url: /people/johannes-bjerva/
+  vbn: https://vbn.aau.dk/en/persons/jbjerva/
+  email: jbjerva@cs.aau.dk
+  focus:
+    - Multilingual NLP
+    - Linguistic grounding
+    - LLM security & privacy
+  summary: Johannes studies how linguistic structure can make multilingual language technology more capable, secure, private, and trustworthy. He leads AAU NLP and the Copenhagen Section of AAU's Department of Computer Science.
+
+- name: Russa Biswas
+  slug: russa-biswas
+  initials: RB
+  group: Faculty
+  role: Assistant Professor · Co-director, AI:PAGE-Lab
+  image: "https://vbn.aau.dk/files-asset/742945141/RussaBiswas.jpg?f=jpg&w=480"
+  url: /people/russa-biswas/
+  vbn: https://vbn.aau.dk/en/persons/rubi/
+  email: rubi@cs.aau.dk
+  focus:
+    - Knowledge graphs
+    - LLM factuality
+    - Cultural heritage
+  summary: Russa connects structured knowledge with language models, developing graph-grounded approaches to factuality and reasoning and applying them to cultural heritage through AI:PAGE-Lab.
+
+- name: Dustin Wright
+  slug: dustin-wright
+  initials: DW
+  group: Faculty
+  role: Tenure Track Assistant Professor
+  image: "https://vbn.aau.dk/files-asset/816563865/DustinBrandonWright.jpg?f=jpg&w=480"
+  url: /people/dustin-wright/
+  vbn: https://vbn.aau.dk/en/persons/dbw/
+  email: dbw@cs.aau.dk
+  focus:
+    - Reliable information
+    - Scientific fact-checking
+    - Sustainable AI
+  summary: Dustin works on reliable and sustainable AI, spanning factuality, faithfulness, diversity, robustness, efficiency, and the environmental and social consequences of language technology.
+
+- name: Heather Lent
+  slug: heather-lent
+  initials: HL
+  group: Faculty
+  role: Assistant Professor
+  image: "https://vbn.aau.dk/files-asset/743381083/HeatherChristineLent.jpg?f=jpg&w=480"
+  url: /people/heather-lent/
+  vbn: https://vbn.aau.dk/en/persons/hcle/
+  email: hcle@cs.aau.dk
+  focus:
+    - Low-resource NLP
+    - Creole languages
+    - Responsible security
+  summary: Heather develops community-centred language technology for low-resource and Creole languages, with growing work on multilingual security, data quality, and research ethics.
+
+- name: Anahita Baninajjar
+  slug: anahita-baninajjar
+  initials: AB
+  group: Postdocs
+  role: Postdoc
+  image: "https://vbn.aau.dk/files-asset/828268114/AnahitaBaninajjar.jpg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/anaban/
+  focus:
+    - Trustworthy AI
+    - LLM security
+  summary: Anahita works on trustworthy AI and language-model security, including methods that support robust and verifiable learning systems.
+
+- name: Marcell Richard Fekete
+  slug: marcell-fekete
+  initials: MF
+  group: PhD Fellows
+  role: PhD Fellow
+  image: "https://vbn.aau.dk/files-asset/841013954/marcell_profile.jpeg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/mrfe/
+  focus:
+    - Language variation
+    - Typology
+    - Parameter-efficient learning
+  summary: Marcell studies multilinguality and language variation, parameter-efficient adaptation, interpretability, and the relationship between human and model language knowledge.
+
+- name: Yiyi Chen
+  slug: yiyi-chen
+  initials: YC
+  group: PhD Fellows
+  role: PhD Fellow
+  image: "https://vbn.aau.dk/files-asset/743589182/YiyiChen.jpg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/yiyic/
+  focus:
+    - Language-model security
+    - Embedding inversion
+    - Language similarity
+  summary: Yiyi works on multilingual language-model security, including inversion attacks, memorisation, and the role of linguistic similarity in model vulnerabilities.
+
+- name: Ernests Lavrinovics
+  slug: ernests-lavrinovics
+  initials: EL
+  group: PhD Fellows
+  role: PhD Fellow
+  image: "https://vbn.aau.dk/files-asset/742211738/ErnestsLavrinovics.jpg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/elav/
+  focus:
+    - Factuality
+    - Knowledge graphs
+    - Efficient modelling
+  summary: Ernests studies LLM factuality and hallucinations, knowledge-enhanced models, multilingual evaluation, and efficient model compression.
+
+- name: Rasmus Thyge Aavang Jensen
+  slug: rasmus-jensen
+  initials: RJ
+  group: PhD Fellows
+  role: Industrial PhD · with Alipes ApS
+  image: "https://vbn.aau.dk/files-asset/743310001/1661871478222.jpeg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/rtaj/
+  focus:
+    - NLP for finance
+    - Factual extraction
+  summary: Rasmus develops reliable methods for extracting financial KPIs from earnings reports, with explicit attention to factuality and hierarchical structure.
+
+- name: Josephine Marie Bakka
+  slug: josephine-bakka
+  initials: JB
+  group: PhD Fellows
+  role: PhD Fellow · AI:SECURITY
+  image: "https://vbn.aau.dk/files-asset/789927055/JosephineMarieBakka.jpg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/jmba/
+  focus:
+    - AI security
+    - LLM security
+  summary: Josephine researches security questions in AI and large language models as part of the interdisciplinary AI:SECURITY lab.
+
+- name: Xiaoyu Luo
+  slug: xiaoyu-luo
+  initials: XL
+  group: PhD Fellows
+  role: PhD Fellow · AI:SECURITY
+  image: "https://vbn.aau.dk/files-asset/804965438/e4dc8b7a81a06a9af1e3d6bd0d154c9f_2.jpg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/xilu/
+  focus:
+    - Memorisation
+    - Security & privacy
+    - Multilingual LLMs
+  summary: Xiaoyu studies neural-network memorisation, privacy leakage, adversarial learning, and multilingual security in generative language models.
+
+- name: Ren Tao
+  slug: ren-tao
+  initials: RT
+  group: PhD Fellows
+  role: PhD Fellow
+  image: "https://vbn.aau.dk/files-asset/822239888/TaoRen.jpg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/taoren/
+  focus:
+    - Neural probing
+    - Hidden representations
+  summary: Tao investigates hidden representations and model behaviour through activation analysis and controlled perturbations.
+
+- name: Dorielle Lonke
+  slug: dorielle-lonke
+  initials: DL
+  group: PhD Fellows
+  role: PhD Fellow
+  vbn: https://vbn.aau.dk/en/persons/dorielle-lonke/
+  focus:
+    - Linguistic analysis
+    - Responsible AI discourse
+  summary: Dorielle studies linguistically grounded ways to understand how AI systems and AI research are described, including anthropomorphic language.
+
+- name: Davis Davalos-DeLosh
+  slug: davis-davalos-delosh
+  initials: DD
+  group: Incoming
+  role: Incoming PhD Fellow · September 2026
+  summary: Research profile to follow.
+
+- name: Anna Lackner
+  slug: anna-lackner
+  initials: AL
+  group: Incoming
+  role: Incoming Research Assistant · September 2026
+  summary: Research profile to follow.
+
+- name: Ivaylo Mitov
+  slug: ivaylo-mitov
+  initials: IM
+  group: Incoming
+  role: Incoming PhD Fellow · October 2026
+  summary: Research profile to follow.
+
+- name: Esther Ploeger
+  slug: esther-ploeger
+  initials: EP
+  group: Alumni
+  role: PhD alumna · 2025
+  image: "https://vbn.aau.dk/files-asset/716498132/EstherPloeger.jpg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/espl/
+  focus:
+    - Linguistic typology
+    - Multilingual evaluation
+  summary: Esther's PhD connected linguistic typology with multilingual NLP, language diversity, and machine translation.
+
+- name: Mike Zhang
+  slug: mike-zhang
+  initials: MZ
+  group: Alumni
+  role: Postdoctoral alumnus · 2025
+  image: "https://vbn.aau.dk/files-asset/716497958/JunJunZhang.jpg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/jjz/
+  focus:
+    - NLP for education
+    - Resource creation
+  summary: Mike's AAU work focused on language technology for education, including explainable feedback and longitudinal learning support.

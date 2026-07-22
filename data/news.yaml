@@ -1,0 +1,35 @@
+- date: 2026-07-15
+  label: People
+  title: AAU NLP welcomes its newest researchers
+  text: Anahita Baninajjar and Dorielle Lonke have joined a growing team spanning trustworthy AI, multilingual NLP, language-model security, and semantics.
+  url: /people/
+
+- date: 2026-05-01
+  label: Projects
+  title: Two new programmes begin
+  text: TRUST and Formal Semantic Methods for AI Safety strengthen the group's work on model integrity, formal semantics, multilingual failure analysis, and explainable safeguards.
+  url: /projects/
+
+- date: 2026-03-01
+  label: Publication
+  title: Typologically principled evaluation in Computational Linguistics
+  text: A Principled Framework for Evaluating on Typologically Diverse Languages provides reproducible tools for choosing language samples and testing generalisability.
+  url: https://aclanthology.org/2026.cl-1.7/
+
+- date: 2026-02-01
+  label: People
+  title: Dustin Wright joins AAU NLP
+  text: Dustin brings an independent programme on reliable information and sustainable AI, including factuality, scientific fact-checking, efficiency, and environmental impacts.
+  url: /people/dustin-wright/
+
+- date: 2025-11-26
+  label: Milestone
+  title: Esther Ploeger completes the first AAU NLP PhD
+  text: Esther defended her thesis on linguistic typology and multilingual NLP, marking an important milestone for the group.
+  url: https://www.cs.aau.dk/phd-defence-by-esther-ploeger-e154093
+
+- date: 2024-12-05
+  label: Event archive
+  title: AAU NLP Symposium
+  text: The group brought researchers together in Copenhagen for a day of talks and discussion across natural language processing and language technology.
+  url: https://vbn.aau.dk/en/activities/aau-nlp-symposium/

@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article class="profile-page">
+  <header class="profile-hero shell">
+    <div class="profile-image" data-portrait-wrap>
+      <img src="{{ .Params.image | safeURL }}" alt="Portrait of {{ .Title }}" decoding="async" referrerpolicy="no-referrer" width="480" height="600" data-portrait>
+      <span class="portrait-placeholder" aria-hidden="true" data-portrait-fallback hidden>{{ .Params.initials }}</span>
+    </div>
+    <div class="profile-intro">
+      <p class="eyebrow">{{ .Params.eyebrow }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="profile-role">{{ .Params.role }}</p>
+      <p class="profile-statement">{{ .Params.intro }}</p>
+      <div class="profile-links"><a href="mailto:{{ .Params.email }}">Email</a><a href="{{ .Params.vbn }}">VBN profile ↗</a></div>
+    </div>
+  </header>
+  <section class="section shell profile-body">
+    <div class="prose profile-narrative">{{ .Content }}</div>
+    <div class="focus-grid">
+      {{ range .Params.focus }}<article><h2>{{ .title }}</h2><p>{{ .text }}</p></article>{{ end }}
+    </div>
+  </section>
+  {{ with .Params.projects }}{{ if gt (len .) 0 }}
+  <section class="section section-tint"><div class="shell profile-section"><p class="eyebrow">Current programmes</p><h2>Projects and labs</h2><div class="profile-projects">{{ range . }}<span>{{ . }}</span>{{ end }}</div></div></section>
+  {{ end }}{{ end }}
+  <section class="section shell profile-section">
+    <p class="eyebrow">Supervision and collaboration</p>
+    <h2>Questions worth working on</h2>
+    <p class="lede">{{ .Params.supervision }}</p>
+    <div class="button-row"><a class="button button-primary" href="mailto:{{ .Params.email }}">Contact {{ .Title }}</a><a class="button button-secondary" href="{{ "publications/" | relURL }}">Selected publications</a></div>
+  </section>
+</article>
+{{ end }}

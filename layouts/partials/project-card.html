@@ -1,0 +1,18 @@
+{{ $project := . }}
+<article class="project-card">
+  <div class="project-topline">
+    <span class="project-acronym">{{ $project.acronym }}</span>
+    <span>{{ $project.dates }}</span>
+  </div>
+  <h3><a href="{{ $project.url }}">{{ $project.title }}</a></h3>
+  {{ with $project.subtitle }}<p class="project-subtitle">{{ . }}</p>{{ end }}
+  <p>{{ $project.summary }}</p>
+  <ul class="tag-list" aria-label="Project themes">{{ range $project.themes }}<li>{{ . }}</li>{{ end }}</ul>
+  <dl class="project-meta">
+    <div><dt>Lead</dt><dd>{{ $project.lead }}</dd></div>
+    <div><dt>Support</dt><dd>{{ $project.funder }}{{ with $project.amount }} · <strong>{{ . }}</strong>{{ end }}</dd></div>
+    {{ with $project.funding_share }}<div><dt>Share</dt><dd>{{ . }}</dd></div>{{ end }}
+    {{ with $project.partners }}<div><dt>Partners</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
+  </dl>
+  <a class="text-link" href="{{ $project.url }}">Official record <span aria-hidden="true">↗</span></a>
+</article>

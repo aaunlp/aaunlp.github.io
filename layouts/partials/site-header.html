@@ -1,0 +1,22 @@
+<header class="site-header" data-header>
+  <div class="shell header-inner">
+    <a class="brand" href="{{ "/" | relURL }}" aria-label="AAU NLP home">
+      <img src="{{ "images/site/aau-nlp-mark.png" | relURL }}" alt="" width="46" height="44">
+      <span class="brand-copy">
+        <strong>AAU NLP</strong>
+        <small>Aalborg University · Copenhagen</small>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+      <span>Menu</span><i aria-hidden="true"></i>
+    </button>
+    <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation" data-nav>
+      {{ $current := .RelPermalink }}
+      {{ range site.Menus.main }}
+        {{ $href := .URL | relURL }}
+        <a href="{{ $href }}"{{ if or (eq $current $href) (and (ne $href "/") (hasPrefix $current $href)) }} class="is-active" aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+      <button class="theme-toggle" type="button" aria-label="Toggle colour theme" title="Toggle colour theme" data-theme-toggle><span aria-hidden="true">◐</span></button>
+    </nav>
+  </div>
+</header>

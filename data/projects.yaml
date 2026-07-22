@@ -1,0 +1,134 @@
+- title: Linguistically Motivated Language Model Security
+  acronym: LM²-SEC
+  dates: 2025–2030
+  funder: Novo Nordisk Foundation
+  amount: DKK 9.9m
+  lead: Johannes Bjerva
+  people:
+    - Heather Lent
+    - Russa Biswas
+    - Esther Ploeger
+  themes:
+    - Security
+    - Privacy
+    - Multilingual NLP
+  summary: Uses linguistic patterns to understand, detect, and mitigate malicious influence, privacy leakage, and manipulation in multilingual language models.
+  url: https://vbn.aau.dk/en/projects/linguistically-motivated-language-model-security/
+  featured: true
+
+- title: Building TRUST in Text
+  acronym: TRUST
+  subtitle: Linguistically Motivated Language Model Detection
+  dates: 2026–2030
+  funder: Independent Research Fund Denmark · Sapere Aude
+  amount: DKK 6.19m
+  lead: Johannes Bjerva
+  partners:
+    - Stockholm University
+    - NVIDIA
+  themes:
+    - Model integrity
+    - Linguistic fingerprints
+    - Explainable AI
+  summary: Develops linguistically grounded ways to detect poisoned or tampered language models and scalable safeguards across languages and domains.
+  url: https://vbn.aau.dk/en/projects/building-trust-in-text-linguistically-motivated-language-model-de/
+  featured: true
+
+- title: Multilingual Modelling for Resource-Poor Languages
+  acronym: MML-RPL
+  dates: 2022–2026
+  funder: Carlsberg Foundation · additional Google support
+  amount: DKK 5m + DKK 425k
+  lead: Johannes Bjerva
+  people:
+    - Heather Lent
+    - Yiyi Chen
+    - Esther Ploeger
+    - Marcell Fekete
+    - Ernests Lavrinovics
+    - Xiaoyu Luo
+  themes:
+    - Low-resource languages
+    - Linguistic typology
+    - Multilingual learning
+  summary: Explores how systematic linguistic similarities can extend useful language technology to languages with limited labelled data and digital resources.
+  url: https://vbn.aau.dk/en/projects/multilingual-modelling-for-resource-poor-languages/
+  featured: true
+
+- title: Formal Semantic Methods for AI Safety
+  acronym: FS-AIS
+  dates: 2026–2028
+  funder: Coefficient Giving · Technical AI Safety Research
+  amount: DKK 2.4m
+  lead: Johannes Bjerva
+  themes:
+    - Formal semantics
+    - AI safety
+    - Interpretability
+  summary: Combines formal semantic analysis and neural interpretability to identify and explain rare multilingual failures in generative AI.
+  url: https://vbn.aau.dk/en/projects/formal-semantic-methods-for-ai-safety/
+  featured: true
+
+- title: AI:SECURITY
+  acronym: AI:SECURITY
+  dates: 2025–2029
+  funder: Aalborg University · AI:X
+  lead: Johannes Bjerva and Qiongxiu Li
+  people:
+    - Josephine Marie Bakka
+    - Xiaoyu Luo
+    - Wenrui Yu
+  themes:
+    - AI security
+    - Federated learning
+    - Disinformation
+  summary: Connects NLP and cybersecurity to protect AI systems from hijacking and misuse and to counter AI-enabled disinformation and phishing.
+  url: https://vbn.aau.dk/en/projects/aisecurity/
+  lab: true
+
+- title: Digital Twins for Abundant Feedback
+  acronym: DTAF
+  dates: 2024–2026
+  funder: Villum Foundation · Synergy
+  amount: DKK 3m
+  lead: Johannes Bjerva and Euan Lindsay
+  people:
+    - Mike Zhang
+  themes:
+    - NLP for education
+    - Explainability
+    - Student feedback
+  summary: Builds explainable multilingual models of expert assessment processes to support scalable, timely, and useful feedback for students.
+  url: https://vbn.aau.dk/en/projects/digital-twins-for-abundant-feedback-novel-feedback-paradigms-via-/
+
+- title: Guarantees of Factuality in Financial KPI Extraction
+  acronym: HiFi-KPI
+  dates: 2024–2027
+  funder: Innovation Fund Denmark · Industrial PhD
+  amount: DKK 1.07m
+  lead: Johannes Bjerva
+  people:
+    - Rasmus Thyge Aavang Jensen
+  partners:
+    - Alipes ApS
+  themes:
+    - Financial NLP
+    - Factuality
+    - Information extraction
+  summary: Develops reliable methods and data for extracting financial KPIs from earnings transcripts with explicit factuality guarantees.
+  url: https://vbn.aau.dk/en/projects/guarantees-of-factuality-in-llm-based-extraction-of-financial-kpi/
+
+- title: AI:PAGE-Lab
+  acronym: AI:PAGE
+  dates: Faculty-led lab
+  funder: Aalborg University · AI:X
+  amount: ca. DKK 3.5m
+  funding_share: 50% · Russa Biswas
+  lead: Russa Biswas and Johan Heinsen
+  themes:
+    - Knowledge graphs
+    - Cultural heritage
+    - Digital humanities
+  summary: Turns historical texts into structured, searchable, connected knowledge so researchers can discover patterns and relationships across cultural-heritage collections.
+  url: https://vbn.aau.dk/en/organisations/aipage-lab/
+  lab: true

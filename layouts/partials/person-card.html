@@ -1,0 +1,25 @@
+{{ $person := . }}
+<article class="person-card{{ if eq $person.group "Faculty" }} faculty-card{{ end }}" id="{{ $person.slug }}">
+  <div class="person-portrait" data-portrait-wrap>
+    {{ with $person.image }}
+      <img src="{{ . | safeURL }}" alt="Portrait of {{ $person.name }}" loading="lazy" decoding="async" referrerpolicy="no-referrer" width="360" height="420" data-portrait>
+      <span class="portrait-placeholder" aria-hidden="true" data-portrait-fallback hidden>{{ $person.initials }}</span>
+    {{ else }}
+      <span class="portrait-placeholder" aria-hidden="true">{{ $person.initials }}</span>
+    {{ end }}
+  </div>
+  <div class="person-copy">
+    <p class="card-kicker">{{ $person.role }}</p>
+    <h3>{{ with $person.url }}<a href="{{ . | relURL }}">{{ $person.name }}</a>{{ else }}{{ with $person.vbn }}<a href="{{ . }}">{{ $person.name }}</a>{{ else }}{{ $person.name }}{{ end }}{{ end }}</h3>
+    {{ with $person.summary }}<p>{{ . }}</p>{{ end }}
+    {{ with $person.focus }}
+      <ul class="tag-list" aria-label="Research areas">
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    {{ end }}
+    <div class="card-links">
+      {{ with $person.url }}<a href="{{ . | relURL }}">Research profile <span aria-hidden="true">→</span></a>{{ end }}
+      {{ with $person.vbn }}<a href="{{ . }}">VBN <span aria-hidden="true">↗</span></a>{{ end }}
+    </div>
+  </div>
+</article>

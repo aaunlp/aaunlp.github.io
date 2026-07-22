@@ -1,0 +1,8 @@
+{{ $paper := . }}
+<article class="publication-card" data-publication data-year="{{ $paper.year }}" data-faculty="{{ delimit $paper.faculty ";" }}" data-theme="{{ delimit $paper.themes ";" }}">
+  <div class="publication-meta"><span>{{ $paper.venue }}</span><span>{{ $paper.year }}</span></div>
+  <h3><a href="{{ $paper.url }}">{{ $paper.title }}</a></h3>
+  <p class="publication-authors">{{ $paper.authors }}</p>
+  <p>{{ $paper.impact }}</p>
+  <ul class="tag-list">{{ range $paper.themes }}<li>{{ . }}</li>{{ end }}</ul>
+</article>

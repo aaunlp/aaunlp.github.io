@@ -1,0 +1,62 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="shell page-hero-grid">
+    <div><p class="eyebrow">People</p><h1>Distinct researchers. A shared intellectual home.</h1></div>
+    <div><p class="lede">AAU NLP brings together linguistics, semantics, machine learning, knowledge representation, security, privacy, sustainability, and domain expertise.</p><p>Faculty develop independent research programmes and collaborate where questions genuinely connect. Researchers at every career stage are expected to develop their own scientific judgement—with structure, feedback, and support around them.</p></div>
+  </div>
+</section>
+
+<section class="section shell">
+  <div class="section-heading split-heading">
+    <div><p class="eyebrow">Faculty</p><h2>Four research programmes</h2></div>
+    <p>Comparable prominence here is deliberate: group leadership provides a shared framework, while each faculty member contributes an independent intellectual direction.</p>
+  </div>
+  <div class="faculty-grid">
+    {{ range where site.Data.people "group" "Faculty" }}{{ partial "person-card.html" . }}{{ end }}
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="shell">
+    <div class="section-heading"><p class="eyebrow">Postdoctoral researchers</p><h2>Research staff</h2></div>
+    <div class="people-grid compact-people">
+      {{ range where site.Data.people "group" "Postdocs" }}{{ partial "person-card.html" . }}{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section shell">
+  <div class="section-heading split-heading">
+    <div><p class="eyebrow">Doctoral research</p><h2>PhD fellows</h2></div>
+    <p>Our PhD researchers work across multilingual evaluation, model security, factuality, knowledge, finance, and the linguistic analysis of AI.</p>
+  </div>
+  <div class="people-grid">
+    {{ range where site.Data.people "group" "PhD Fellows" }}{{ partial "person-card.html" . }}{{ end }}
+  </div>
+</section>
+
+<section class="section shell">
+  <div class="section-heading split-heading">
+    <div><p class="eyebrow">Next cohort</p><h2>Incoming members</h2></div>
+    <p>Appointments shown here are publicly listed in current AAU supervision records. Research profiles will be added when confirmed.</p>
+  </div>
+  <div class="incoming-grid">
+    {{ range where site.Data.people "group" "Incoming" }}
+      <article><span class="incoming-initials">{{ .initials }}</span><div><h3>{{ .name }}</h3><p>{{ .role }}</p></div></article>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section section-tint alumni-section">
+  <div class="shell">
+    <div class="section-heading split-heading">
+      <div><p class="eyebrow">Alumni</p><h2>Work that continues beyond the group</h2></div>
+      <p>We record completed group roles clearly and celebrate the research developed at AAU NLP.</p>
+    </div>
+    <div class="people-grid compact-people">
+      {{ range where site.Data.people "group" "Alumni" }}{{ partial "person-card.html" . }}{{ end }}
+    </div>
+    <p class="source-note">Roster checked against official AAU/VBN records and current appointment information in July 2026. <a href="https://vbn.aau.dk/en/organisations/natural-language-processing/">View the AAU research portal record ↗</a></p>
+  </div>
+</section>
+{{ end }}

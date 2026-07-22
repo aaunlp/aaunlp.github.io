@@ -1,0 +1,84 @@
+name: Check website
+
+on:
+  pull_request:
+  push:
+    branches: [development]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.135.0'
+          extended: true
+
+      - name: Cache Hugo modules
+        uses: actions/cache@v4
+        with:
+          path: /tmp/hugo_cache_runner/
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Build development site
+        env:
+          HUGO_ENVIRONMENT: development
+        run: hugo --gc --minify --buildFuture --baseURL https://preview.invalid/
+
+      - name: Reject inherited template content
+        run: |
+          ! grep -RIE "Nelson Bighetti|Stanford, CA|test@example.org|World-Class Semiconductor Lab|lorem ipsum" public
+
+      - name: Check internal page links
+        run: |
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          root = Path("public")
+
+          class Links(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.hrefs = []
+
+              def handle_starttag(self, tag, attrs):
+                  if tag == "a":
+                      href = dict(attrs).get("href")
+                      if href:
+                          self.hrefs.append(href)
+
+          failures = []
+          for page in root.rglob("*.html"):
+              parser = Links()
+              parser.feed(page.read_text(encoding="utf-8"))
+              for href in parser.hrefs:
+                  parsed = urlparse(href)
+                  if parsed.scheme or parsed.netloc or href.startswith(("mailto:", "tel:", "#")):
+                      continue
+                  target = parsed.path
+                  if not target:
+                      continue
+                  candidate = root / target.lstrip("/")
+                  if target.endswith("/"):
+                      candidate /= "index.html"
+                  elif candidate.suffix == "":
+                      candidate = candidate / "index.html"
+                  if not candidate.exists():
+                      failures.append(f"{page}: {href}")
+
+          if failures:
+              raise SystemExit("Broken internal links:\n" + "\n".join(failures))
+          PY

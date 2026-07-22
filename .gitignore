@@ -5,4 +5,5 @@
 /resources/
 public/
 assets/jsconfig.json
+.netlify/
 .DS_Store

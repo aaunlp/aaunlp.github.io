@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: 'University'
-    org_name: 'Aalborg University'
-    description: 'The Natural Language Processing Unit at Aalborg University Copenhagen.'
-    twitter: 'GetResearchDev'
+    org_name: 'AAU NLP'
+    description: 'The Natural Language Processing research group at Aalborg University Copenhagen develops linguistically grounded language technology for trustworthy and inclusive AI.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: "© 2024 Mike Zhang"
+    notice: "© {year} AAU NLP, Aalborg University"
     license:
       enable: false
       allow_derivatives: false
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/aaunlp/aaunlp.github.io'
     content_dir: content
     branch: main
   avatar:
@@ -106,7 +106,7 @@ features:
 
 extensions:
   decap_cms:
-    branch: main
+    branch: development
     local_backend: false
   academicons:
     enable: true

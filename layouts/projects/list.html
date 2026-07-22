@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="page-hero projects-hero">
+  <div class="shell page-hero-grid">
+    <div><p class="eyebrow">Projects</p><h1>Research programmes built for difficult questions.</h1></div>
+    <div><p class="lede">Our active portfolio connects fundamental NLP with security, privacy, semantics, factuality, low-resource languages, education, finance, and cultural heritage.</p><p>Public records and confirmed award data itemise approximately DKK 31.5 million in current project support. This is gross project volume; specific shares are shown where relevant, and no amount is included for AI:SECURITY.</p></div>
+  </div>
+</section>
+
+<section class="section shell">
+  <div class="project-summary-grid">
+    <div><strong>8</strong><span>active funded projects</span></div>
+    <div><strong>2022–2030</strong><span>current portfolio horizon</span></div>
+    <div><strong>Academia + industry</strong><span>partners across sectors and countries</span></div>
+  </div>
+  <div class="section-heading split-heading">
+    <div><p class="eyebrow">Current portfolio</p><h2>Funded projects</h2></div>
+    <p>Project descriptions and amounts are drawn from official VBN and funder records, supplemented by confirmed award data. People listed reflect public project records rather than every active contributor.</p>
+  </div>
+  <div class="project-grid">
+    {{ range site.Data.projects }}{{ partial "project-card.html" . }}{{ end }}
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="shell">
+    <div class="section-heading split-heading">
+      <div><p class="eyebrow">Independent faculty leadership</p><h2>Labs</h2></div>
+      <p>AI:PAGE and AI:SECURITY operate as both funded projects and interdisciplinary labs. Their lab identities make sustained faculty leadership and cross-disciplinary collaboration visible.</p>
+    </div>
+    <div class="project-grid project-grid-labs">
+      {{ range where site.Data.projects "lab" true }}{{ partial "project-card.html" . }}{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section shell">
+  <div class="collaboration-panel">
+    <div><p class="eyebrow">Collaborate</p><h2>Projects should change what we can understand.</h2></div>
+    <div><p>We work with researchers, public institutions, language communities, and companies when collaboration creates a better research question, stronger evidence, or a credible path to use.</p><a class="button button-primary" href="{{ "contact/" | relURL }}">Discuss a collaboration</a></div>
+  </div>
+</section>
+{{ end }}

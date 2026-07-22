@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="shell page-hero-grid">
+    <div><p class="eyebrow">News & milestones</p><h1>A growing group and an expanding research programme.</h1></div>
+    <div><p class="lede">Selected updates on people, projects, publications, and group events.</p><p>Past events are kept as an archive; expired registration and vacancy links are not.</p></div>
+  </div>
+</section>
+<section class="section shell">
+  <div class="news-archive">
+    {{ range site.Data.news }}
+      <article class="news-card">
+        <div><span class="news-label">{{ .label }}</span><time datetime="{{ .date }}">{{ time.Format "2 January 2006" .date }}</time></div>
+        <h2><a href="{{ .url }}">{{ .title }}</a></h2>
+        <p>{{ .text }}</p>
+        <a class="text-link" href="{{ .url }}">Read more <span aria-hidden="true">{{ if hasPrefix .url "http" }}↗{{ else }}→{{ end }}</span></a>
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
