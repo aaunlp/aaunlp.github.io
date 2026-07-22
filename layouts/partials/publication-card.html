@@ -1,8 +1,18 @@
 {{ $paper := . }}
+{{ $themeClasses := dict
+  "Multilingual & Low-Resource NLP" "theme-multilingual"
+  "Linguistics & Semantics" "theme-linguistics"
+  "Security, Privacy & Safety" "theme-security"
+  "Knowledge & Factuality" "theme-knowledge"
+  "Reliability & Sustainability" "theme-reliability"
+  "Society, Communities & Applications" "theme-society"
+}}
 <article class="publication-card" data-publication data-year="{{ $paper.year }}" data-faculty="{{ delimit $paper.faculty ";" }}" data-theme="{{ delimit $paper.themes ";" }}">
-  <div class="publication-meta"><span>{{ $paper.venue }}</span><span>{{ $paper.year }}</span></div>
-  <h3><a href="{{ $paper.url }}">{{ $paper.title }}</a></h3>
-  <p class="publication-authors">{{ $paper.authors }}</p>
-  <p>{{ $paper.impact }}</p>
-  <ul class="tag-list">{{ range $paper.themes }}<li>{{ . }}</li>{{ end }}</ul>
+  <div class="publication-meta"><span>{{ $paper.venue }}{{ with $paper.type }}<small>{{ . }}</small>{{ end }}</span><span>{{ $paper.year }}</span></div>
+  <div class="publication-copy">
+    <h3><a href="{{ $paper.url }}">{{ $paper.title }}</a></h3>
+    <p class="publication-authors">{{ $paper.authors }}</p>
+    {{ with $paper.impact }}<p>{{ . }}</p>{{ end }}
+    <ul class="publication-themes" aria-label="Research themes">{{ range $paper.themes }}<li class="publication-theme {{ index $themeClasses . }}">{{ . }}</li>{{ end }}</ul>
+  </div>
 </article>

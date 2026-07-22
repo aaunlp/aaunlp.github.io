@@ -1,6 +1,6 @@
 ---
 title: Dustin Wright
-role: Tenure Track Assistant Professor
+role: Tenure-Track Assistant Professor
 image: "https://vbn.aau.dk/files-asset/816563865/DustinBrandonWright.jpg?f=jpg&w=480"
 initials: DW
 email: dbw@cs.aau.dk

@@ -17,7 +17,8 @@
   slug: russa-biswas
   initials: RB
   group: Faculty
-  role: Assistant Professor · Co-director, AI:PAGE-Lab
+  role: Tenure-Track Assistant Professor · Co-director, AI:PAGE-Lab
+  completed_postdoc: true
   image: "https://vbn.aau.dk/files-asset/742945141/RussaBiswas.jpg?f=jpg&w=480"
   url: /people/russa-biswas/
   vbn: https://vbn.aau.dk/en/persons/rubi/
@@ -32,7 +33,7 @@
   slug: dustin-wright
   initials: DW
   group: Faculty
-  role: Tenure Track Assistant Professor
+  role: Tenure-Track Assistant Professor
   image: "https://vbn.aau.dk/files-asset/816563865/DustinBrandonWright.jpg?f=jpg&w=480"
   url: /people/dustin-wright/
   vbn: https://vbn.aau.dk/en/persons/dbw/
@@ -48,6 +49,7 @@
   initials: HL
   group: Faculty
   role: Assistant Professor
+  completed_postdoc: true
   image: "https://vbn.aau.dk/files-asset/743381083/HeatherChristineLent.jpg?f=jpg&w=480"
   url: /people/heather-lent/
   vbn: https://vbn.aau.dk/en/persons/hcle/
@@ -195,21 +197,29 @@
   initials: EP
   group: Alumni
   role: PhD alumna · 2025
+  alumni_type: PhD
+  destination: Postdoctoral Researcher · Utrecht University
+  destination_url: https://www.uu.nl/medewerkers/EPloeger
+  recognition: Awarded a Carlsberg Foundation Internationalisation Postdoctoral Fellowship (declined).
   image: "https://vbn.aau.dk/files-asset/716498132/EstherPloeger.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/espl/
   focus:
     - Linguistic typology
     - Multilingual evaluation
-  summary: Esther's PhD connected linguistic typology with multilingual NLP, language diversity, and machine translation.
+  summary: Esther's PhD connected linguistic typology with multilingual NLP, language diversity, and machine translation. She now studies within-language diversity in Utrecht's NLP and Society Lab.
 
 - name: Mike Zhang
   slug: mike-zhang
   initials: MZ
   group: Alumni
   role: Postdoctoral alumnus · 2025
+  alumni_type: Postdoc
+  completed_postdoc: true
+  destination: Postdoctoral Researcher · University of Copenhagen & Pioneer Centre for AI
+  destination_url: https://jjzha.github.io/
   image: "https://vbn.aau.dk/files-asset/716497958/JunJunZhang.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/jjz/
   focus:
     - NLP for education
     - Resource creation
-  summary: Mike's AAU work focused on language technology for education, including explainable feedback and longitudinal learning support.
+  summary: Mike's AAU work focused on language technology for education, including explainable feedback and longitudinal learning support. He now works on multilingual LLM post-training, NLP applications, and AI's societal effects.

@@ -3,7 +3,7 @@
   dates: 2025–2030
   funder: Novo Nordisk Foundation
   amount: DKK 9.9m
-  lead: Johannes Bjerva
+  pi: Johannes Bjerva
   people:
     - Heather Lent
     - Russa Biswas
@@ -22,7 +22,7 @@
   dates: 2026–2030
   funder: Independent Research Fund Denmark · Sapere Aude
   amount: DKK 6.19m
-  lead: Johannes Bjerva
+  pi: Johannes Bjerva
   partners:
     - Stockholm University
     - NVIDIA
@@ -39,7 +39,7 @@
   dates: 2022–2026
   funder: Carlsberg Foundation · additional Google support
   amount: DKK 5m + DKK 425k
-  lead: Johannes Bjerva
+  pi: Johannes Bjerva
   people:
     - Heather Lent
     - Yiyi Chen
@@ -60,7 +60,7 @@
   dates: 2026–2028
   funder: Coefficient Giving · Technical AI Safety Research
   amount: DKK 2.4m
-  lead: Johannes Bjerva
+  pi: Johannes Bjerva
   themes:
     - Formal semantics
     - AI safety
@@ -73,7 +73,9 @@
   acronym: AI:SECURITY
   dates: 2025–2029
   funder: Aalborg University · AI:X
-  lead: Johannes Bjerva and Qiongxiu Li
+  amount: DKK 7m
+  funding_share: 50% · Johannes Bjerva
+  pi: Johannes Bjerva and Qiongxiu Li
   people:
     - Josephine Marie Bakka
     - Xiaoyu Luo
@@ -91,7 +93,7 @@
   dates: 2024–2026
   funder: Villum Foundation · Synergy
   amount: DKK 3m
-  lead: Johannes Bjerva and Euan Lindsay
+  pi: Johannes Bjerva and Euan Lindsay
   people:
     - Mike Zhang
   themes:
@@ -106,7 +108,7 @@
   dates: 2024–2027
   funder: Innovation Fund Denmark · Industrial PhD
   amount: DKK 1.07m
-  lead: Johannes Bjerva
+  pi: Johannes Bjerva
   people:
     - Rasmus Thyge Aavang Jensen
   partners:
@@ -124,7 +126,7 @@
   funder: Aalborg University · AI:X
   amount: ca. DKK 3.5m
   funding_share: 50% · Russa Biswas
-  lead: Russa Biswas and Johan Heinsen
+  pi: Russa Biswas and Johan Heinsen
   themes:
     - Knowledge graphs
     - Cultural heritage

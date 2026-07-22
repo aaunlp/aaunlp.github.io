@@ -44,6 +44,7 @@
   if (filters) {
     const search = filters.querySelector('[data-pub-search]');
     const faculty = filters.querySelector('[data-pub-faculty]');
+    const theme = filters.querySelector('[data-pub-theme]');
     const year = filters.querySelector('[data-pub-year]');
     const cards = [...document.querySelectorAll('[data-publication]')];
     const count = document.querySelector('[data-pub-count]');
@@ -55,11 +56,12 @@
       cards.forEach((card) => {
         const matchesSearch = !query || card.textContent.toLowerCase().includes(query);
         const matchesFaculty = !faculty.value || card.dataset.faculty.split(';').includes(faculty.value);
+        const matchesTheme = !theme.value || card.dataset.theme.split(';').includes(theme.value);
         const matchesYear = !year.value || card.dataset.year === year.value;
-        card.hidden = !(matchesSearch && matchesFaculty && matchesYear);
+        card.hidden = !(matchesSearch && matchesFaculty && matchesTheme && matchesYear);
         if (!card.hidden) visible += 1;
       });
-      count.textContent = `${visible} selected publication${visible === 1 ? '' : 's'}`;
+      count.textContent = `${visible} publication${visible === 1 ? '' : 's'}`;
       empty.hidden = visible !== 0;
     };
 

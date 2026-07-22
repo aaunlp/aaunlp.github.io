@@ -11,7 +11,11 @@
   <div class="person-copy">
     <p class="card-kicker">{{ $person.role }}</p>
     <h3>{{ with $person.url }}<a href="{{ . | relURL }}">{{ $person.name }}</a>{{ else }}{{ with $person.vbn }}<a href="{{ . }}">{{ $person.name }}</a>{{ else }}{{ $person.name }}{{ end }}{{ end }}</h3>
+    {{ with $person.destination }}
+      <p class="person-destination"><span>Now</span>{{ with $person.destination_url }}<a href="{{ . }}">{{ $person.destination }} <span aria-hidden="true">↗</span></a>{{ else }}{{ $person.destination }}{{ end }}</p>
+    {{ end }}
     {{ with $person.summary }}<p>{{ . }}</p>{{ end }}
+    {{ with $person.recognition }}<p class="person-recognition">{{ . }}</p>{{ end }}
     {{ with $person.focus }}
       <ul class="tag-list" aria-label="Research areas">
         {{ range . }}<li>{{ . }}</li>{{ end }}

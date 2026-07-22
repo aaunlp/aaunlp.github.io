@@ -1,8 +1,8 @@
 {{ define "main" }}
 <section class="page-hero publications-hero">
   <div class="shell page-hero-grid">
-    <div><p class="eyebrow">Publications</p><h1>Selected work by our faculty.</h1></div>
-    <div><p class="lede">A curated view of research that defines the four faculty programmes and their connections.</p><p>This is not an exhaustive group bibliography: several papers predate their authors' AAU appointments. For the complete current institutional record, use <a href="https://vbn.aau.dk/en/organisations/natural-language-processing/">AAU's research portal ↗</a>.</p></div>
+    <div><p class="eyebrow">Publications</p><h1>Research across our faculty.</h1></div>
+    <div><p class="lede">A broad, carefully checked view of the work that defines four faculty programmes and their connections.</p><p>The collection draws on ACL Anthology and official proceedings and publisher records. It includes work predating AAU appointments; for the complete institutional record, use <a href="https://vbn.aau.dk/en/organisations/natural-language-processing/">AAU's research portal ↗</a>.</p></div>
   </div>
 </section>
 
@@ -10,9 +10,10 @@
   <form class="publication-filters" data-publication-filters onsubmit="return false">
     <label><span>Search</span><input type="search" placeholder="Title, author, venue, or topic" data-pub-search></label>
     <label><span>Faculty</span><select data-pub-faculty><option value="">All faculty</option><option>Johannes Bjerva</option><option>Russa Biswas</option><option>Dustin Wright</option><option>Heather Lent</option></select></label>
-    <label><span>Year</span><select data-pub-year><option value="">All years</option><option>2026</option><option>2025</option><option>2024</option><option>2022</option><option>2014</option></select></label>
+    <label><span>Theme</span><select data-pub-theme><option value="">All themes</option><option>Linguistics &amp; Semantics</option><option>Security, Privacy &amp; Safety</option><option>Multilingual &amp; Low-Resource NLP</option><option>Knowledge &amp; Factuality</option><option>Reliability &amp; Sustainability</option><option>Society, Communities &amp; Applications</option></select></label>
+    <label><span>Year</span><select data-pub-year><option value="">All years</option><option>2026</option><option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option><option>2020</option><option>2019</option><option>2018</option><option>2017</option><option>2016</option><option>2014</option></select></label>
   </form>
-  <p class="filter-result" aria-live="polite" data-pub-count>{{ len site.Data.publications }} selected publications</p>
+  <p class="filter-result" aria-live="polite" data-pub-count>{{ len site.Data.publications }} publications</p>
   <div class="publication-list" data-publication-list>
     {{ range site.Data.publications }}{{ partial "publication-card.html" . }}{{ end }}
   </div>
@@ -22,7 +23,7 @@
 <section class="section section-tint">
   <div class="shell publication-policy">
     <div><p class="eyebrow">Scope</p><h2>What is included here?</h2></div>
-    <div><p>We select work that makes each faculty member's research identity legible and shows substantive links across the group. Canonical links point to the ACL Anthology, official proceedings, or publisher records.</p><p>Group-wide publication automation and a complete member bibliography are planned for a later maintenance milestone; accuracy matters more than a superficially complete list.</p></div>
+    <div><p>We include the peer-reviewed 2024–26 work identified in a faculty-wide audit, together with selected earlier landmarks that make each research trajectory legible. Canonical links point to ACL Anthology, official proceedings, or publisher records.</p><p>Preprints are omitted when no peer-reviewed version exists, and duplicate arXiv versions are suppressed. The crawl was last reconciled in July 2026; accuracy takes priority over a superficially exhaustive list.</p></div>
   </div>
 </section>
 {{ end }}

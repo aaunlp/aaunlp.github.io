@@ -1,8 +1,41 @@
 {{ define "main" }}
+{{ $faculty := where site.Data.people "group" "Faculty" }}
+{{ $postdocs := where site.Data.people "group" "Postdocs" }}
+{{ $phds := where site.Data.people "group" "PhD Fellows" }}
+{{ $incoming := where site.Data.people "group" "Incoming" }}
+{{ $phdGraduates := where site.Data.people "alumni_type" "PhD" }}
+{{ $completedPostdocs := where site.Data.people "completed_postdoc" true }}
+{{ $currentCount := add (len $faculty) (add (len $postdocs) (len $phds)) }}
 <section class="page-hero">
   <div class="shell page-hero-grid">
     <div><p class="eyebrow">People</p><h1>Distinct researchers. A shared intellectual home.</h1></div>
     <div><p class="lede">AAU NLP brings together linguistics, semantics, machine learning, knowledge representation, security, privacy, sustainability, and domain expertise.</p><p>Faculty develop independent research programmes and collaborate where questions genuinely connect. Researchers at every career stage are expected to develop their own scientific judgement—with structure, feedback, and support around them.</p></div>
+  </div>
+</section>
+
+<section class="section shell people-at-a-glance">
+  <div class="people-snapshot" aria-labelledby="people-snapshot-title">
+    <div class="people-snapshot-lead">
+      <p class="eyebrow">At a glance</p>
+      <div class="snapshot-total">
+        <strong>{{ $currentCount }}</strong>
+        <div><h2 id="people-snapshot-title">Current researchers</h2><p>A compact group with four independent faculty programmes and a growing early-career community.</p></div>
+      </div>
+    </div>
+    <div class="snapshot-current" aria-label="Current members by role">
+      <article><strong>{{ len $faculty }}</strong><span>Faculty</span></article>
+      <article><strong>{{ len $postdocs }}</strong><span>Postdoctoral researcher</span></article>
+      <article><strong>{{ len $phds }}</strong><span>PhD fellows</span></article>
+    </div>
+    <div class="snapshot-pathways">
+      <p>Researcher development</p>
+      <div>
+        <article><strong>{{ len $phdGraduates }}</strong><span>PhD graduate</span></article>
+        <article><strong>{{ len $completedPostdocs }}</strong><span>Completed postdocs</span></article>
+        <article><strong>{{ len $incoming }}</strong><span>Joining in 2026</span></article>
+      </div>
+      <small>Two former postdocs are now faculty in the group.</small>
+    </div>
   </div>
 </section>
 
@@ -12,7 +45,7 @@
     <p>Comparable prominence here is deliberate: group leadership provides a shared framework, while each faculty member contributes an independent intellectual direction.</p>
   </div>
   <div class="faculty-grid">
-    {{ range where site.Data.people "group" "Faculty" }}{{ partial "person-card.html" . }}{{ end }}
+    {{ range $faculty }}{{ partial "person-card.html" . }}{{ end }}
   </div>
 </section>
 
@@ -20,7 +53,7 @@
   <div class="shell">
     <div class="section-heading"><p class="eyebrow">Postdoctoral researchers</p><h2>Research staff</h2></div>
     <div class="people-grid compact-people">
-      {{ range where site.Data.people "group" "Postdocs" }}{{ partial "person-card.html" . }}{{ end }}
+      {{ range $postdocs }}{{ partial "person-card.html" . }}{{ end }}
     </div>
   </div>
 </section>
@@ -31,7 +64,7 @@
     <p>Our PhD researchers work across multilingual evaluation, model security, factuality, knowledge, finance, and the linguistic analysis of AI.</p>
   </div>
   <div class="people-grid">
-    {{ range where site.Data.people "group" "PhD Fellows" }}{{ partial "person-card.html" . }}{{ end }}
+    {{ range $phds }}{{ partial "person-card.html" . }}{{ end }}
   </div>
 </section>
 
@@ -41,7 +74,7 @@
     <p>Appointments shown here are publicly listed in current AAU supervision records. Research profiles will be added when confirmed.</p>
   </div>
   <div class="incoming-grid">
-    {{ range where site.Data.people "group" "Incoming" }}
+    {{ range $incoming }}
       <article><span class="incoming-initials">{{ .initials }}</span><div><h3>{{ .name }}</h3><p>{{ .role }}</p></div></article>
     {{ end }}
   </div>
@@ -51,7 +84,7 @@
   <div class="shell">
     <div class="section-heading split-heading">
       <div><p class="eyebrow">Alumni</p><h2>Work that continues beyond the group</h2></div>
-      <p>We record completed group roles clearly and celebrate the research developed at AAU NLP.</p>
+      <p>We record completed group roles clearly, follow where alumni continue their work, and celebrate the research developed at AAU NLP.</p>
     </div>
     <div class="people-grid compact-people">
       {{ range where site.Data.people "group" "Alumni" }}{{ partial "person-card.html" . }}{{ end }}
