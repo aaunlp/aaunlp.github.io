@@ -1,4 +1,4 @@
 ---
 title: Research
-description: Four connected research directions spanning language, security, knowledge, and communities.
+description: Four dimensions of trustworthy language technology spanning linguistic validity, knowledge representation and grounding, system integrity, and real-world fit.
 ---

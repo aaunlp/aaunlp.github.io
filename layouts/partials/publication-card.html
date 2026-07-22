@@ -1,11 +1,11 @@
 {{ $paper := . }}
 {{ $themeClasses := dict
-  "Multilingual & Low-Resource NLP" "theme-multilingual"
-  "Linguistics & Semantics" "theme-linguistics"
+  "Multilingual & Lower-Resource NLP" "theme-multilingual"
+  "Language, Meaning & Typology" "theme-linguistics"
   "Security, Privacy & Safety" "theme-security"
-  "Knowledge & Factuality" "theme-knowledge"
-  "Reliability & Sustainability" "theme-reliability"
-  "Society, Communities & Applications" "theme-society"
+  "Knowledge, Evidence & Reasoning" "theme-knowledge"
+  "Factuality, Reliability & Evaluation" "theme-reliability"
+  "Communities, Domains & Consequences" "theme-society"
 }}
 <article class="publication-card" data-publication data-year="{{ $paper.year }}" data-faculty="{{ delimit $paper.faculty ";" }}" data-theme="{{ delimit $paper.themes ";" }}">
   <div class="publication-meta"><span>{{ $paper.venue }}{{ with $paper.type }}<small>{{ . }}</small>{{ end }}</span><span>{{ $paper.year }}</span></div>

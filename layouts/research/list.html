@@ -3,91 +3,91 @@
   <div class="shell page-hero-grid">
     <div>
       <p class="eyebrow">Research</p>
-      <h1>Language technology that earns trust.</h1>
+      <h1>What does it take to earn trust?</h1>
     </div>
     <div>
-      <p class="lede">We take language seriously: its structure, meaning, variation, communities, and role in complex AI systems. Across our work, linguistic and formal insight meet strong empirical methods.</p>
-      <p>Trustworthiness is not a single score. Security, privacy, safety, robustness, factuality, inclusion, and sustainability require different risks and evidence—and research designs that make those differences explicit.</p>
+      <p class="lede">We work across four dimensions of trustworthy language technology: linguistic validity; knowledge representation and grounding; integrity under failure or attack; and real-world fit and consequences for communities, institutions, and the material environment.</p>
+      <p>This is a shared framework, not a claim that every project asks the same question. Each faculty programme crosses the dimensions differently, with methods and standards matched to the problem.</p>
     </div>
   </div>
 </section>
 
 <nav class="section-index" aria-label="Research directions">
   <div class="shell">
-    <a href="#language-meaning"><span>01</span>Language & meaning</a>
-    <a href="#security"><span>02</span>Security & privacy</a>
-    <a href="#knowledge"><span>03</span>Knowledge & reliability</a>
-    <a href="#communities"><span>04</span>Communities & domains</a>
+    <a href="#language-meaning"><span>01</span>Language & representation</a>
+    <a href="#knowledge"><span>02</span>Knowledge & grounding</a>
+    <a href="#security"><span>03</span>Reliability & risk</a>
+    <a href="#communities"><span>04</span>Communities & consequences</a>
   </div>
 </nav>
 
 <section class="research-direction shell" id="language-meaning">
   <div class="direction-heading">
     <span class="direction-number">01</span>
-    <div><p class="eyebrow">Language, meaning & multilinguality</p><h2>What do models learn about language—and where does that knowledge fail?</h2></div>
+    <div><p class="eyebrow">Language, meaning & representation</p><h2>How do models represent linguistic diversity?</h2></div>
   </div>
   <div class="direction-body">
     <div class="direction-statement">
-      <p>Language models operate across thousands of linguistic systems, but evaluation is still dominated by a small and unrepresentative subset. We use typology, semantics, language variation, and cross-lingual structure to explain model behaviour and build methods that generalise more responsibly.</p>
-      <p>Our work moves from questions to evidence: why should a model transfer between these languages, what does a benchmark actually measure, and which linguistic differences could change the conclusion?</p>
+      <p>Language technology inherits assumptions about structure, meaning, variation, and which languages count as normal. We use linguistic typology, formal semantics, sociolinguistics, multilingual representation analysis, transfer learning, and evaluation to make those assumptions visible.</p>
+      <p>This layer ranges from semantic parsing and language embeddings to Creole machine translation, tokenisation, and multilingual model analysis. It asks not only whether a system transfers, but why it should.</p>
     </div>
     <div class="direction-details">
       <h3>Current questions</h3>
       <ul>
-        <li>How should languages be sampled for multilingual evaluation?</li>
-        <li>When does linguistic similarity enable transfer—or transmit failure?</li>
-        <li>How can formal semantics expose behaviour hidden by aggregate scores?</li>
-        <li>What do human and model representations reveal about language variation?</li>
+        <li>Which linguistic structures support transfer—and when do they transmit failure?</li>
+        <li>How should low-resource and Creole language technology be evaluated?</li>
+        <li>What do semantics, typology, tokenisation, and sociolinguistic variation reveal?</li>
+        <li>How should languages and benchmarks be sampled for valid multilingual claims?</li>
       </ul>
       <p class="faculty-line"><strong>Faculty:</strong> Johannes Bjerva · Heather Lent · Russa Biswas</p>
     </div>
   </div>
 </section>
 
-<section class="research-direction direction-tint" id="security">
+<section class="research-direction direction-tint" id="knowledge">
   <div class="shell">
     <div class="direction-heading">
       <span class="direction-number">02</span>
-      <div><p class="eyebrow">Security, privacy & responsible AI</p><h2>How do vulnerabilities travel across languages, models, and systems?</h2></div>
+      <div><p class="eyebrow">Knowledge representation & grounding</p><h2>How should AI represent knowledge—and what should support its claims?</h2></div>
     </div>
     <div class="direction-body">
       <div class="direction-statement">
-        <p>Language-model security is often evaluated in English and under narrow threat models. We study memorisation, embedding inversion, poisoning, privacy leakage, and model manipulation across languages—using linguistic structure as both an explanatory tool and a source of safeguards.</p>
-        <p>Responsible security also concerns how research is conducted: harms, disclosure, affected communities, and release decisions are part of the technical problem.</p>
+        <p>Knowledge graphs are first-class objects of study: we investigate how to represent, type, complete, and reason over structured knowledge across languages and domains. We also study how that structure can support language models alongside evidence attribution, scientific fact-checking, hallucination evaluation, and the ways information changes through summaries and reports.</p>
+        <p>Structured knowledge and unstructured evidence are complementary: explicit graph paths expose relations, while documents and citations preserve context that cannot always be reduced to a graph. Across both, a claim should be traceable, checkable, and open to revision.</p>
       </div>
       <div class="direction-details">
         <h3>Current questions</h3>
         <ul>
-          <li>Which linguistic signals reveal memorisation or tampering?</li>
-          <li>How do privacy risks transfer between related languages?</li>
-          <li>Can formal and interpretable methods detect rare safety failures?</li>
-          <li>What does responsible disclosure require in NLP research?</li>
+          <li>How can graph paths and structured knowledge ground generation?</li>
+          <li>How should systems attribute claims to long, unstructured evidence?</li>
+          <li>Which factuality metrics remain valid under controlled perturbations?</li>
+          <li>How do scientific claims change as they are summarised and communicated?</li>
         </ul>
-        <p class="faculty-line"><strong>Faculty:</strong> Johannes Bjerva · Heather Lent · Russa Biswas</p>
+        <p class="faculty-line"><strong>Faculty:</strong> Russa Biswas · Dustin Wright · Johannes Bjerva</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="research-direction shell" id="knowledge">
+<section class="research-direction shell" id="security">
   <div class="direction-heading">
     <span class="direction-number">03</span>
-    <div><p class="eyebrow">Knowledge, factuality & reliability</p><h2>How can generated information remain connected to evidence?</h2></div>
+    <div><p class="eyebrow">Security, reliability & risk</p><h2>What fails under attack, uncertainty, and distribution shift?</h2></div>
   </div>
   <div class="direction-body">
     <div class="direction-statement">
-      <p>Fluent text is not necessarily faithful or factual. We connect language models to explicit knowledge, evidence, and attribution: through knowledge graphs, path-based reasoning, fact-checking, evidence retrieval, and careful evaluation of hallucinations.</p>
-      <p>The aim is not only to improve an answer, but to understand why it should be trusted, where its support comes from, and when a system should abstain.</p>
+      <p>Trustworthiness breaks in different ways. We study memorisation, embedding inversion, poisoning, privacy leakage, and security across languages alongside factual-consistency metrics, robustness under distribution shift, and uncertainty.</p>
+      <p>These are not interchangeable scores. Threat models, metrics, disclosure choices, and deployment constraints determine what evidence is needed—and who may bear the risk when a system fails.</p>
     </div>
     <div class="direction-details">
       <h3>Current questions</h3>
       <ul>
-        <li>How can knowledge-graph paths ground reasoning and generation?</li>
-        <li>What makes hallucination evaluation valid across languages?</li>
-        <li>How should systems attribute claims to unstructured evidence?</li>
-        <li>Can NLP help people assess scientific and financial information?</li>
+        <li>Which vulnerabilities cross languages, scripts, and model families?</li>
+        <li>How do evaluation metrics behave under controlled change and distribution shift?</li>
+        <li>Can linguistic and formal methods expose rare or hidden failures?</li>
+        <li>What do harm minimisation and responsible disclosure require in NLP?</li>
       </ul>
-      <p class="faculty-line"><strong>Faculty:</strong> Russa Biswas · Dustin Wright · Johannes Bjerva</p>
+      <p class="faculty-line"><strong>Faculty:</strong> Johannes Bjerva · Heather Lent · Russa Biswas · Dustin Wright</p>
     </div>
   </div>
 </section>
@@ -96,19 +96,19 @@
   <div class="shell">
     <div class="direction-heading">
       <span class="direction-number">04</span>
-      <div><p class="eyebrow">Communities, domains & sustainability</p><h2>What changes when language technology has to work in the world?</h2></div>
+      <div><p class="eyebrow">Communities, domains & consequences</p><h2>What changes when language technology meets the world?</h2></div>
     </div>
     <div class="direction-body">
       <div class="direction-statement">
-        <p>Research choices determine who benefits: which languages are represented, which tasks matter, whose evidence counts, and which environmental or social costs remain invisible. We work with language communities and domain experts to make those choices explicit.</p>
-        <p>Current settings include Creole and low-resource languages, education, cultural heritage, science communication, and finance. These are not merely application areas; they reveal different requirements for reliable language technology.</p>
+        <p>A system's success depends on whose language, task, evidence, values, and costs shape the research design. We work across community-centred and cross-cultural NLP, cultural heritage, science communication, education, finance, and health.</p>
+        <p>These settings are not decorative applications. They expose missing data, inappropriate tasks, distorted claims, lost epistemic diversity, institutional constraints, and environmental or social costs that laboratory evaluation can miss. Efficient modelling matters here, but it is not by itself a definition of sustainability.</p>
       </div>
       <div class="direction-details">
         <h3>Current questions</h3>
         <ul>
           <li>How should community priorities shape NLP tasks and datasets?</li>
-          <li>What makes automated feedback useful and explainable?</li>
-          <li>How can historical collections become connected knowledge?</li>
+          <li>How can historical collections become connected knowledge without flattening their context?</li>
+          <li>How do model values and information collapse alter which knowledge remains accessible?</li>
           <li>What would environmentally sustainable AI require beyond efficiency?</li>
         </ul>
         <p class="faculty-line"><strong>Faculty:</strong> Heather Lent · Russa Biswas · Dustin Wright · Johannes Bjerva</p>
@@ -124,7 +124,7 @@
       <article><h3>Questions before benchmarks</h3><p>A model or dataset is a means to answer a question. We should be able to explain why the question matters before optimising a score.</p></article>
       <article><h3>Claims matched to evidence</h3><p>Formal, empirical, multilingual, human-centred, and security work require different assumptions and standards. We make them explicit.</p></article>
       <article><h3>The right expertise, early</h3><p>Relevant linguistic, semantic, technical, security, or domain expertise belongs in a project while the design can still change.</p></article>
-      <article><h3>Outputs beyond papers</h3><p>Where useful, projects should leave reusable code, data, methods, theory, or well-documented negative results.</p></article>
+      <article><h3>Context changes the method</h3><p>Languages, communities, threat models, domains, and material costs belong in the research design—not only in a limitations section.</p></article>
     </div>
   </div>
 </section>

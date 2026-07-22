@@ -1,4 +1,4 @@
 ---
 title: AAU NLP
-description: Linguistically grounded language technology for trustworthy and inclusive AI.
+description: Language technology grounded in linguistic diversity, knowledge, evidence, and the realities of deployment.
 ---

@@ -20,6 +20,12 @@ projects:
   - AI:SECURITY
   - Formal Semantic Methods for AI Safety
   - Multilingual Modelling for Resource-Poor Languages
+selected_publications:
+  - "MultiHal: Multilingual Dataset for Knowledge-Graph Grounded Evaluation of LLM Hallucinations"
+  - "Shared Path: Unraveling Memorization in Multilingual LLMs through Language Similarities"
+  - "Large Language Models are Easily Confused: A Quantitative Metric, Security Implications and Typological Analysis"
+  - "The Role of Typological Feature Prediction in NLP and Linguistics"
+  - "The Meaning Factory: Formal Semantics for Recognizing Textual Entailment and Determining Semantic Similarity"
 supervision: I welcome research questions that take language seriously and connect strong empirical work with linguistics, semantics, security, privacy, or adjacent areas where NLP can make a genuine contribution.
 ---
 Johannes leads AAU NLP and is Head of the Copenhagen Section of Aalborg University's Department of Computer Science. His research programme combines multilingual NLP, linguistic typology, formal and semantic perspectives, and language-model security. The unifying question is how knowledge about language can reveal model behaviour and support language technologies that remain reliable across languages and contexts.

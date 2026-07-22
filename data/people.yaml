@@ -24,10 +24,10 @@
   vbn: https://vbn.aau.dk/en/persons/rubi/
   email: rubi@cs.aau.dk
   focus:
-    - Knowledge graphs
-    - LLM factuality
+    - Knowledge representation
+    - Graph-grounded AI
     - Cultural heritage
-  summary: Russa connects structured knowledge with language models, developing graph-grounded approaches to factuality and reasoning and applying them to cultural heritage through AI:PAGE-Lab.
+  summary: Russa studies how explicit knowledge graphs and learned language representations can strengthen one another, spanning knowledge-graph completion, multilingual factuality, graph-grounded reasoning, and cultural heritage.
 
 - name: Dustin Wright
   slug: dustin-wright
@@ -40,9 +40,9 @@
   email: dbw@cs.aau.dk
   focus:
     - Reliable information
-    - Scientific fact-checking
+    - Science communication
     - Sustainable AI
-  summary: Dustin works on reliable and sustainable AI, spanning factuality, faithfulness, diversity, robustness, efficiency, and the environmental and social consequences of language technology.
+  summary: Dustin studies how AI transforms information, spanning evidence attribution, science communication, factuality and evaluation, epistemic diversity, efficient modelling, and system-level sustainability.
 
 - name: Heather Lent
   slug: heather-lent
@@ -55,10 +55,10 @@
   vbn: https://vbn.aau.dk/en/persons/hcle/
   email: hcle@cs.aau.dk
   focus:
-    - Low-resource NLP
-    - Creole languages
+    - Creole & lower-resourced NLP
+    - Multilingual evaluation
     - Responsible security
-  summary: Heather develops community-centred language technology for low-resource and Creole languages, with growing work on multilingual security, data quality, and research ethics.
+  summary: Heather develops community-grounded language technology for Creole and other lower-resourced languages, spanning multilingual evaluation, machine translation, data quality, security, and research ethics.
 
 - name: Anahita Baninajjar
   slug: anahita-baninajjar

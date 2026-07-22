@@ -20,13 +20,25 @@
     </div>
   </section>
   {{ with .Params.projects }}{{ if gt (len .) 0 }}
-  <section class="section section-tint"><div class="shell profile-section"><p class="eyebrow">Current programmes</p><h2>Projects and labs</h2><div class="profile-projects">{{ range . }}<span>{{ . }}</span>{{ end }}</div></div></section>
+  <section class="section section-tint"><div class="shell profile-section"><p class="eyebrow">Selected programmes</p><h2>Projects and labs</h2><div class="profile-projects">{{ range . }}<span>{{ . }}</span>{{ end }}</div></div></section>
+  {{ end }}{{ end }}
+  {{ with .Params.selected_publications }}{{ if gt (len .) 0 }}
+  <section class="section shell profile-section profile-publications">
+    <p class="eyebrow">Selected work</p>
+    <h2>{{ len . }} representative papers</h2>
+    <div class="publication-list profile-publication-list">
+      {{ range . }}
+        {{ $title := . }}
+        {{ range first 1 (where site.Data.publications "title" $title) }}{{ partial "publication-card.html" . }}{{ end }}
+      {{ end }}
+    </div>
+  </section>
   {{ end }}{{ end }}
   <section class="section shell profile-section">
     <p class="eyebrow">Supervision and collaboration</p>
     <h2>Questions worth working on</h2>
     <p class="lede">{{ .Params.supervision }}</p>
-    <div class="button-row"><a class="button button-primary" href="mailto:{{ .Params.email }}">Contact {{ .Title }}</a><a class="button button-secondary" href="{{ "publications/" | relURL }}">Selected publications</a></div>
+    <div class="button-row"><a class="button button-primary" href="mailto:{{ .Params.email }}">Contact {{ .Title }}</a><a class="button button-secondary" href="{{ "publications/" | relURL }}">Browse all publications</a></div>
   </section>
 </article>
 {{ end }}

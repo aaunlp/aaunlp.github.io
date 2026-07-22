@@ -5,7 +5,7 @@
   type: Conference paper
   url: https://aclanthology.org/2026.acl-long.1560/
   faculty: [Johannes Bjerva]
-  themes: ["Security, Privacy & Safety", "Multilingual & Low-Resource NLP"]
+  themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
   impact: "Separates genuine memorisation from reconstruction enabled by lexical cues across 32 languages, tightening the evidential standard for claims about PII leakage."
   featured: true
 
@@ -16,7 +16,7 @@
   type: Conference paper
   url: https://openreview.net/forum?id=kGSwStubjL
   faculty: [Johannes Bjerva, Russa Biswas]
-  themes: ["Knowledge & Factuality", "Multilingual & Low-Resource NLP"]
+  themes: ["Knowledge, Evidence & Reasoning", "Multilingual & Lower-Resource NLP"]
   impact: "Builds a multilingual multihop benchmark from 25,900 curated knowledge-graph paths for evaluating and reducing hallucinations."
   featured: true
 
@@ -27,7 +27,7 @@
   type: Conference paper
   url: https://aclanthology.org/2026.acl-long.1373/
   faculty: [Johannes Bjerva, Heather Lent]
-  themes: ["Multilingual & Low-Resource NLP", "Reliability & Sustainability"]
+  themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
   impact: "Audits all non-English Wikipedia editions and shows why data quality—not language coverage alone—must be a first-class concern in multilingual NLP."
   featured: true
 
@@ -38,7 +38,7 @@
   type: Conference paper
   url: https://aclanthology.org/2026.acl-long.1472/
   faculty: [Dustin Wright]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
   impact: "Demonstrates that commonly used factual-consistency metrics are brittle under controlled changes to long-document summaries."
   featured: true
 
@@ -49,7 +49,7 @@
   type: Conference paper
   url: https://aclanthology.org/2026.findings-acl.561/
   faculty: [Johannes Bjerva, Russa Biswas]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
   impact: "Grounds reasoning traces in knowledge-graph paths, improving factual question answering particularly for smaller models and multihop questions."
   featured: true
 
@@ -60,7 +60,7 @@
   type: Journal article
   url: https://aclanthology.org/2026.cl-1.7/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "Effective Performance Measurement: Challenges and Opportunities in KPI Extraction from Earnings Calls"
   authors: "Rasmus T. Aavang, Rasmus Tjalk-Bøggild, Alexandre Iolov, Giovanni Rizzi, Mike Zhang, and Johannes Bjerva"
@@ -69,7 +69,7 @@
   type: Conference paper
   url: https://aclanthology.org/2026.acl-industry.100/
   faculty: [Johannes Bjerva]
-  themes: ["Knowledge & Factuality", "Society, Communities & Applications"]
+  themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
 - title: "Towards Understanding Professional AI Assistant Use: Human-in-the-Loop Topic Modeling of Multi-turn Conversations"
   authors: "Yiyi Chen, Sukhumarn Archasantisuk, and Johannes Bjerva"
@@ -78,7 +78,7 @@
   type: Conference paper
   url: https://doi.org/10.1145/3774905.3794645
   faculty: [Johannes Bjerva]
-  themes: ["Reliability & Sustainability", "Society, Communities & Applications"]
+  themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
 - title: "Real or Robotic? Assessing Whether LLMs Accurately Simulate Qualities of Human Responses in Human-LLM Dialogue"
   authors: "Jonathan Ivey, Shivani Kumar, Jiayu Liu, Hua Shen, Sushrita Rakshit, Rohan Raju, Haotian Zhang, Aparna Ananthasubramaniam, Junghwan Kim, Bowen Yi, Dustin Wright, Abraham Israeli, Anders Giovanni Møller, Lechen Zhang, and David Jurgens"
@@ -87,7 +87,7 @@
   type: Conference paper
   url: https://aclanthology.org/2026.findings-acl.2060/
   faculty: [Dustin Wright]
-  themes: ["Reliability & Sustainability", "Society, Communities & Applications"]
+  themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
 - title: "NLP Security and Ethics, in the Wild"
   authors: "Heather Lent, Erick Galinkin, Yiyi Chen, Jens Myrup Pedersen, Leon Derczynski, and Johannes Bjerva"
@@ -96,7 +96,7 @@
   type: Journal article
   url: https://aclanthology.org/2025.tacl-1.33/
   faculty: [Heather Lent, Johannes Bjerva]
-  themes: ["Security, Privacy & Safety", "Society, Communities & Applications"]
+  themes: ["Security, Privacy & Safety", "Communities, Domains & Consequences"]
   impact: "Audits ethical practice in NLP security and develops concrete guidance for harm minimisation and responsible disclosure."
   featured: true
 
@@ -107,7 +107,7 @@
   type: Conference paper
   url: https://aclanthology.org/2025.emnlp-main.978/
   faculty: [Johannes Bjerva]
-  themes: ["Security, Privacy & Safety", "Multilingual & Low-Resource NLP"]
+  themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
 - title: "Large Language Models are Easily Confused: A Quantitative Metric, Security Implications and Typological Analysis"
   authors: "Yiyi Chen, Qiongxiu Li, Russa Biswas, and Johannes Bjerva"
@@ -116,7 +116,7 @@
   type: Conference paper
   url: https://aclanthology.org/2025.findings-naacl.210/
   faculty: [Johannes Bjerva, Russa Biswas]
-  themes: ["Security, Privacy & Safety", "Multilingual & Low-Resource NLP"]
+  themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
 - title: "InFact: Informativeness Alignment for Improved LLM Factuality"
   authors: "Roi Cohen, Russa Biswas, and Gerard de Melo"
@@ -125,7 +125,7 @@
   type: Conference paper
   url: https://aclanthology.org/2025.findings-emnlp.971/
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "Against All Odds: Overcoming Typology, Script, and Language Confusion in Multilingual Embedding Inversion Attacks"
   authors: "Yiyi Chen, Russa Biswas, Heather Lent, and Johannes Bjerva"
@@ -134,7 +134,7 @@
   type: Conference paper
   url: https://ojs.aaai.org/index.php/AAAI/article/view/34533
   faculty: [Johannes Bjerva, Russa Biswas, Heather Lent]
-  themes: ["Security, Privacy & Safety", "Multilingual & Low-Resource NLP"]
+  themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
 - title: "ALGEN: Few-shot Inversion Attacks on Textual Embeddings via Cross-Model Alignment and Generation"
   authors: "Yiyi Chen, Qiongkai Xu, and Johannes Bjerva"
@@ -143,7 +143,7 @@
   type: Conference paper
   url: https://aclanthology.org/2025.acl-long.1185/
   faculty: [Johannes Bjerva]
-  themes: ["Security, Privacy & Safety", "Multilingual & Low-Resource NLP"]
+  themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
 - title: "Limited-Resource Adapters Are Regularizers, Not Linguists"
   authors: "Marcell Fekete, Nathaniel Romney Robinson, Ernests Lavrinovics, Djeride Jean-Baptiste, Raj Dabre, Johannes Bjerva, and Heather Lent"
@@ -152,7 +152,7 @@
   type: Conference paper
   url: https://aclanthology.org/2025.acl-short.19/
   faculty: [Johannes Bjerva, Heather Lent]
-  themes: ["Multilingual & Low-Resource NLP", "Reliability & Sustainability"]
+  themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
 - title: "Tokenization on Trial: The Case of Kalaallisut–Danish Legal Machine Translation"
   authors: "Esther Ploeger, Paola Saucedo, Johannes Bjerva, Ross Deans Kristensen-McLachlan, and Heather Lent"
@@ -161,7 +161,7 @@
   type: Conference paper
   url: https://aclanthology.org/2025.nodalida-1.52/
   faculty: [Johannes Bjerva, Heather Lent]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "A Cross-Lingual Perspective on Neural Machine Translation Difficulty"
   authors: "Esther Ploeger, Johannes Bjerva, Jörg Tiedemann, and Robert Östling"
@@ -170,7 +170,7 @@
   type: Conference paper
   url: https://aclanthology.org/2025.wmt-1.21/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "Findings of the First Shared Task for Creole Language Machine Translation at WMT25"
   authors: "Nathaniel Robinson, Claire Bizon Monroc, Rasul Dent, Stefan Watson, Kenton Murray, Raj Dabre, Andre Coy, and Heather Lent"
@@ -179,7 +179,7 @@
   type: Shared-task report
   url: https://aclanthology.org/2025.wmt-1.28/
   faculty: [Heather Lent]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
 - title: "Linguistically Grounded Analysis of Language Models using Shapley Head Values"
   authors: "Marcell Fekete and Johannes Bjerva"
@@ -188,7 +188,7 @@
   type: Conference paper
   url: https://aclanthology.org/2025.findings-naacl.49/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Reliability & Sustainability"]
+  themes: ["Language, Meaning & Typology", "Factuality, Reliability & Evaluation"]
 
 - title: "Knowledge Graphs, Large Language Models, and Hallucinations: An NLP Perspective"
   authors: "Ernests Lavrinovics, Russa Biswas, Johannes Bjerva, and Katja Hose"
@@ -197,7 +197,7 @@
   type: Journal article
   url: https://doi.org/10.1016/j.websem.2024.100844
   faculty: [Johannes Bjerva, Russa Biswas]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "Unstructured Evidence Attribution for Long Context Query Focused Summarization"
   authors: "Dustin Wright, Zain Muhammad Mujahid, Lu Wang, Isabelle Augenstein, and David Jurgens"
@@ -206,7 +206,7 @@
   type: Conference paper
   url: https://aclanthology.org/2025.emnlp-main.95/
   faculty: [Dustin Wright]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "Efficiency Is Not Enough: A Critical Perspective on Environmentally Sustainable AI"
   authors: "Dustin Wright, Christian Igel, Gabrielle Samuel, and Raghavendra Selvan"
@@ -215,7 +215,7 @@
   type: Journal perspective
   url: https://dl.acm.org/doi/10.1145/3724500
   faculty: [Dustin Wright]
-  themes: ["Reliability & Sustainability", "Society, Communities & Applications"]
+  themes: ["Communities, Domains & Consequences"]
 
 - title: "Efficiency and Effectiveness of LLM-Based Summarization of Evidence in Crowdsourced Fact-Checking"
   authors: "Kevin Roitero, Dustin Wright, Michael Soprano, Isabelle Augenstein, and Stefano Mizzaro"
@@ -224,7 +224,7 @@
   type: Conference paper
   url: https://dl.acm.org/doi/10.1145/3726302.3729960
   faculty: [Dustin Wright]
-  themes: ["Knowledge & Factuality", "Society, Communities & Applications"]
+  themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
 - title: "Aggregating soft labels from crowd annotations improves uncertainty estimation under distribution shift"
   authors: "Dustin Wright and Isabelle Augenstein"
@@ -233,7 +233,7 @@
   type: Journal article
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0323064
   faculty: [Dustin Wright]
-  themes: ["Reliability & Sustainability", "Society, Communities & Applications"]
+  themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
 - title: "On-Device LLMs for Home Assistant: Dual Role in Intent Detection and Response Generation"
   authors: "Rune Birkmose, Nathan Mørkeberg Reece, Esben Hofstedt Norvin, Johannes Bjerva, and Mike Zhang"
@@ -242,7 +242,7 @@
   type: Workshop paper
   url: https://aclanthology.org/2025.wnut-1.7/
   faculty: [Johannes Bjerva]
-  themes: ["Reliability & Sustainability", "Society, Communities & Applications"]
+  themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
 - title: "How Do Hackathons Foster Creativity? Towards Automated Evaluation of Creativity at Scale"
   authors: "Jeanette Falk, Yiyi Chen, Janet Rafner, Mike Zhang, Johannes Bjerva, and Alexander Nolte"
@@ -251,7 +251,7 @@
   type: Conference paper
   url: https://doi.org/10.1145/3706598.3713447
   faculty: [Johannes Bjerva]
-  themes: ["Reliability & Sustainability", "Society, Communities & Applications"]
+  themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
 - title: "The Responsible Development of Automated Student Feedback with Generative AI"
   authors: "Euan D. Lindsay, Mike Zhang, Aditya Johri, and Johannes Bjerva"
@@ -260,7 +260,7 @@
   type: Conference paper
   url: https://doi.org/10.1109/EDUCON62633.2025.11016572
   faculty: [Johannes Bjerva]
-  themes: ["Reliability & Sustainability", "Society, Communities & Applications"]
+  themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
 - title: "Utilizing phonetic similarity for cross-source and cross-language toponym matching: a benchmark and prototype"
   authors: "Tomer Sagi, Moran Zaga, Sinai Rusinek, Marcell Fekete, Johannes Bjerva, and Katja Hose"
@@ -269,7 +269,7 @@
   type: Journal article
   url: https://doi.org/10.1007/s10579-025-09812-9
   faculty: [Johannes Bjerva]
-  themes: ["Multilingual & Low-Resource NLP", "Society, Communities & Applications"]
+  themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
 - title: "Putting AI Chatbots to the Test: A Comparative Analysis of Large Language Models’ Performance in the Context of Basal Cell Carcinoma"
   authors: "Vinzent K. Ortner, Heather C. Lent, Katrine E. Karmisholt, Ulrikke Lei, Mette Gyldenløve, Silje H. Omland, Diljit Kaur-Knudsen, Kati H. Kainu, Katrine Togsverd-Bo, Stine R. Wiegell, Johannes Bjerva, and Merete Hædersdal"
@@ -278,7 +278,7 @@
   type: Journal article
   url: https://onlinelibrary.wiley.com/doi/10.1111/exd.70175
   faculty: [Johannes Bjerva, Heather Lent]
-  themes: ["Knowledge & Factuality", "Society, Communities & Applications"]
+  themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
 - title: "The Role of Typological Feature Prediction in NLP and Linguistics"
   authors: "Johannes Bjerva"
@@ -287,7 +287,7 @@
   type: Journal article
   url: https://aclanthology.org/2024.cl-2.8/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "CreoleVal: Multilingual Multitask Benchmarks for Creoles"
   authors: "Heather Lent, Kushal Tatariya, Raj Dabre, Yiyi Chen, Marcell Fekete, Esther Ploeger, Li Zhou, Ruth-Ann Armstrong, Abee Eijansantos, Catriona Malau, Hans Erik Heje, Ernests Lavrinovics, Diptesh Kanojia, Paul Belony, Marcel Bollmann, Loïc Grobol, Miryam de Lhoneux, Daniel Hershcovich, Michel DeGraff, Anders Søgaard, and Johannes Bjerva"
@@ -296,7 +296,7 @@
   type: Journal article
   url: https://aclanthology.org/2024.tacl-1.53/
   faculty: [Heather Lent, Johannes Bjerva]
-  themes: ["Multilingual & Low-Resource NLP", "Reliability & Sustainability"]
+  themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
 - title: "Text Embedding Inversion Security for Multilingual Language Models"
   authors: "Yiyi Chen, Heather Lent, and Johannes Bjerva"
@@ -305,7 +305,7 @@
   type: Conference paper
   url: https://aclanthology.org/2024.acl-long.422/
   faculty: [Heather Lent, Johannes Bjerva]
-  themes: ["Security, Privacy & Safety", "Multilingual & Low-Resource NLP"]
+  themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
 - title: "What is “Typological Diversity” in NLP?"
   authors: "Esther Ploeger, Wessel Poelman, Miryam de Lhoneux, and Johannes Bjerva"
@@ -314,7 +314,7 @@
   type: Conference paper
   url: https://aclanthology.org/2024.emnlp-main.326/
   faculty: [Johannes Bjerva]
-  themes: ["Multilingual & Low-Resource NLP", "Reliability & Sustainability"]
+  themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
 - title: "Multilingual Gradient Word-Order Typology from Universal Dependencies"
   authors: "Emi Baylor, Esther Ploeger, and Johannes Bjerva"
@@ -323,7 +323,7 @@
   type: Conference paper
   url: https://aclanthology.org/2024.eacl-short.6/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "Sociolinguistically Informed Interpretability: A Case Study on Hinglish Emotion Classification"
   authors: "Kushal Tatariya, Heather Lent, Johannes Bjerva, and Miryam de Lhoneux"
@@ -332,7 +332,7 @@
   type: Workshop paper
   url: https://aclanthology.org/2024.sigtyp-1.9/
   faculty: [Heather Lent, Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "A Call for Consistency in Reporting Typological Diversity"
   authors: "Wessel Poelman, Esther Ploeger, Miryam de Lhoneux, and Johannes Bjerva"
@@ -341,7 +341,7 @@
   type: Workshop paper
   url: https://aclanthology.org/2024.sigtyp-1.10/
   faculty: [Johannes Bjerva]
-  themes: ["Multilingual & Low-Resource NLP", "Reliability & Sustainability"]
+  themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
 - title: "Leveraging Adapters for Improved Cross-lingual Transfer for Low-Resource Creole MT"
   authors: "Marcell Fekete, Ernests Lavrinovics, Nathaniel Romney Robinson, Heather Lent, Raj Dabre, and Johannes Bjerva"
@@ -350,7 +350,7 @@
   type: Workshop paper
   url: https://aclanthology.org/2024.mrl-1.17/
   faculty: [Heather Lent, Johannes Bjerva]
-  themes: ["Multilingual & Low-Resource NLP", "Reliability & Sustainability"]
+  themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
 - title: "LLMs Cannot (Yet) Match the Specificity and Simplicity of Online Communities in Long Form Question Answering"
   authors: "Kris-Fillip Kahl, Tolga Buz, Russa Biswas, and Gerard De Melo"
@@ -359,7 +359,7 @@
   type: Conference paper
   url: https://aclanthology.org/2024.findings-emnlp.111/
   faculty: [Russa Biswas]
-  themes: ["Reliability & Sustainability", "Society, Communities & Applications"]
+  themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
 - title: "Wiki-VEL: Visual Entity Linking for Structured Data on Wikimedia Commons"
   authors: "Philipp Bielefeld, Jasmin Geppert, Necdet Güven, Melna John, Adrian Ziupka, Lucie-Aimée Kaffee, Russa Biswas, and Gerard De Melo"
@@ -368,7 +368,7 @@
   type: Workshop paper
   url: https://aclanthology.org/2024.alvr-1.16/
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality", "Society, Communities & Applications"]
+  themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
 - title: "MADLINK: Attentive multihop and entity descriptions for link prediction in knowledge graphs"
   authors: "Russa Biswas, Harald Sack, and Mehwish Alam"
@@ -377,7 +377,7 @@
   type: Journal article
   url: https://doi.org/10.3233/SW-222960
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality"]
+  themes: ["Knowledge, Evidence & Reasoning"]
 
 - title: "LLM Tropes: Revealing Fine-Grained Values and Opinions in Large Language Models"
   authors: "Dustin Wright, Arnav Arora, Nadav Borenstein, Srishti Yadav, Serge Belongie, and Isabelle Augenstein"
@@ -386,7 +386,7 @@
   type: Conference paper
   url: https://aclanthology.org/2024.findings-emnlp.995/
   faculty: [Dustin Wright]
-  themes: ["Reliability & Sustainability", "Society, Communities & Applications"]
+  themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
 - title: "Understanding Fine-grained Distortions in Reports of Scientific Findings"
   authors: "Amelie Wührl, Dustin Wright, Roman Klinger, and Isabelle Augenstein"
@@ -395,7 +395,7 @@
   type: Conference paper
   url: https://aclanthology.org/2024.findings-acl.369/
   faculty: [Dustin Wright]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "BMRS: Bayesian Model Reduction for Structured Pruning"
   authors: "Dustin Wright, Christian Igel, and Raghavendra Selvan"
@@ -404,7 +404,7 @@
   type: Conference paper
   url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/7538e7a7a589a267f49527fe6fbc640e-Abstract-Conference.html
   faculty: [Dustin Wright]
-  themes: ["Reliability & Sustainability"]
+  themes: ["Communities, Domains & Consequences"]
 
 - title: "A chat about actinic keratosis: Examining capabilities and user experience of ChatGPT as a digital health technology in dermato-oncology"
   authors: "Heather C. Lent, Vinzent K. Ortner, Katrine E. Karmisholt, Stine R. Wiegell, Christoffer V. Nissen, Silje H. Omland, Maria R. Kamstrup, Katrine Togsverd-Bo, and Merete Hædersdal"
@@ -413,7 +413,7 @@
   type: Journal short report
   url: https://onlinelibrary.wiley.com/doi/10.1002/jvc2.263
   faculty: [Heather Lent]
-  themes: ["Knowledge & Factuality", "Society, Communities & Applications"]
+  themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
 - title: "Recommending tasks based on search queries and missions"
   authors: "Darío Garigliotti, Krisztian Balog, Katja Hose, and Johannes Bjerva"
@@ -422,7 +422,7 @@
   type: Journal article
   url: https://doi.org/10.1017/S1351324923000219
   faculty: [Johannes Bjerva]
-  themes: ["Knowledge & Factuality", "Society, Communities & Applications"]
+  themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
 - title: "The Past, Present, and Future of Typological Databases in NLP"
   authors: "Emi Baylor, Esther Ploeger, and Johannes Bjerva"
@@ -431,7 +431,7 @@
   type: Conference paper
   url: https://aclanthology.org/2023.findings-emnlp.82/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "Colex2Lang: Language Embeddings from Semantic Typology"
   authors: "Yiyi Chen, Russa Biswas, and Johannes Bjerva"
@@ -440,7 +440,7 @@
   type: Conference paper
   url: https://aclanthology.org/2023.nodalida-1.67/
   faculty: [Johannes Bjerva, Russa Biswas]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "Do bridges dream of water pollutants? Towards DreamsKG, a knowledge graph to make digital access for sustainable environmental assessment come true"
   authors: "Darío Garigliotti, Johannes Bjerva, Finn Årup Nielsen, Annika Butzbach, Ivar Lyhne, Lone Kørnøv, and Katja Hose"
@@ -449,7 +449,7 @@
   type: Conference paper
   url: https://doi.org/10.1145/3543873.3587590
   faculty: [Johannes Bjerva]
-  themes: ["Knowledge & Factuality", "Society, Communities & Applications"]
+  themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
 - title: "Multilingual Knowledge Graphs and Low-Resource Languages: A Review"
   authors: "Lucie-Aimée Kaffee, Russa Biswas, C. Maria Keet, Edlira Kalemi Vakaj, and Gerard de Melo"
@@ -458,7 +458,7 @@
   type: Journal review
   url: https://drops.dagstuhl.de/entities/document/10.4230/TGDK.1.1.10
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality", "Multilingual & Low-Resource NLP"]
+  themes: ["Knowledge, Evidence & Reasoning", "Multilingual & Lower-Resource NLP"]
 
 - title: "Knowledge Graph Embeddings: Open Challenges and Opportunities"
   authors: "Russa Biswas, Lucie-Aimée Kaffee, Michael Cochez, Stefania Dumbrava, Theis E. Jendal, Matteo Lissandrini, Vanessa Lopez, Eneldo Loza Mencía, Heiko Paulheim, Harald Sack, Edlira Kalemi Vakaj, and Gerard de Melo"
@@ -467,7 +467,7 @@
   type: Journal article
   url: https://drops.dagstuhl.de/entities/document/10.4230/TGDK.1.1.4
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "Large Language Models and Knowledge Graphs: Opportunities and Challenges"
   authors: "Jeff Z. Pan, Simon Razniewski, Jan-Christoph Kalo, Sneha Singhania, Jiaoyan Chen, Stefan Dietze, Hajira Jabeen, Janna Omeliyanenko, Wen Zhang, Matteo Lissandrini, Russa Biswas, Gerard de Melo, Angela Bonifati, Edlira Vakaj, Mauro Dragoni, and Damien Graux"
@@ -476,7 +476,7 @@
   type: Journal article
   url: https://drops.dagstuhl.de/entities/document/10.4230/TGDK.1.1.2
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "Quantifying Synthesis and Fusion and their Impact on Machine Translation"
   authors: "Arturo Oncevay, Duygu Ataman, Niels Van Berkel, Barry Haddow, Alexandra Birch, and Johannes Bjerva"
@@ -485,7 +485,7 @@
   type: Conference paper
   url: https://aclanthology.org/2022.naacl-main.94/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "What a Creole Wants, What a Creole Needs"
   authors: "Heather Lent, Kelechi Ogueji, Miryam de Lhoneux, Orevaoghene Ahia, and Anders Søgaard"
@@ -494,7 +494,7 @@
   type: Conference paper
   url: https://aclanthology.org/2022.lrec-1.691/
   faculty: [Heather Lent]
-  themes: ["Multilingual & Low-Resource NLP", "Society, Communities & Applications"]
+  themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
 - title: "Compositional Generalization in Multilingual Semantic Parsing over Wikidata"
   authors: "Ruixiang Cui, Rahul Aralikatte, Heather Lent, and Daniel Hershcovich"
@@ -503,7 +503,7 @@
   type: Journal article
   url: https://aclanthology.org/2022.tacl-1.55/
   faculty: [Heather Lent]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "Challenges and Strategies in Cross-Cultural NLP"
   authors: "Daniel Hershcovich, Stella Frank, Heather Lent, Miryam de Lhoneux, Mostafa Abdou, Stephanie Brandl, Emanuele Bugliarello, Laura Cabello Piqueras, Ilias Chalkidis, Ruixiang Cui, Constanza Fierro, Katerina Margatina, Phillip Rust, and Anders Søgaard"
@@ -512,7 +512,7 @@
   type: Conference paper
   url: https://aclanthology.org/2022.acl-long.482/
   faculty: [Heather Lent]
-  themes: ["Multilingual & Low-Resource NLP", "Society, Communities & Applications"]
+  themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
 - title: "Generating Scientific Claims for Zero-Shot Scientific Fact Checking"
   authors: "Dustin Wright, David Wadden, Kyle Lo, Bailey Kuehl, Arman Cohan, Isabelle Augenstein, and Lucy Lu Wang"
@@ -521,7 +521,7 @@
   type: Conference paper
   url: https://aclanthology.org/2022.acl-long.175/
   faculty: [Dustin Wright]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "Modeling Information Change in Science Communication with Semantically Matched Paraphrases"
   authors: "Dustin Wright, Jiaxin Pei, David Jurgens, and Isabelle Augenstein"
@@ -530,7 +530,7 @@
   type: Conference paper
   url: https://aclanthology.org/2022.emnlp-main.117/
   faculty: [Dustin Wright]
-  themes: ["Knowledge & Factuality", "Society, Communities & Applications"]
+  themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
 - title: "Entity Type Prediction Leveraging Graph Walks and Entity Descriptions"
   authors: "Russa Biswas, Jan Portisch, Heiko Paulheim, Harald Sack, and Mehwish Alam"
@@ -539,7 +539,7 @@
   type: Conference paper
   url: https://link.springer.com/chapter/10.1007/978-3-031-19433-7_23
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality"]
+  themes: ["Knowledge, Evidence & Reasoning"]
 
 - title: "It’s All in the Name: Entity Typing Using Multilingual Language Models"
   authors: "Russa Biswas, Yiyi Chen, Heiko Paulheim, Harald Sack, and Mehwish Alam"
@@ -548,7 +548,7 @@
   type: Conference paper
   url: https://doi.org/10.1007/978-3-031-11609-4_7
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality", "Multilingual & Low-Resource NLP"]
+  themes: ["Knowledge, Evidence & Reasoning", "Multilingual & Lower-Resource NLP"]
 
 - title: "Does Typological Blinding Impede Cross-Lingual Sharing?"
   authors: "Johannes Bjerva and Isabelle Augenstein"
@@ -557,7 +557,7 @@
   type: Conference paper
   url: https://aclanthology.org/2021.eacl-main.38/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "Inducing Language-Agnostic Multilingual Representations"
   authors: "Wei Zhao, Steffen Eger, Johannes Bjerva, and Isabelle Augenstein"
@@ -566,7 +566,7 @@
   type: Conference paper
   url: https://aclanthology.org/2021.starsem-1.22/
   faculty: [Johannes Bjerva]
-  themes: ["Multilingual & Low-Resource NLP", "Reliability & Sustainability"]
+  themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
 - title: "On Language Models for Creoles"
   authors: "Heather Lent, Emanuele Bugliarello, Miryam de Lhoneux, Chen Qiu, and Anders Søgaard"
@@ -575,7 +575,7 @@
   type: Conference paper
   url: https://aclanthology.org/2021.conll-1.5/
   faculty: [Heather Lent]
-  themes: ["Multilingual & Low-Resource NLP", "Reliability & Sustainability"]
+  themes: ["Multilingual & Lower-Resource NLP", "Language, Meaning & Typology"]
 
 - title: "A survey on knowledge graph embeddings with literals: Which model links better literal-ly?"
   authors: "Genet Asefa Gesese, Russa Biswas, Mehwish Alam, and Harald Sack"
@@ -584,7 +584,7 @@
   type: Journal survey
   url: https://doi.org/10.3233/SW-200404
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality"]
+  themes: ["Knowledge, Evidence & Reasoning"]
 
 - title: "Cat2Type: Wikipedia Category Embeddings for Entity Typing in Knowledge Graphs"
   authors: "Russa Biswas, Radina Sofronova, Harald Sack, and Mehwish Alam"
@@ -593,7 +593,7 @@
   type: Conference paper
   url: https://doi.org/10.1145/3460210.3493575
   faculty: [Russa Biswas]
-  themes: ["Knowledge & Factuality", "Society, Communities & Applications"]
+  themes: ["Knowledge, Evidence & Reasoning"]
 
 - title: "CiteWorth: Cite-Worthiness Detection for Improved Scientific Document Understanding"
   authors: "Dustin Wright and Isabelle Augenstein"
@@ -602,7 +602,7 @@
   type: Conference paper
   url: https://aclanthology.org/2021.findings-acl.157/
   faculty: [Dustin Wright]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "Semi-Supervised Exaggeration Detection of Health Science Press Releases"
   authors: "Dustin Wright and Isabelle Augenstein"
@@ -611,7 +611,7 @@
   type: Conference paper
   url: https://aclanthology.org/2021.emnlp-main.845/
   faculty: [Dustin Wright]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "SubjQA: A Dataset for Subjectivity and Review Comprehension"
   authors: "Johannes Bjerva, Nikita Bhutani, Behzad Golshan, Wang-Chiew Tan, and Isabelle Augenstein"
@@ -620,7 +620,7 @@
   type: Conference paper
   url: https://aclanthology.org/2020.emnlp-main.442/
   faculty: [Johannes Bjerva]
-  themes: ["Knowledge & Factuality", "Reliability & Sustainability"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
 - title: "Zero-Shot Cross-Lingual Transfer with Meta Learning"
   authors: "Farhad Nooralahzadeh, Giannis Bekoulis, Johannes Bjerva, and Isabelle Augenstein"
@@ -629,7 +629,7 @@
   type: Conference paper
   url: https://aclanthology.org/2020.emnlp-main.368/
   faculty: [Johannes Bjerva]
-  themes: ["Multilingual & Low-Resource NLP", "Reliability & Sustainability"]
+  themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
 - title: "Back to the Future – Temporal Adaptation of Text Representations"
   authors: "Johannes Bjerva, Wouter Kouw, and Isabelle Augenstein"
@@ -638,7 +638,7 @@
   type: Conference paper
   url: https://ojs.aaai.org/index.php/AAAI/article/view/6240
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Reliability & Sustainability"]
+  themes: ["Language, Meaning & Typology", "Factuality, Reliability & Evaluation"]
 
 - title: "What Do Language Representations Really Represent?"
   authors: "Johannes Bjerva, Robert Östling, Maria Han Veiga, Jörg Tiedemann, and Isabelle Augenstein"
@@ -647,7 +647,7 @@
   type: Journal article
   url: https://aclanthology.org/J19-2006/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "Uncovering Probabilistic Implications in Typological Knowledge Bases"
   authors: "Johannes Bjerva, Yova Kementchedjhieva, Ryan Cotterell, and Isabelle Augenstein"
@@ -656,7 +656,7 @@
   type: Conference paper
   url: https://aclanthology.org/P19-1382/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Knowledge & Factuality"]
+  themes: ["Language, Meaning & Typology", "Knowledge, Evidence & Reasoning"]
 
 - title: "A Probabilistic Generative Model of Linguistic Typology"
   authors: "Johannes Bjerva, Yova Kementchedjhieva, Ryan Cotterell, and Isabelle Augenstein"
@@ -665,7 +665,7 @@
   type: Conference paper
   url: https://aclanthology.org/N19-1156/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "From Phonology to Syntax: Unsupervised Linguistic Typology at Different Levels with Language Embeddings"
   authors: "Johannes Bjerva and Isabelle Augenstein"
@@ -674,7 +674,7 @@
   type: Conference paper
   url: https://aclanthology.org/N18-1083/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "The Parallel Meaning Bank: Towards a Multilingual Corpus of Translations Annotated with Compositional Meaning Representations"
   authors: "Lasha Abzianidze, Johannes Bjerva, Kilian Evang, Hessel Haagsma, Rik van Noord, Pierre Ludmann, Duc-Duy Nguyen, and Johan Bos"
@@ -683,7 +683,7 @@
   type: Conference paper
   url: https://aclanthology.org/E17-2039/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "Semantic Tagging with Deep Residual Networks"
   authors: "Johannes Bjerva, Barbara Plank, and Johan Bos"
@@ -692,7 +692,7 @@
   type: Conference paper
   url: https://aclanthology.org/C16-1333/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Multilingual & Low-Resource NLP"]
+  themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
 - title: "The Meaning Factory: Formal Semantics for Recognizing Textual Entailment and Determining Semantic Similarity"
   authors: "Johannes Bjerva, Johan Bos, Rob van der Goot, and Malvina Nissim"
@@ -701,4 +701,4 @@
   type: Shared-task paper
   url: https://aclanthology.org/S14-2114/
   faculty: [Johannes Bjerva]
-  themes: ["Linguistics & Semantics", "Knowledge & Factuality"]
+  themes: ["Language, Meaning & Typology", "Knowledge, Evidence & Reasoning"]
