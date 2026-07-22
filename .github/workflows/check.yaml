@@ -36,6 +36,14 @@ jobs:
           HUGO_ENVIRONMENT: development
         run: hugo --gc --minify --buildFuture --baseURL https://preview.invalid/
 
+      - name: Archive development preview
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-preview
+          path: public
+          retention-days: 3
+
       - name: Reject inherited template content
         run: |
           ! grep -RIE "Nelson Bighetti|Stanford, CA|test@example.org|World-Class Semiconductor Lab|lorem ipsum" public
