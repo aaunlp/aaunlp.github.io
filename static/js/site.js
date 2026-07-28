@@ -40,6 +40,31 @@
     if (portrait.complete && portrait.naturalWidth === 0) showFallback();
   });
 
+  document.querySelectorAll('[data-trajectory]').forEach((trajectory) => {
+    const start = new Date(`${trajectory.dataset.start}T12:00:00`);
+    const horizonMonths = Number(trajectory.dataset.horizonMonths || 0);
+    const explicitEnd = trajectory.dataset.end
+      ? new Date(`${trajectory.dataset.end}T12:00:00`)
+      : null;
+    const end = explicitEnd || (horizonMonths
+      ? new Date(start.getFullYear(), start.getMonth() + horizonMonths, start.getDate(), 12)
+      : null);
+
+    if (Number.isNaN(start.getTime())) return;
+
+    const now = new Date();
+    let progress = now < start ? 0 : 100;
+    if (end && !Number.isNaN(end.getTime())) {
+      progress = ((now - start) / (end - start)) * 100;
+      progress = Math.max(0, Math.min(100, progress));
+    }
+
+    trajectory.style.setProperty('--trajectory-progress', `${progress.toFixed(2)}%`);
+    trajectory.classList.toggle('is-future', progress === 0);
+    trajectory.classList.toggle('is-complete', Boolean(explicitEnd) && progress === 100);
+    trajectory.classList.toggle('is-open', !end);
+  });
+
   const filters = document.querySelector('[data-publication-filters]');
   if (filters) {
     const search = filters.querySelector('[data-pub-search]');

@@ -1,0 +1,55 @@
+- number: "01"
+  name: Rigour
+  tone: rigour
+  summary: We pursue meaningful questions, use evidence and methods suited to them, interpret results honestly, and change course when the evidence calls for it. Venue is not a substitute for quality.
+  practice: Research and publication
+  homepage: true
+  home_summary: Questions and evidence before venue or fashion.
+
+- number: "02"
+  name: Feedback
+  tone: feedback
+  summary: We ask for and provide useful critique, and we acknowledge contributions that shape the work. Requests may be accepted, declined, or renegotiated.
+  practice: Development, collaboration, and review
+  homepage: true
+  home_summary: Share work while it can still change.
+
+- number: "03"
+  name: Clarity
+  tone: clarity
+  summary: We make roles, expectations, commitments, authorship, and important decisions explicit, and revisit them when circumstances change.
+  practice: Decisions, supervision, and shared records
+  homepage: false
+  home_summary: Make expectations explicit; revisit them when work changes.
+
+- number: "04"
+  name: Responsibility
+  tone: responsibility
+  summary: We develop initiative and scientific judgement, take ownership of our work, seek advice when needed, and raise blockers early. Independence does not mean working alone.
+  practice: Research, leadership, and workload
+  homepage: true
+  home_summary: Independence without isolation.
+
+- number: "05"
+  name: Pace
+  tone: pace
+  summary: We maintain sustainable momentum through learning, decisions, and completed research stages. Early exploration needs flexibility; later work needs bounded plans. Pace does not mean meeting every venue deadline.
+  practice: Research stages and sustainable work
+  homepage: false
+  home_summary: Sustainable momentum, not deadline theatre.
+
+- number: "06"
+  name: Recognition
+  tone: recognition
+  summary: We recognise publications and grants as well as the visible and invisible work that makes research and the group possible. Meaningful contributions should be made visible.
+  practice: Credit, development, and opportunity
+  homepage: false
+  home_summary: Make every meaningful contribution visible.
+
+- number: "07"
+  name: Trust
+  tone: trust
+  summary: We can share unfinished ideas, failed attempts, and disagreement openly. We treat each other with respect and help sustain an inclusive research environment.
+  practice: Group life, supervision, and concerns
+  homepage: true
+  home_summary: Open disagreement with respect and support.

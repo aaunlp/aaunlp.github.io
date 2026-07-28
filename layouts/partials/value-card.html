@@ -1,0 +1,12 @@
+{{ $value := . }}
+<li class="value-card value--{{ $value.tone }}">
+  <div class="value-card-heading">
+    <span aria-hidden="true">{{ $value.number }}</span>
+    <h3>{{ $value.name }}</h3>
+  </div>
+  <p>{{ $value.summary }}</p>
+  <div class="value-card-practice">
+    <span>Made practical through</span>
+    <strong>{{ $value.practice }}</strong>
+  </div>
+</li>

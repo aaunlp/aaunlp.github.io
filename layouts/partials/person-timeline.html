@@ -1,0 +1,23 @@
+{{ with .timeline }}
+  <div
+    class="person-timeline person-timeline--{{ .kind }}"
+    data-trajectory
+    data-start="{{ .start }}"
+    {{ with .end }}data-end="{{ . }}"{{ end }}
+    {{ with .horizon_months }}data-horizon-months="{{ . }}"{{ end }}
+    aria-label="{{ .label }}: {{ .start_text }}; {{ .end_text }}">
+    <div class="person-timeline-meta">
+      <span>{{ .label }}</span>
+      <span>
+        {{ .start_text }}
+        {{ if .horizon_months }}<span aria-hidden="true">·</span>{{ else }}<span aria-hidden="true">→</span>{{ end }}
+        {{ .end_text }}
+      </span>
+    </div>
+    <span class="person-timeline-track" aria-hidden="true">
+      <span class="person-timeline-fill"></span>
+      {{ with .extension_months }}<span class="person-timeline-window"></span>{{ end }}
+      <span class="person-timeline-marker"></span>
+    </span>
+  </div>
+{{ end }}

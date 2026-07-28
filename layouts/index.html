@@ -1,4 +1,8 @@
 {{ define "main" }}
+{{ $faculty := where site.Data.people "group" "Faculty" }}
+{{ $researchStaff := where site.Data.people "group" "Research Staff" }}
+{{ $phds := where site.Data.people "group" "PhD Fellows" }}
+{{ $currentCount := add (len $faculty) (add (len $researchStaff) (len $phds)) }}
 <section class="home-hero">
   <div class="shell hero-grid">
     <div class="hero-copy">
@@ -17,7 +21,7 @@
   </div>
   <div class="shell evidence-strip" aria-label="AAU NLP at a glance">
     <div><strong>4</strong><span>faculty with distinct research programmes</span></div>
-    <div><strong>13</strong><span>current researchers across career stages</span></div>
+    <div><strong>{{ $currentCount }}</strong><span>current researchers across career stages</span></div>
     <div><strong>8</strong><span>active funded projects</span></div>
     <div><strong>≈ DKK 38.5m</strong><span>gross current project volume</span></div>
   </div>
@@ -102,10 +106,12 @@
       <a class="button button-light" href="{{ "culture/" | relURL }}">Our research culture</a>
     </div>
     <ol class="value-list">
-      <li><span>Rigour</span><small>Questions and evidence before venue or fashion.</small></li>
-      <li><span>Feedback</span><small>Share work while it can still change.</small></li>
-      <li><span>Responsibility</span><small>Independence without isolation.</small></li>
-      <li><span>Trust</span><small>Open disagreement with respect and support.</small></li>
+      {{ range where site.Data.values "homepage" true }}
+        <li class="value-list-item value--{{ .tone }}">
+          <span>{{ .name }}</span>
+          <small>{{ .home_summary }}</small>
+        </li>
+      {{ end }}
     </ol>
   </div>
 </section>

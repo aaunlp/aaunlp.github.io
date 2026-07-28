@@ -7,6 +7,12 @@
   url: /people/johannes-bjerva/
   vbn: https://vbn.aau.dk/en/persons/jbjerva/
   email: jbjerva@cs.aau.dk
+  timeline:
+    label: At AAU
+    start: "2020-08-01"
+    start_text: "2020"
+    end_text: Now
+    kind: faculty
   focus:
     - Multilingual NLP
     - Linguistic grounding
@@ -23,6 +29,12 @@
   url: /people/russa-biswas/
   vbn: https://vbn.aau.dk/en/persons/rubi/
   email: rubi@cs.aau.dk
+  timeline:
+    label: At AAU
+    start: "2024-06-01"
+    start_text: "Jun 2024"
+    end_text: Now
+    kind: faculty
   focus:
     - Knowledge representation
     - Graph-grounded AI
@@ -38,6 +50,12 @@
   url: /people/dustin-wright/
   vbn: https://vbn.aau.dk/en/persons/dbw/
   email: dbw@cs.aau.dk
+  timeline:
+    label: At AAU
+    start: "2026-02-01"
+    start_text: "Feb 2026"
+    end_text: Now
+    kind: faculty
   focus:
     - Reliable information
     - Science communication
@@ -54,6 +72,12 @@
   url: /people/heather-lent/
   vbn: https://vbn.aau.dk/en/persons/hcle/
   email: hcle@cs.aau.dk
+  timeline:
+    label: At AAU
+    start: "2022-09-01"
+    start_text: "Sep 2022"
+    end_text: Now
+    kind: faculty
   focus:
     - Creole & lower-resourced NLP
     - Multilingual evaluation
@@ -63,14 +87,41 @@
 - name: Anahita Baninajjar
   slug: anahita-baninajjar
   initials: AB
-  group: Postdocs
+  group: Research Staff
   role: Postdoc
+  staff_type: Postdoc
   image: "https://vbn.aau.dk/files-asset/828268114/AnahitaBaninajjar.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/anaban/
+  timeline:
+    label: At AAU NLP
+    start: "2026-06-01"
+    start_text: "Jun 2026"
+    end_text: Now
+    kind: staff
   focus:
     - Trustworthy AI
     - LLM security
   summary: Anahita works on trustworthy AI and language-model security, including methods that support robust and verifiable learning systems.
+
+- name: Yingming Wang
+  slug: yingming-wang
+  initials: YW
+  group: Research Staff
+  role: Research Assistant
+  staff_type: Research Assistant
+  image: "https://vbn.aau.dk/files-asset/829517408/YingmingWang.jpg?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/yingwang/
+  timeline:
+    label: At AAU NLP
+    start: "2026-05-01"
+    start_text: "May 2026"
+    end_text: Now
+    kind: staff
+  focus:
+    - Faithful explanations
+    - Interpretability
+    - Language-model reasoning
+  summary: Yingming works on faithful and interpretable language models, including methods that let models critique and improve their own natural-language explanations.
 
 - name: Marcell Richard Fekete
   slug: marcell-fekete
@@ -79,6 +130,14 @@
   role: PhD Fellow
   image: "https://vbn.aau.dk/files-asset/841013954/marcell_profile.jpeg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/mrfe/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2022-09-01"
+    start_text: "Sep 2022"
+    end_text: "3–4 years"
+    horizon_months: 48
+    extension_months: 12
+    kind: phd
   focus:
     - Language variation
     - Typology
@@ -92,6 +151,14 @@
   role: PhD Fellow
   image: "https://vbn.aau.dk/files-asset/743589182/YiyiChen.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/yiyic/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2022-11-01"
+    start_text: "Nov 2022"
+    end_text: "3–4 years"
+    horizon_months: 48
+    extension_months: 12
+    kind: phd
   focus:
     - Language-model security
     - Embedding inversion
@@ -105,6 +172,13 @@
   role: PhD Fellow
   image: "https://vbn.aau.dk/files-asset/742211738/ErnestsLavrinovics.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/elav/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2024-09-01"
+    start_text: "Sep 2024"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: phd
   focus:
     - Factuality
     - Knowledge graphs
@@ -118,6 +192,13 @@
   role: Industrial PhD · with Alipes ApS
   image: "https://vbn.aau.dk/files-asset/743310001/1661871478222.jpeg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/rtaj/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2024-09-01"
+    start_text: "Sep 2024"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: phd
   focus:
     - NLP for finance
     - Factual extraction
@@ -130,6 +211,13 @@
   role: PhD Fellow · AI:SECURITY
   image: "https://vbn.aau.dk/files-asset/789927055/JosephineMarieBakka.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/jmba/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2025-08-01"
+    start_text: "Aug 2025"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: phd
   focus:
     - AI security
     - LLM security
@@ -142,6 +230,13 @@
   role: PhD Fellow · AI:SECURITY
   image: "https://vbn.aau.dk/files-asset/804965438/e4dc8b7a81a06a9af1e3d6bd0d154c9f_2.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/xilu/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2025-11-01"
+    start_text: "Nov 2025"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: phd
   focus:
     - Memorisation
     - Security & privacy
@@ -155,6 +250,13 @@
   role: PhD Fellow
   image: "https://vbn.aau.dk/files-asset/822239888/TaoRen.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/taoren/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2026-06-01"
+    start_text: "Jun 2026"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: phd
   focus:
     - Neural probing
     - Hidden representations
@@ -166,6 +268,13 @@
   group: PhD Fellows
   role: PhD Fellow
   vbn: https://vbn.aau.dk/en/persons/dorielle-lonke/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2026-07-15"
+    start_text: "Jul 2026"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: phd
   focus:
     - Linguistic analysis
     - Responsible AI discourse
@@ -176,6 +285,13 @@
   initials: DD
   group: Incoming
   role: Incoming PhD Fellow · September 2026
+  timeline:
+    label: PhD at AAU NLP
+    start: "2026-09-01"
+    start_text: "Starts Sep 2026"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: incoming
   summary: Research profile to follow.
 
 - name: Anna Lackner
@@ -183,6 +299,12 @@
   initials: AL
   group: Incoming
   role: Incoming Research Assistant · September 2026
+  timeline:
+    label: Joining AAU NLP
+    start: "2026-09-01"
+    start_text: "Starts Sep 2026"
+    end_text: Ongoing
+    kind: incoming
   summary: Research profile to follow.
 
 - name: Ivaylo Mitov
@@ -190,6 +312,42 @@
   initials: IM
   group: Incoming
   role: Incoming PhD Fellow · October 2026
+  timeline:
+    label: PhD at AAU NLP
+    start: "2026-10-01"
+    start_text: "Starts Oct 2026"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: incoming
+  summary: Research profile to follow.
+
+- name: Lena Pickartz
+  slug: lena-pickartz
+  initials: LP
+  group: Incoming
+  role: Incoming PhD Fellow · 1 September 2026
+  vbn: https://vbn.aau.dk/en/persons/lepi/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2026-09-01"
+    start_text: "Starts 1 Sep 2026"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: incoming
+  summary: Research profile to follow.
+
+- name: Luc Raszewski
+  slug: luc-raszewski
+  initials: LR
+  group: Incoming
+  role: Incoming PhD Fellow · 15 November 2026
+  timeline:
+    label: PhD at AAU NLP
+    start: "2026-11-15"
+    start_text: "Starts 15 Nov 2026"
+    end_text: "3 years"
+    horizon_months: 36
+    kind: incoming
   summary: Research profile to follow.
 
 - name: Esther Ploeger
@@ -203,6 +361,13 @@
   recognition: Awarded a Carlsberg Foundation Internationalisation Postdoctoral Fellowship (declined).
   image: "https://vbn.aau.dk/files-asset/716498132/EstherPloeger.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/espl/
+  timeline:
+    label: PhD at AAU NLP
+    start: "2022-09-01"
+    end: "2025-08-31"
+    start_text: "Sep 2022"
+    end_text: "Aug 2025"
+    kind: alumni
   focus:
     - Linguistic typology
     - Multilingual evaluation
@@ -219,6 +384,13 @@
   destination_url: https://jjzha.github.io/
   image: "https://vbn.aau.dk/files-asset/716497958/JunJunZhang.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/jjz/
+  timeline:
+    label: Postdoc at AAU NLP
+    start: "2024-02-01"
+    end: "2025-11-30"
+    start_text: "Feb 2024"
+    end_text: "Nov 2025"
+    kind: alumni
   focus:
     - NLP for education
     - Resource creation

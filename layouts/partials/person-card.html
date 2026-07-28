@@ -14,6 +14,7 @@
     {{ with $person.destination }}
       <p class="person-destination"><span>Now</span>{{ with $person.destination_url }}<a href="{{ . }}">{{ $person.destination }} <span aria-hidden="true">↗</span></a>{{ else }}{{ $person.destination }}{{ end }}</p>
     {{ end }}
+    {{ partial "person-timeline.html" $person }}
     {{ with $person.summary }}<p>{{ . }}</p>{{ end }}
     {{ with $person.recognition }}<p class="person-recognition">{{ . }}</p>{{ end }}
     {{ with $person.focus }}

@@ -9,29 +9,43 @@
 <section class="section shell">
   <div class="section-heading split-heading">
     <div><p class="eyebrow">Seven values</p><h2>What we try to make practical</h2></div>
-    <p>These principles are adapted from the group's working handbook. The public summary focuses on the experience we want to create, rather than internal procedures.</p>
+    <p>These are the values defined in the group's working handbook. Their colours are carried through from that document; the public summary focuses on the experience we want to create rather than internal procedures.</p>
   </div>
-  <div class="values-grid">
-    <article><span>01</span><h3>Rigour</h3><p>We pursue important questions, use methods and evidence suited to them, interpret results honestly, and change course when the evidence calls for it.</p></article>
-    <article><span>02</span><h3>Feedback</h3><p>We share work while it can still change and treat specific, useful feedback as a collective responsibility—not a scarce favour.</p></article>
-    <article><span>03</span><h3>Clarity</h3><p>We make roles, expectations, commitments, authorship, and important decisions explicit, then revisit them when circumstances change.</p></article>
-    <article><span>04</span><h3>Responsibility</h3><p>We take initiative and ownership, develop scientific judgement, ask for advice when needed, and raise blockers early. Independence is not isolation.</p></article>
-    <article><span>05</span><h3>Pace</h3><p>We maintain momentum through learning, decisions, and completed research stages. Quality and sustainability come before any single venue deadline.</p></article>
-    <article><span>06</span><h3>Recognition</h3><p>We recognise papers and grants—and the mentoring, feedback, datasets, code, coordination, and care that make the work possible.</p></article>
-    <article><span>07</span><h3>Trust</h3><p>We should be able to share unfinished ideas, failed experiments, and disagreement openly, with respect and a commitment to an inclusive environment.</p></article>
+  <div class="values-board">
+    <div class="values-spectrum" aria-hidden="true">
+      {{ range site.Data.values }}<span class="value--{{ .tone }}"></span>{{ end }}
+    </div>
+    <ol class="values-grid">
+      {{ range site.Data.values }}{{ partial "value-card.html" . }}{{ end }}
+    </ol>
   </div>
 </section>
 
 <section class="section culture-practice">
   <div class="shell culture-practice-grid">
-    <div><p class="eyebrow">In practice</p><h2>Freedom to develop. Structure when it helps.</h2></div>
+    <div><p class="eyebrow">In practice</p><h2>Five principles for everyday research.</h2><p class="culture-practice-intro">The concise formulations come from <em>AAU-NLP Start Here</em>: a practical bridge between the values and day-to-day decisions.</p></div>
     <div class="practice-list">
-      <article><h3>Independent research identities</h3><p>Assistant professors, postdocs, and PhD fellows need space to develop questions and collaborations that are genuinely their own.</p></article>
-      <article><h3>Feedback before work hardens</h3><p>Supervision, paper discussions, reading groups, and informal exchange should help improve a question or design while meaningful changes remain possible.</p></article>
-      <article><h3>Protected research time</h3><p>Recurring activities should support research rather than crowd it out. Most working time for research-focused roles should remain available for core work.</p></article>
-      <article><h3>Constructive disagreement</h3><p>Psychological safety does not mean avoiding criticism or lowering standards. It makes honest scientific disagreement possible.</p></article>
+      <article><h3>Quality before deadlines</h3><p>A deadline does not make a paper ready. We submit when the claim, evidence, record, and author review are strong enough—not because a date has arrived. Quality-first is not perfection-first: once the paper is ready, it should move.</p></article>
+      <article><h3>Clarity before assumption</h3><p>Roles, decisions, commitments, feedback timing, and authorship should be explicit and revisited when the work changes.</p></article>
+      <article><h3>Ask early; help where you can</h3><p>Blockers and changing circumstances should be raised early. Feedback is a shared contribution, while requests may be accepted, declined, or renegotiated according to expertise and workload.</p></article>
+      <article><h3>Credit follows contribution</h3><p>Contributions and author order should be discussed early and revisited as work develops. Every author must approve submission, and work beyond publication lists should be recognised.</p></article>
+      <article><h3>Sustainable pace matters</h3><p>Research time should be protected and work should fit agreed hours. Meeting attendance, physical visibility, or instant responsiveness is not a proxy for contribution.</p></article>
     </div>
   </div>
+</section>
+
+<section class="section shell culture-commitments">
+  <div class="section-heading split-heading">
+    <div><p class="eyebrow">The collective system</p><h2>Ambition without a tournament culture.</h2></div>
+    <p>Excellent research depends on individual scientific judgement and on a group that makes expertise, support, credit, and principled disagreement available.</p>
+  </div>
+  <div class="commitment-grid">
+    <article><span>01</span><h3>Colleagues, not competitors</h3><p>Another member's success does not diminish our own; it can strengthen the group and create opportunities for others. Being a good colleague is part of being a good researcher.</p></article>
+    <article><span>02</span><h3>Independence without isolation</h3><p>People need space to develop questions and collaborations that are genuinely their own, together with access to feedback, expertise, mentoring, and practical help.</p></article>
+    <article><span>03</span><h3>Candour without humiliation</h3><p>Psychological safety does not lower standards. It lets unfinished ideas, uncertainty, failed experiments, and disagreement be discussed respectfully; independent routes remain available for concerns.</p></article>
+    <article><span>04</span><h3>More than papers</h3><p>Useful research may leave theory, data, code, methods, or documented negative results. We also recognise mentoring, debugging, infrastructure, onboarding, coordination, and care.</p></article>
+  </div>
+  <p class="culture-living-note"><strong>These are working commitments.</strong> The group reviews what helps, what does not, and what should change. The detailed procedures, current contacts, and onboarding information remain in the internal handbook and <em>Start Here</em> guide.</p>
 </section>
 
 <section class="section shell">

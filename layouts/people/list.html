@@ -1,11 +1,11 @@
 {{ define "main" }}
 {{ $faculty := where site.Data.people "group" "Faculty" }}
-{{ $postdocs := where site.Data.people "group" "Postdocs" }}
+{{ $researchStaff := where site.Data.people "group" "Research Staff" }}
 {{ $phds := where site.Data.people "group" "PhD Fellows" }}
 {{ $incoming := where site.Data.people "group" "Incoming" }}
 {{ $phdGraduates := where site.Data.people "alumni_type" "PhD" }}
 {{ $completedPostdocs := where site.Data.people "completed_postdoc" true }}
-{{ $currentCount := add (len $faculty) (add (len $postdocs) (len $phds)) }}
+{{ $currentCount := add (len $faculty) (add (len $researchStaff) (len $phds)) }}
 <section class="page-hero">
   <div class="shell page-hero-grid">
     <div><p class="eyebrow">People</p><h1>Distinct researchers. A shared intellectual home.</h1></div>
@@ -24,7 +24,7 @@
     </div>
     <div class="snapshot-current" aria-label="Current members by role">
       <article><strong>{{ len $faculty }}</strong><span>Faculty</span></article>
-      <article><strong>{{ len $postdocs }}</strong><span>Postdoctoral researcher</span></article>
+      <article><strong>{{ len $researchStaff }}</strong><span>Research staff</span></article>
       <article><strong>{{ len $phds }}</strong><span>PhD fellows</span></article>
     </div>
     <div class="snapshot-pathways">
@@ -51,9 +51,12 @@
 
 <section class="section section-tint">
   <div class="shell">
-    <div class="section-heading"><p class="eyebrow">Postdoctoral researchers</p><h2>Research staff</h2></div>
+    <div class="section-heading split-heading">
+      <div><p class="eyebrow">Postdoctoral & research support</p><h2>Research staff</h2></div>
+      <p>Postdoctoral researchers develop independent scientific agendas within their projects; research assistants contribute focused expertise and build towards their next research stage.</p>
+    </div>
     <div class="people-grid compact-people">
-      {{ range $postdocs }}{{ partial "person-card.html" . }}{{ end }}
+      {{ range $researchStaff }}{{ partial "person-card.html" . }}{{ end }}
     </div>
   </div>
 </section>
@@ -61,7 +64,7 @@
 <section class="section shell">
   <div class="section-heading split-heading">
     <div><p class="eyebrow">Doctoral research</p><h2>PhD fellows</h2></div>
-    <p>Our PhD researchers work across multilingual evaluation, model security, factuality, knowledge, finance, and the linguistic analysis of AI.</p>
+    <p>Our PhD researchers work across multilingual evaluation, model security, factuality, knowledge, finance, and the linguistic analysis of AI. The bars show verified starts against a three-year period; a fourth-year extension is shown only where someone has passed that point.</p>
   </div>
   <div class="people-grid">
     {{ range $phds }}{{ partial "person-card.html" . }}{{ end }}
@@ -71,11 +74,18 @@
 <section class="section shell">
   <div class="section-heading split-heading">
     <div><p class="eyebrow">Next cohort</p><h2>Incoming members</h2></div>
-    <p>Appointments shown here are publicly listed in current AAU supervision records. Research profiles will be added when confirmed.</p>
+    <p>Appointments and start dates shown here come from current AAU records or have been confirmed for the group. Research profiles will be added as members arrive.</p>
   </div>
   <div class="incoming-grid">
     {{ range $incoming }}
-      <article><span class="incoming-initials">{{ .initials }}</span><div><h3>{{ .name }}</h3><p>{{ .role }}</p></div></article>
+      <article class="incoming-card">
+        <span class="incoming-initials">{{ .initials }}</span>
+        <div>
+          <h3>{{ .name }}</h3>
+          <p>{{ .role }}</p>
+          {{ partial "person-timeline.html" . }}
+        </div>
+      </article>
     {{ end }}
   </div>
 </section>
