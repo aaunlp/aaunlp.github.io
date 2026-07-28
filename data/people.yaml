@@ -36,10 +36,9 @@
     end_text: Now
     kind: faculty
   focus:
-    - Knowledge representation
-    - Graph-grounded AI
+    - Knowledge representation & reasoning
     - Cultural heritage
-  summary: Russa studies how explicit knowledge graphs and learned language representations can strengthen one another, spanning knowledge-graph completion, multilingual factuality, graph-grounded reasoning, and cultural heritage.
+  summary: Russa studies how explicit knowledge graphs and learned representations can strengthen one another, with applications in multilingual factuality and cultural heritage.
 
 - name: Dustin Wright
   slug: dustin-wright
@@ -118,8 +117,7 @@
     end_text: Now
     kind: staff
   focus:
-    - Faithful explanations
-    - Interpretability
+    - Faithful explanations & interpretability
     - Language-model reasoning
   summary: Yingming works on faithful and interpretable language models, including methods that let models critique and improve their own natural-language explanations.
 
@@ -139,10 +137,9 @@
     extension_months: 12
     kind: phd
   focus:
-    - Language variation
-    - Typology
+    - Language variation & typology
     - Parameter-efficient learning
-  summary: Marcell studies multilinguality and language variation, parameter-efficient adaptation, interpretability, and the relationship between human and model language knowledge.
+  summary: Marcell studies language variation through parameter-efficient adaptation and comparisons between human and model language knowledge.
 
 - name: Yiyi Chen
   slug: yiyi-chen
@@ -160,10 +157,9 @@
     extension_months: 12
     kind: phd
   focus:
-    - Language-model security
-    - Embedding inversion
-    - Language similarity
-  summary: Yiyi works on multilingual language-model security, including inversion attacks, memorisation, and the role of linguistic similarity in model vulnerabilities.
+    - Embedding inversion & memorisation
+    - Multilingual security
+  summary: Yiyi studies multilingual language-model security through embedding inversion and memorisation, with particular attention to linguistic similarity.
 
 - name: Ernests Lavrinovics
   slug: ernests-lavrinovics

@@ -9,10 +9,9 @@
     - Russa Biswas
     - Esther Ploeger
   themes:
-    - Security
-    - Privacy
+    - Security & privacy
     - Multilingual NLP
-  summary: Uses linguistic patterns to understand, detect, and mitigate malicious influence, privacy leakage, and manipulation in multilingual language models.
+  summary: Uses linguistic analysis to understand and mitigate security and privacy risks in multilingual language models.
   url: https://vbn.aau.dk/en/projects/linguistically-motivated-language-model-security/
   featured: true
 
@@ -48,9 +47,8 @@
     - Ernests Lavrinovics
     - Xiaoyu Luo
   themes:
-    - Low-resource languages
+    - Multilingual & low-resource NLP
     - Linguistic typology
-    - Multilingual learning
   summary: Explores how systematic linguistic similarities can extend useful language technology to languages with limited labelled data and digital resources.
   url: https://vbn.aau.dk/en/projects/multilingual-modelling-for-resource-poor-languages/
   featured: true
@@ -98,9 +96,8 @@
     - Mike Zhang
   themes:
     - NLP for education
-    - Explainability
-    - Student feedback
-  summary: Builds explainable multilingual models of expert assessment processes to support scalable, timely, and useful feedback for students.
+    - Explainable feedback
+  summary: Builds explainable multilingual models of expert assessment to support timely, useful feedback at scale.
   url: https://vbn.aau.dk/en/projects/digital-twins-for-abundant-feedback-novel-feedback-paradigms-via-/
 
 - title: Guarantees of Factuality in Financial KPI Extraction
@@ -129,8 +126,7 @@
   pi: Russa Biswas and Johan Heinsen
   themes:
     - Knowledge graphs
-    - Cultural heritage
-    - Digital humanities
-  summary: Turns historical texts into structured, searchable, connected knowledge so researchers can discover patterns and relationships across cultural-heritage collections.
+    - Digital cultural heritage
+  summary: Turns historical texts into searchable, connected knowledge so researchers can discover patterns and relationships across cultural-heritage collections.
   url: https://vbn.aau.dk/en/organisations/aipage-lab/
   lab: true
