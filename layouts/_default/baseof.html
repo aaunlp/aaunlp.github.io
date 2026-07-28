@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{ $description := .Description | default site.Params.marketing.seo.description }}
+  {{ $description := .Description | default site.Params.description }}
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · AAU NLP{{ end }}</title>
   <meta name="description" content="{{ $description }}">
   {{ if ne hugo.Environment "production" }}

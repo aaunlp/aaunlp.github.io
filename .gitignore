@@ -1,9 +1,11 @@
-# IDEs
-.idea/
-
 # Hugo
 /resources/
 public/
-assets/jsconfig.json
+.hugo_build.lock
+
+# Netlify
 .netlify/
+
+# Local tools and operating systems
+.idea/
 .DS_Store

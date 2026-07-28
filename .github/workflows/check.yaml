@@ -14,8 +14,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -23,18 +21,10 @@ jobs:
           hugo-version: '0.135.0'
           extended: true
 
-      - name: Cache Hugo modules
-        uses: actions/cache@v4
-        with:
-          path: /tmp/hugo_cache_runner/
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-          restore-keys: |
-            ${{ runner.os }}-hugomod-
-
       - name: Build development site
         env:
           HUGO_ENVIRONMENT: development
-        run: hugo --gc --minify --buildFuture --baseURL https://preview.invalid/
+        run: hugo --minify --buildFuture --baseURL https://preview.invalid/
 
       - name: Archive development preview
         if: github.event_name == 'pull_request'
@@ -44,7 +34,7 @@ jobs:
           path: public
           retention-days: 3
 
-      - name: Reject inherited template content
+      - name: Reject starter placeholders
         run: |
           ! grep -RIE "Nelson Bighetti|Stanford, CA|test@example.org|World-Class Semiconductor Lab|lorem ipsum" public
 

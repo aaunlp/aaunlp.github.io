@@ -1,48 +1,86 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# AAU NLP
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+[![Check website](https://github.com/aaunlp/aaunlp.github.io/actions/workflows/check.yaml/badge.svg?branch=development)](https://github.com/aaunlp/aaunlp.github.io/actions/workflows/check.yaml)
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+Source for the [AAU NLP research group website](https://aaunlp.github.io/) at Aalborg University in Copenhagen.
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+> **Language is where AI meets the world.**
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+AAU NLP brings together distinct research programmes in natural language processing, computational linguistics, and trustworthy AI. Our work connects across four dimensions:
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+- **Linguistic validity** — how models represent language, meaning, and variation.
+- **Representation and grounding** — how systems encode knowledge and connect outputs to evidence.
+- **System integrity** — how language technology behaves under failure, uncertainty, or attack.
+- **Real-world fit** — how deployment choices affect communities, institutions, and the environment.
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
+The site presents the group's people, research, funded projects, publications, news, and research culture. Our culture is organised around a simple commitment: setting people up for success.
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+## Is this still a Hugo site?
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+Yes. [Hugo](https://gohugo.io/) Extended 0.135.0 remains the static-site generator used in local development, continuous integration, Netlify previews, and the GitHub Pages production build.
 
-## We ask you, humbly, to support this open source movement
+The repository began with the [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group), but the public site is now a custom Hugo implementation:
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+- Principal pages are rendered by local templates in `layouts/`.
+- Group records are maintained as structured YAML in `data/`.
+- Longer page and faculty text lives in `content/`.
+- The visual and interactive layers are custom CSS and JavaScript in `static/`.
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+No external Hugo theme or module is loaded. There is no Go, Node, npm, or asset-compilation step.
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+## Updating the site
 
-## Demo credits
+| Area | Source |
+| --- | --- |
+| People, roles, summaries, and timelines | `data/people.yaml` |
+| Faculty profiles | `content/people/` |
+| Projects and labs | `data/projects.yaml` |
+| Publications | `data/publications.yaml` |
+| News and milestones | `data/news.yaml` |
+| Research-culture values | `data/values.yaml` |
+| Section introductions | `content/` |
+| Page templates and components | `layouts/` |
+| Site styles | `static/css/site.css` |
+| Browser behaviour | `static/js/site.js` |
+| Hugo configuration | `config/_default/` |
 
-Please replace the demo images with your own.
+Do not edit `public/`; it is generated by Hugo and excluded from version control.
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+## Local development
+
+Install:
+
+- Hugo Extended 0.135.0
+
+Start the local server:
+
+```sh
+HUGO_ENVIRONMENT=development hugo server --buildFuture
+```
+
+Hugo will serve the site at `http://localhost:1313/` and rebuild it when source files change.
+
+Before opening a pull request, run the same build used by the development check:
+
+```sh
+HUGO_ENVIRONMENT=development \
+  hugo --minify --buildFuture --baseURL https://preview.invalid/
+```
+
+## Branches and deployment
+
+- `development` is the integration branch. Pushes run the Hugo build and internal-link checks.
+- Pull requests also run the website checks and produce a short-lived build artifact.
+- `main` is the production branch. Pushes build and deploy the site to GitHub Pages.
+- `netlify.toml` supports optional branch and deploy previews; Netlify is not the primary production pipeline.
+
+Keep substantive content and design work on `development` until it has been reviewed.
+
+## Editorial notes
+
+- Preserve the group framing, including “Language is where AI meets the world.”
+- Verify people, project, and publication facts against authoritative records.
+- Link staff portraits from approved public sources rather than committing copied images without permission.
+- Remove inherited starter content instead of adapting it into new pages; the automated check rejects known template placeholders.
+
+The repository retains the upstream theme's MIT notice in [`LICENSE.md`](LICENSE.md).
