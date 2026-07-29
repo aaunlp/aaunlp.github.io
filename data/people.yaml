@@ -95,7 +95,8 @@
     label: At AAU NLP
     start: "2026-06-01"
     start_text: "Jun 2026"
-    end_text: Now
+    end_text: "24 months"
+    horizon_months: 24
     kind: staff
   focus:
     - Trustworthy AI
@@ -114,7 +115,8 @@
     label: At AAU NLP
     start: "2026-05-01"
     start_text: "May 2026"
-    end_text: Now
+    end_text: "12 months"
+    horizon_months: 12
     kind: staff
   focus:
     - Faithful explanations & interpretability
@@ -125,7 +127,7 @@
   slug: marcell-fekete
   initials: MF
   group: PhD Fellows
-  role: PhD Fellow
+  role: PhD Fellow · MML-RPL
   image: "https://vbn.aau.dk/files-asset/841013954/marcell_profile.jpeg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/mrfe/
   timeline:
@@ -145,7 +147,7 @@
   slug: yiyi-chen
   initials: YC
   group: PhD Fellows
-  role: PhD Fellow
+  role: PhD Fellow · MML-RPL
   image: "https://vbn.aau.dk/files-asset/743589182/YiyiChen.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/yiyic/
   timeline:
@@ -243,7 +245,7 @@
   slug: ren-tao
   initials: RT
   group: PhD Fellows
-  role: PhD Fellow
+  role: PhD Fellow · LM²-SEC
   image: "https://vbn.aau.dk/files-asset/822239888/TaoRen.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/taoren/
   timeline:
@@ -262,7 +264,7 @@
   slug: dorielle-lonke
   initials: DL
   group: PhD Fellows
-  role: PhD Fellow
+  role: PhD Fellow · TRUST
   vbn: https://vbn.aau.dk/en/persons/dorielle-lonke/
   timeline:
     label: PhD at AAU NLP
@@ -280,7 +282,7 @@
   slug: davis-davalos-delosh
   initials: DD
   group: Incoming
-  role: Incoming PhD Fellow · September 2026
+  role: Incoming PhD Fellow · TRUST · September 2026
   timeline:
     label: PhD at AAU NLP
     start: "2026-09-01"
@@ -299,7 +301,8 @@
     label: Joining AAU NLP
     start: "2026-09-01"
     start_text: "Starts Sep 2026"
-    end_text: Ongoing
+    end_text: "12 months"
+    horizon_months: 12
     kind: incoming
   summary: Research profile to follow.
 
@@ -307,7 +310,7 @@
   slug: ivaylo-mitov
   initials: IM
   group: Incoming
-  role: Incoming PhD Fellow · October 2026
+  role: Incoming PhD Fellow · LM²-SEC · October 2026
   timeline:
     label: PhD at AAU NLP
     start: "2026-10-01"
@@ -350,7 +353,7 @@
   slug: esther-ploeger
   initials: EP
   group: Alumni
-  role: PhD alumna · 2025
+  role: PhD alumna · MML-RPL · 2025
   alumni_type: PhD
   destination: Postdoctoral Researcher · Utrecht University
   destination_url: https://www.uu.nl/medewerkers/EPloeger

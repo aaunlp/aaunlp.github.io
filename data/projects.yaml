@@ -8,6 +8,8 @@
     - Heather Lent
     - Russa Biswas
     - Esther Ploeger
+    - Ren Tao
+    - Ivaylo Mitov
   themes:
     - Security & privacy
     - Multilingual NLP
@@ -22,6 +24,9 @@
   funder: Independent Research Fund Denmark · Sapere Aude
   amount: DKK 6.19m
   pi: Johannes Bjerva
+  people:
+    - Dorielle Lonke
+    - Davis Davalos-DeLosh
   partners:
     - Stockholm University
     - NVIDIA
