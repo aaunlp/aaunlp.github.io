@@ -36,8 +36,9 @@
     end_text: Now
     kind: faculty
   focus:
-    - Knowledge representation & reasoning
-    - Cultural heritage
+    - Knowledge representation
+    - Factuality and LLM reasoning
+    - Cultural Heritage
   summary: Russa studies how explicit knowledge graphs and learned representations can strengthen one another, with applications in multilingual factuality and cultural heritage.
 
 - name: Dustin Wright
@@ -324,7 +325,7 @@
   slug: lena-pickartz
   initials: LP
   group: Incoming
-  role: Incoming PhD Fellow · 1 September 2026
+  role: Incoming PhD Fellow · AI:PAGE · 1 September 2026
   vbn: https://vbn.aau.dk/en/persons/lepi/
   timeline:
     label: PhD at AAU NLP
@@ -376,7 +377,7 @@
   slug: mike-zhang
   initials: MZ
   group: Alumni
-  role: Postdoctoral alumnus · 2025
+  role: Postdoctoral alumnus · DTAF · 2025
   alumni_type: Postdoc
   completed_postdoc: true
   destination: Postdoctoral Researcher · University of Copenhagen & Pioneer Centre for AI

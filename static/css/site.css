@@ -242,7 +242,7 @@ h3 { font-size: 1.28rem; line-height: 1.25; }
 .snapshot-total > strong { font-family: var(--serif); font-size: clamp(6.5rem, 13vw, 11rem); font-weight: 500; letter-spacing: -.09em; line-height: .72; }
 .snapshot-total h2 { max-width: 260px; margin-bottom: 12px; font-size: clamp(2rem, 4vw, 3.55rem); }
 .snapshot-total p { max-width: 400px; margin-bottom: 3px; color: rgba(255, 255, 255, .72); font-size: .84rem; }
-.snapshot-current { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(3, 1fr); align-self: stretch; background: rgba(12, 9, 31, .22); }
+.snapshot-current { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(4, 1fr); align-self: stretch; background: rgba(12, 9, 31, .22); }
 .snapshot-current article { display: grid; align-content: end; min-height: 285px; padding: clamp(28px, 4vw, 48px) clamp(20px, 3vw, 36px); border-left: 1px solid rgba(255, 255, 255, .18); }
 .snapshot-current strong, .snapshot-pathways strong { font-family: var(--serif); font-size: clamp(2.8rem, 6vw, 5rem); font-weight: 500; line-height: .9; }
 .snapshot-current span { max-width: 130px; margin-top: 15px; color: rgba(255, 255, 255, .76); font-size: .76rem; line-height: 1.35; }
@@ -579,6 +579,9 @@ h3 { font-size: 1.28rem; line-height: 1.25; }
   .profile-hero { grid-template-columns: minmax(190px, .55fr) 1fr; gap: 42px; }
   .publication-filters { grid-template-columns: 1fr 1fr; }
   .publication-filters label:first-child { grid-column: 1 / -1; }
+  .snapshot-current { grid-template-columns: repeat(2, 1fr); }
+  .snapshot-current article { min-height: 215px; }
+  .snapshot-current article:nth-child(n+3) { border-top: 1px solid rgba(255, 255, 255, .18); }
   .snapshot-pathways { grid-template-columns: 1fr; }
   .snapshot-pathways > div { grid-template-columns: repeat(3, 1fr); }
   .snapshot-pathways small { grid-column: 1; margin-top: -16px; padding-left: 0; }

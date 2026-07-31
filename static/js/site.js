@@ -74,6 +74,11 @@
     const cards = [...document.querySelectorAll('[data-publication]')];
     const count = document.querySelector('[data-pub-count]');
     const empty = document.querySelector('[data-pub-empty]');
+    const requestedFaculty = new URLSearchParams(window.location.search).get('faculty');
+
+    if (requestedFaculty && [...faculty.options].some((option) => option.value === requestedFaculty)) {
+      faculty.value = requestedFaculty;
+    }
 
     const applyFilters = () => {
       const query = search.value.trim().toLowerCase();
@@ -92,5 +97,6 @@
 
     filters.addEventListener('input', applyFilters);
     filters.addEventListener('change', applyFilters);
+    applyFilters();
   }
 })();

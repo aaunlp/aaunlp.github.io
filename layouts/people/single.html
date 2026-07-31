@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{ $publicationFaculty := .Params.publication_faculty | default .Title }}
+{{ $publicationURL := printf "%s?faculty=%s" ("publications/" | relURL) ($publicationFaculty | urlquery) }}
 <article class="profile-page">
   <header class="profile-hero shell">
     <div class="profile-image" data-portrait-wrap>
@@ -38,7 +40,7 @@
     <p class="eyebrow">Supervision and collaboration</p>
     <h2>Questions worth working on</h2>
     <p class="lede">{{ .Params.supervision }}</p>
-    <div class="button-row"><a class="button button-primary" href="mailto:{{ .Params.email }}">Contact {{ .Title }}</a><a class="button button-secondary" href="{{ "publications/" | relURL }}">Browse all publications</a></div>
+    <div class="button-row"><a class="button button-primary" href="mailto:{{ .Params.email }}">Contact {{ .Title }}</a><a class="button button-secondary" href="{{ $publicationURL | safeURL }}">Browse all publications</a></div>
   </section>
 </article>
 {{ end }}

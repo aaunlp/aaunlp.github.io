@@ -1,6 +1,8 @@
 {{ define "main" }}
 {{ $faculty := where site.Data.people "group" "Faculty" }}
 {{ $researchStaff := where site.Data.people "group" "Research Staff" }}
+{{ $postdocs := where $researchStaff "staff_type" "Postdoc" }}
+{{ $researchAssistants := where $researchStaff "staff_type" "Research Assistant" }}
 {{ $phds := where site.Data.people "group" "PhD Fellows" }}
 {{ $incoming := where site.Data.people "group" "Incoming" }}
 {{ $phdGraduates := where site.Data.people "alumni_type" "PhD" }}
@@ -24,7 +26,8 @@
     </div>
     <div class="snapshot-current" aria-label="Current members by role">
       <article><strong>{{ len $faculty }}</strong><span>Faculty</span></article>
-      <article><strong>{{ len $researchStaff }}</strong><span>Research staff</span></article>
+      <article><strong>{{ len $postdocs }}</strong><span>{{ if eq (len $postdocs) 1 }}Postdoc{{ else }}Postdocs{{ end }}</span></article>
+      <article><strong>{{ len $researchAssistants }}</strong><span>{{ if eq (len $researchAssistants) 1 }}Research assistant{{ else }}Research assistants{{ end }}</span></article>
       <article><strong>{{ len $phds }}</strong><span>PhD fellows</span></article>
     </div>
     <div class="snapshot-pathways">
