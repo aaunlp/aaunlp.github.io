@@ -11,7 +11,7 @@
 <section class="page-hero">
   <div class="shell page-hero-grid">
     <div><p class="eyebrow">People</p><h1>Distinct researchers. A shared intellectual home.</h1></div>
-    <div><p class="lede">AAU NLP brings together linguistics, semantics, machine learning, knowledge representation, security, privacy, sustainability, and domain expertise.</p><p>Faculty develop independent research programmes and collaborate where questions genuinely connect. Researchers at every career stage are expected to develop their own scientific judgement—with structure, feedback, and support around them.</p></div>
+    <div><p class="lede">AAU NLP brings together linguistics, formal semantics, machine learning, knowledge representation, security, privacy, sustainability, and domain expertise.</p><p>Faculty develop independent research programmes and collaborate where research questions intersect. Researchers at every career stage are expected to develop their own scientific judgement—with structure, feedback, and support around them.</p></div>
   </div>
 </section>
 
@@ -45,7 +45,7 @@
 <section class="section shell">
   <div class="section-heading split-heading">
     <div><p class="eyebrow">Faculty</p><h2>Four research programmes</h2></div>
-    <p>Comparable prominence here is deliberate: group leadership provides a shared framework, while each faculty member contributes an independent intellectual direction.</p>
+    <p>Group leadership provides a shared framework, while each faculty member contributes an independent intellectual direction.</p>
   </div>
   <div class="faculty-grid">
     {{ range $faculty }}{{ partial "person-card.html" . }}{{ end }}
@@ -67,7 +67,7 @@
 <section class="section shell">
   <div class="section-heading split-heading">
     <div><p class="eyebrow">Doctoral research</p><h2>PhD fellows</h2></div>
-    <p>Our PhD researchers work across multilingual evaluation, model security, factuality, knowledge, finance, and the linguistic analysis of AI. The bars show verified starts against a three-year period; a fourth-year extension is shown only where someone has passed that point.</p>
+    <p>Our PhD researchers work across multilingual evaluation, model security, factuality, knowledge, finance, and the linguistic analysis of AI.</p>
   </div>
   <div class="people-grid">
     {{ range $phds }}{{ partial "person-card.html" . }}{{ end }}
@@ -77,7 +77,7 @@
 <section class="section shell">
   <div class="section-heading split-heading">
     <div><p class="eyebrow">Next cohort</p><h2>Incoming members</h2></div>
-    <p>Appointments and start dates shown here come from current AAU records or have been confirmed for the group. Research profiles will be added as members arrive.</p>
+    <p>As our group is continuing to grow and expand, we are excited to welcome the following members in the coming months:</p>
   </div>
   <div class="incoming-grid">
     {{ range $incoming }}
@@ -97,7 +97,7 @@
   <div class="shell">
     <div class="section-heading split-heading">
       <div><p class="eyebrow">Alumni</p><h2>Work that continues beyond the group</h2></div>
-      <p>We record completed group roles clearly, follow where alumni continue their work, and celebrate the research developed at AAU NLP.</p>
+      <p>We celebrate our alumni and their continued work beyond AAU NLP, and follow along as they advance in their careers.</p>
     </div>
     <div class="people-grid compact-people">
       {{ range where site.Data.people "group" "Alumni" }}{{ partial "person-card.html" . }}{{ end }}
