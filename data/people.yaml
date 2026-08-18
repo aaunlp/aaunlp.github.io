@@ -120,9 +120,9 @@
     horizon_months: 12
     kind: staff
   focus:
-    - Faithful explanations & interpretability
-    - Language-model reasoning
-  summary: Yingming works on faithful and interpretable language models, including methods that let models critique and improve their own natural-language explanations.
+    - Safety & Security
+    - Interpretability
+  summary: Yingming studies the trustworthiness of LLMs and LLM-based agents, with particular attention to linguistically motivated approaches.
 
 - name: Marcell Richard Fekete
   slug: marcell-fekete
@@ -160,9 +160,10 @@
     extension_months: 12
     kind: phd
   focus:
-    - Embedding inversion & memorisation
-    - Multilingual security
-  summary: Yiyi studies multilingual language-model security through embedding inversion and memorisation, with particular attention to linguistic similarity.
+    - LLM Security
+    - Embedding Inversion
+    - Multilinguality
+  summary: Yiyi researches security vulnerabilities such as embedding inversion on multilingual and multimodal language models, and in a broader context of multilingual NLP.
 
 - name: Ernests Lavrinovics
   slug: ernests-lavrinovics
@@ -277,7 +278,7 @@
   focus:
     - Linguistic analysis
     - Responsible AI discourse
-  summary: Dorielle studies linguistically grounded ways to understand how AI systems and AI research are described, including anthropomorphic language.
+  summary: Dorielle studies linguistically grounded methods for the development and critical assessment of interpretable, trustworthy and safe AI systems.
 
 - name: Davis Davalos-DeLosh
   slug: davis-davalos-delosh
