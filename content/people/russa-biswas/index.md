@@ -1,7 +1,7 @@
 ---
 title: Russa Biswas
 role: Tenure-Track Assistant Professor · Co-director, AI:PAGE-Lab
-image: "https://vbn.aau.dk/files-asset/742945141/RussaBiswas.jpg?f=jpg&w=480"
+image: "https://vbn.aau.dk/files-asset/850518732/Russa.png?w=480&f=jpg"
 initials: RB
 email: rubi@cs.aau.dk
 vbn: https://vbn.aau.dk/en/persons/rubi/
