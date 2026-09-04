@@ -1,13 +1,13 @@
 - date: 2026-09-04
   label: People
   title: Six new researchers join AAU NLP
-  text: Since 1 June, Ren Tao, Anahita Baninajjar, Dorielle Lonke, Anna Lackner, Davis Davalos-DeLosh, and Lena Pickartz have joined the group, strengthening our work on trustworthy AI and language-model security.
+  text: Since 1 June, Ren Tao, Anahita Baninajjar, Dorielle Lonke, Anna Lackner, Davis Davalos-DeLosh, and Lena Pickartz have joined the group, strengthening our work in linguistics, trustworthy AI, and language-model security.
   url: /people/
 
 - date: 2026-08-24
   label: Publications
   title: Five papers at EMNLP 2026
-  text: Four Main Conference papers cover transition-based language similarity; information structure in vision-language models; few-shot semantic recovery from image embeddings; and Dustin Wright's What and Whose Knowledge?, which finds progress in epistemic diversity across model generations but persistent gaps against search. TBLS is Tao's first paper, while the next two are Marcell's and Yiyi's final PhD papers. QQ, a language-metadata toolkit for multilingual NLP, was accepted to the System Demonstrations track.
+  text: Four Main Conference papers span multilingual language modelling, vision-language models, embedding security, and epistemic diversity. They include Tao's first paper and the final PhD thesis papers for Marcell and Yiyi. A fifth contribution was accepted to the System Demonstrations track.
   url: https://bjerva.github.io/publications/
 
 - date: 2026-05-01
