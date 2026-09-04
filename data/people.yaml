@@ -94,8 +94,8 @@
   vbn: https://vbn.aau.dk/en/persons/anaban/
   timeline:
     label: At AAU NLP
-    start: "2026-06-01"
-    start_text: "Jun 2026"
+    start: "2026-07-01"
+    start_text: "Jul 2026"
     end_text: "24 months"
     horizon_months: 24
     kind: staff
@@ -200,9 +200,9 @@
     horizon_months: 36
     kind: phd
   focus:
-    - NLP for finance
-    - Factual extraction
-  summary: Rasmus develops reliable methods for extracting financial KPIs from earnings reports, with explicit attention to factuality and hierarchical structure.
+    - linguistics and NLP
+    - AI evaluation
+  summary: Rasmus researches ways to verify KPI extraction, particularly numerical claims. This work is grounded in spoken dialogue such as earnings calls.
 
 - name: Josephine Marie Bakka
   slug: josephine-bakka
@@ -241,7 +241,7 @@
     - Memorisation
     - Security & privacy
     - Multilingual LLMs
-  summary: Xiaoyu studies neural-network memorisation, privacy leakage, adversarial learning, and multilingual security in generative language models.
+  summary: Xiaoyu studies neural-network memorisation, privacy leakage, and multilingual security in generative language models.
 
 - name: Ren Tao
   slug: ren-tao
@@ -276,8 +276,8 @@
     horizon_months: 36
     kind: phd
   focus:
-    - Linguistic analysis
-    - Responsible AI discourse
+    - linguistics and NLP
+    - AI evaluation
   summary: Dorielle studies linguistically grounded methods for the development and critical assessment of interpretable, trustworthy and safe AI systems.
 
 - name: Davis Davalos-DeLosh
