@@ -84,6 +84,25 @@
     - Responsible security
   summary: Heather develops community-grounded language technology for Creole and other lower-resourced languages, spanning multilingual evaluation, machine translation, data quality, security, and research ethics.
 
+- name: Xikun Jiang
+  slug: xikun-jiang
+  initials: XJ
+  group: Faculty
+  role: Assistant Professor · Joint affiliation with Formal Methods for Security & Privacy
+  image: "https://vbn.aau.dk/files-asset/833910177/Xikun_profile.png?f=jpg&w=480"
+  vbn: https://vbn.aau.dk/en/persons/xji/
+  timeline:
+    label: At AAU
+    start: "2026-05-01"
+    start_text: "May 2026"
+    end_text: Now
+    kind: faculty
+  focus:
+    - Trustworthy AI
+    - Privacy-preserving ML
+    - AI verification
+  summary: Xikun develops trustworthy and responsible AI, with a focus on privacy-preserving methods and AI verification for secure and reliable systems.
+
 - name: Anahita Baninajjar
   slug: anahita-baninajjar
   initials: AB
@@ -283,29 +302,30 @@
 - name: Davis Davalos-DeLosh
   slug: davis-davalos-delosh
   initials: DD
-  group: Incoming
-  role: Incoming PhD Fellow · TRUST · September 2026
+  group: PhD Fellows
+  role: PhD Fellow · TRUST
   timeline:
     label: PhD at AAU NLP
     start: "2026-09-01"
-    start_text: "Starts Sep 2026"
+    start_text: "Sep 2026"
     end_text: "3 years"
     horizon_months: 36
-    kind: incoming
+    kind: phd
   summary: Research profile to follow.
 
 - name: Anna Lackner
   slug: anna-lackner
   initials: AL
-  group: Incoming
-  role: Incoming Research Assistant · September 2026
+  group: Research Staff
+  role: Research Assistant
+  staff_type: Research Assistant
   timeline:
-    label: Joining AAU NLP
+    label: At AAU NLP
     start: "2026-09-01"
-    start_text: "Starts Sep 2026"
+    start_text: "Sep 2026"
     end_text: "12 months"
     horizon_months: 12
-    kind: incoming
+    kind: staff
   summary: Research profile to follow.
 
 - name: Ivaylo Mitov
@@ -325,16 +345,16 @@
 - name: Lena Pickartz
   slug: lena-pickartz
   initials: LP
-  group: Incoming
-  role: Incoming PhD Fellow · AI:PAGE · 1 September 2026
+  group: PhD Fellows
+  role: PhD Fellow · AI:PAGE
   vbn: https://vbn.aau.dk/en/persons/lepi/
   timeline:
     label: PhD at AAU NLP
     start: "2026-09-01"
-    start_text: "Starts 1 Sep 2026"
+    start_text: "Sep 2026"
     end_text: "3 years"
     horizon_months: 36
-    kind: incoming
+    kind: phd
   summary: Research profile to follow.
 
 - name: Luc Raszewski
