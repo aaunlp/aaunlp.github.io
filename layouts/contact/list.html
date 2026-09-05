@@ -1,36 +1,41 @@
 {{ define "main" }}
-<section class="page-hero contact-hero">
+<section class="page-hero collaboration-hero">
   <div class="shell page-hero-grid">
-    <div><p class="eyebrow">Contact</p><h1>Contact AAU NLP</h1></div>
-    <div><p class="lede">For research collaboration, visits, media enquiries, or group-level questions, contact the group leader. For supervision and topic-specific enquiries, contact the faculty member whose work is the closest fit.</p></div>
+    <div><p class="eyebrow">European research partnerships</p><h1>Collaborate with <span>AAU NLP</span></h1></div>
+    <div><p class="lede">We welcome research partnerships on language technology, especially LLM security and factuality.</p><p>We are interested in contributing to Horizon Europe consortia and developing MSCA proposals with research partners and prospective fellows.</p><div class="button-row"><a class="button button-primary" href="#discuss">Discuss a collaboration</a><a class="text-link" href="#funding-routes">Explore the routes ↓</a></div></div>
   </div>
 </section>
 
-<section class="section shell contact-grid">
-  <article class="contact-card contact-primary">
-    <p class="eyebrow">Group contact</p>
-    <h2>Johannes Bjerva</h2>
-    <p>Professor of Natural Language Processing<br>Group Leader, AAU NLP</p>
-    <a class="button button-primary" href="mailto:jbjerva@cs.aau.dk">jbjerva@cs.aau.dk</a>
-  </article>
-  <article class="contact-card">
-    <p class="eyebrow">Visit</p>
-    <h2>AAU Copenhagen</h2>
-    <address>A.C. Meyers Vænge 15<br>2450 København SV<br>Denmark</address>
-    <a class="text-link" href="https://www.openstreetmap.org/search?query=A.C.%20Meyers%20V%C3%A6nge%2015%2C%202450%20K%C3%B8benhavn">Open map ↗</a>
-  </article>
-  <article class="contact-card">
-    <p class="eyebrow">Official records</p>
-    <h2>Research portal</h2>
-    <p>Profiles, projects, research output, and institutional affiliations are maintained on Aalborg University's VBN portal.</p>
-    <a class="text-link" href="https://vbn.aau.dk/en/organisations/natural-language-processing/">AAU NLP on VBN ↗</a>
-  </article>
+<section class="section shell" aria-labelledby="contributions-heading">
+  <div class="section-heading split-heading"><div><p class="eyebrow">Research contributions</p><h2 id="contributions-heading">What we could contribute</h2></div><p>These are examples of work we could develop with partners. The linked projects and papers show the research behind them.</p></div>
+  <div class="contribution-grid">
+    {{ range site.Data.collaboration.contributions }}
+      <article class="contribution contribution-{{ .tone }}"><h3>{{ .title }}</h3><p>{{ .description }}</p><div class="contribution-links">{{ range .links }}<a href="{{ .url | relURL }}">{{ .label }} →</a>{{ end }}</div></article>
+    {{ end }}
+  </div>
 </section>
 
-<section class="section section-tint">
-  <div class="shell contact-note">
-    <div><p class="eyebrow">Students and prospective researchers</p><h2>Contact the closest research fit</h2></div>
-    <div><p>For a thesis or research project, contact a faculty member whose interests match yours. Funded positions are advertised on AAU’s official vacancy portal.</p><div class="button-row"><a class="button button-secondary" href="{{ "people/#faculty" | relURL }}">Faculty profiles</a><a class="button button-secondary" href="https://www.vacancies.aau.dk/">AAU vacancies ↗</a></div></div>
+<section class="section section-tint" id="funding-routes" aria-labelledby="routes-heading">
+  <div class="shell">
+    <div class="section-heading split-heading"><div><p class="eyebrow">Funding routes</p><h2 id="routes-heading">Ways to work together</h2></div><p>We welcome early discussions while the research idea can still take shape. The MSCA schemes below are part of Horizon Europe.</p></div>
+    <div class="funding-route-grid">
+      {{ range site.Data.collaboration.routes }}
+        <article class="funding-route" id="{{ .id }}"><p class="eyebrow">{{ .audience }}</p><h3>{{ .title }}</h3><p>{{ .description }}</p><p class="route-detail">{{ .detail }}</p><a class="text-link" href="{{ .url }}">{{ .link_label }} ↗</a></article>
+      {{ end }}
+    </div>
+    <p class="funding-note">See the official programme pages for current calls and eligibility requirements.</p>
   </div>
+</section>
+
+<section class="section shell" id="discuss" aria-labelledby="discuss-heading">
+  <div class="collaboration-contact">
+    <div><p class="eyebrow">Start a conversation</p><h2 id="discuss-heading">What would you like to investigate?</h2><p>Send a brief outline of the research idea and the role you have in mind for AAU NLP. Include the call identifier and deadline if you have them.</p><p>For fellowship enquiries, tell us how your idea connects to the work of a potential supervisor.</p></div>
+    <div class="collaboration-contact-person"><h3>Johannes Bjerva</h3><p>Professor of Natural Language Processing<br>Group Leader, AAU NLP</p><a class="button button-light" href="mailto:jbjerva@cs.aau.dk?subject=Research%20collaboration%20with%20AAU%20NLP">Email Johannes</a><a class="collaboration-email" href="mailto:jbjerva@cs.aau.dk">jbjerva@cs.aau.dk</a><a class="collaboration-faculty" href="{{ "people/#faculty" | relURL }}">Meet potential supervisors →</a></div>
+  </div>
+</section>
+
+<section class="section shell collaboration-details" aria-label="Other enquiries and visiting">
+  <article><p class="eyebrow">Students and other enquiries</p><h2>Get in touch</h2><p>For thesis supervision, contact the faculty member closest to your interests. Funded positions are advertised on AAU’s <a href="https://www.vacancies.aau.dk/">vacancy portal</a>. For media enquiries or group-level questions, contact Johannes.</p></article>
+  <article><p class="eyebrow">Visit</p><h2>AAU Copenhagen</h2><address>A.C. Meyers Vænge 15<br>2450 København SV, Denmark</address><div class="contribution-links"><a href="https://www.openstreetmap.org/search?query=A.C.%20Meyers%20V%C3%A6nge%2015%2C%202450%20K%C3%B8benhavn">Open map ↗</a><a href="https://vbn.aau.dk/en/organisations/natural-language-processing/">AAU research portal ↗</a></div></article>
 </section>
 {{ end }}

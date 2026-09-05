@@ -38,6 +38,7 @@ No external Hugo theme or module is loaded. There is no Go, Node, npm, or asset-
 | Publications | `data/publications.yaml` |
 | News and milestones | `data/news.yaml` |
 | Research-culture values | `data/values.yaml` |
+| Collaboration contributions and funding routes | `data/collaboration.yaml` |
 | Section introductions | `content/` |
 | Page templates and components | `layouts/` |
 | Site styles | `static/css/site.css` |
@@ -90,5 +91,7 @@ Project `slug` fields provide stable links from profiles and research pages. ISO
 Use `featured: true` and `feature_order` to curate the homepage deliberately. Projects marked `priority: true` appear first on the Projects page, in data order. Publication filters derive their options from the records. Papers without a faculty coauthor use `faculty: []` and remain available in the unfiltered list and author search. Link accepted papers to their camera-ready versions until proceedings appear.
 
 People's roster categories remain editorial decisions. Timeline lengths update with elapsed time, but never change someone's appointment or infer graduation.
+
+The Collaborate page retains the `/contact/` URL. Keep its contributions linked to specific group research, and describe partnership or fellowship hosting as an invitation to discuss fit. Link funding routes to official programme guidance rather than maintaining call deadlines or detailed eligibility rules on the site.
 
 The repository retains the upstream theme's MIT notice in [`LICENSE.md`](LICENSE.md).
