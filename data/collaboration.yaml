@@ -1,11 +1,15 @@
 contributions:
   - title: LLM security
     tone: purple
-    description: Investigate privacy leakage and model vulnerabilities, and develop security evaluations grounded in language.
+    description: Evaluate security across languages and investigate privacy leakage through embedding inversion. Develop linguistically grounded methods to detect poisoned or tampered models.
     links:
-      - label: Security projects
+      - label: TRUST · model integrity
+        url: /projects/#trust
+      - label: LM²-SEC · multilingual security
         url: /projects/#lm2-sec
-      - label: Security research
+      - label: Embedding inversion · ACL 2024
+        url: https://aclanthology.org/2024.acl-long.422/
+      - label: Heather Lent’s research
         url: /people/heather-lent/
   - title: Factuality and evidence
     tone: blue

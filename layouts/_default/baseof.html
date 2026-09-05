@@ -4,14 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ $description := .Description | default site.Params.description }}
-  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · AAU NLP{{ end }}</title>
+  {{ $title := site.Title }}
+  {{ if not .IsHome }}{{ $title = printf "%s · AAU NLP" .Title }}{{ end }}
+  {{ with .Params.seo_title }}{{ $title = . }}{{ end }}
+  <title>{{ $title }}</title>
   <meta name="description" content="{{ $description }}">
   {{ if ne hugo.Environment "production" }}
     <meta name="robots" content="noindex, nofollow">
   {{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
   <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-  <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · AAU NLP{{ end }}">
+  <meta property="og:title" content="{{ $title }}">
   <meta property="og:description" content="{{ $description }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:image" content="{{ "images/site/aau-copenhagen.webp" | absURL }}">
@@ -21,7 +24,7 @@
   <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
   <script>document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';try{const t=localStorage.getItem('aau-nlp-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}</script>
   <noscript><style>[data-nav]{display:flex!important;position:static!important;flex-wrap:wrap}[data-nav-toggle],[data-theme-toggle]{display:none!important}.header-inner{flex-wrap:wrap}</style></noscript>
-  <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "ResearchOrganization" "name" "AAU NLP" "alternateName" "Natural Language Processing at Aalborg University" "url" site.BaseURL "parentOrganization" (dict "@type" "CollegeOrUniversity" "name" "Aalborg University" "url" "https://www.aau.dk/") "address" (dict "@type" "PostalAddress" "streetAddress" "A.C. Meyers Vænge 15" "postalCode" "2450" "addressLocality" "København SV" "addressCountry" "DK") | jsonify | safeJS }}</script>
+  {{ partial "organization-schema.html" . }}
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>

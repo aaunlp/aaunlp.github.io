@@ -10,4 +10,6 @@ disableKinds:
   - rss
 
 params:
-  description: The Natural Language Processing research group at Aalborg University Copenhagen develops linguistically grounded language technology for trustworthy and inclusive AI.
+  description: AAU NLP researches trustworthy language AI at Aalborg University in Copenhagen, Denmark, connecting multilingual NLP and knowledge representation with security and factuality.
+  organization_url: https://aaunlp.github.io/
+  organization_profile: https://vbn.aau.dk/en/organisations/natural-language-processing/
