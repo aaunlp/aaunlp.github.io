@@ -1,0 +1,27 @@
+{{- /* Keep the organisation identity stable across production and preview hosts. */ -}}
+{{- $organization := dict
+  "@context" "https://schema.org"
+  "@type" "ResearchOrganization"
+  "@id" (printf "%s#organization" site.Params.organization_url)
+  "name" "AAU NLP"
+  "alternateName" "Natural Language Processing at Aalborg University"
+  "url" site.Params.organization_url
+  "description" site.Params.description
+  "sameAs" (slice site.Params.organization_profile)
+  "parentOrganization" (dict
+    "@type" "CollegeOrUniversity"
+    "name" "Aalborg University"
+    "url" "https://www.aau.dk/")
+  "address" (dict
+    "@type" "PostalAddress"
+    "streetAddress" "A.C. Meyers Vænge 15"
+    "postalCode" "2450"
+    "addressLocality" "København SV"
+    "addressCountry" "DK")
+  "contactPoint" (dict
+    "@type" "ContactPoint"
+    "contactType" "Research collaborations"
+    "email" "jbjerva@cs.aau.dk"
+    "url" (printf "%scontact/#discuss" site.Params.organization_url))
+-}}
+<script type="application/ld+json">{{ $organization | jsonify | safeJS }}</script>

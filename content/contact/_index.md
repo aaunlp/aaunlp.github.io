@@ -1,4 +1,5 @@
 ---
 title: Collaborate
-description: Explore European research partnerships with AAU NLP in Copenhagen, including Horizon Europe consortia and MSCA proposals on LLM security, factuality and multilingual NLP.
+seo_title: LLM Security Research Partnerships in Denmark | AAU NLP
+description: Partner with AAU NLP in Copenhagen, Denmark on trustworthy language AI, including LLM security and factuality. Explore Horizon Europe and MSCA collaborations.
 ---

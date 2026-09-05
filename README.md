@@ -94,4 +94,12 @@ People's roster categories remain editorial decisions. Timeline lengths update w
 
 The Collaborate page retains the `/contact/` URL. Keep its contributions linked to specific group research, and describe partnership or fellowship hosting as an invitation to discuss fit. Link funding routes to official programme guidance rather than maintaining call deadlines or detailed eligibility rules on the site.
 
+### Search and organisation identity
+
+Keep **trustworthy language AI** as the group umbrella, with concrete research topics and evidence beneath it. Page front matter may set `seo_title` independently of navigation labels and visible headings; it controls both the HTML title and Open Graph title. Keep descriptions specific to the page.
+
+`organization_url` and `organization_profile` in the Hugo configuration identify the public group website and its verified VBN record. The organisation's structured data uses that stable identity even on preview hosts. Its description and collaboration contact must match the visible site.
+
+Production `robots.txt` allows crawling and advertises the sitemap. Preview builds retain `noindex` metadata and do not advertise a sitemap in `robots.txt`; crawlers must be able to read the page to see `noindex`. After publishing a discovery update to `main`, a verified site owner can submit `https://aaunlp.github.io/sitemap.xml` in Google Search Console and Bing Webmaster Tools and request a recrawl of the homepage and `/contact/`. These account actions are separate from a repository push. Check relevant AAU and VBN records for links to the group site and collaboration page; changes to those records require their own editing access.
+
 The repository retains the upstream theme's MIT notice in [`LICENSE.md`](LICENSE.md).
