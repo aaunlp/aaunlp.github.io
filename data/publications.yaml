@@ -1,3 +1,24 @@
+- title: "What and Whose Knowledge? Measuring Epistemic Diversity in Large Language Models"
+  authors: "Dustin Wright, Sarah Masud, Jared Moore, Srishti Yadav, Maria Antoniak, Peter Ebert Christensen, Chan Young Park, and Isabelle Augenstein"
+  venue: "EMNLP 2026 · Accepted"
+  year: 2026
+  type: Conference paper
+  url: https://arxiv.org/abs/2510.04226v7
+  faculty: [Dustin Wright]
+  themes: ["Communities, Domains & Consequences", "Factuality, Reliability & Evaluation"]
+  impact: "Measures the diversity of claims in language-model outputs across topics and cultural contexts."
+  featured: true
+  feature_order: 2
+
+- title: "QQ: A Language Metadata Toolkit for Multilingual NLP"
+  authors: "Wessel Poelman, Yiyi Chen, and Miryam de Lhoneux"
+  venue: "EMNLP 2026 · System Demonstrations · Accepted"
+  year: 2026
+  type: Demonstration paper
+  url: https://arxiv.org/abs/2603.00620v3
+  faculty: []
+  themes: ["Multilingual & Lower-Resource NLP", "Language, Meaning & Typology"]
+
 - title: "TBLS: Transition-Based Language Similarity through Activation Perturbation"
   authors: "Tao Ren, Johannes Bjerva, and Qiongxiu Li"
   venue: "EMNLP 2026"
@@ -7,7 +28,6 @@
   faculty: [Johannes Bjerva]
   themes: ["Multilingual & Lower-Resource NLP", "Language, Meaning & Typology"]
   impact: "Measures language similarity through perturbation-induced cross-lingual transitions, finding stable structure across multilingual models and datasets."
-  featured: true
 
 - title: "When Discourse Pressures Conflict: Information Structure in Vision-Language Model Outputs"
   authors: "Marcell Fekete, Johannes Bjerva, and Tamás Káldi"
@@ -19,6 +39,7 @@
   themes: ["Language, Meaning & Typology", "Factuality, Reliability & Evaluation"]
   impact: "Shows that vision-language models respond to discourse context in Hungarian but compress interacting information-structural pressures into narrow patterns."
   featured: true
+  feature_order: 6
 
 - title: "Few-shot Semantic Recovery Attacks on Image Embeddings"
   authors: "Yiyi Chen, Qiongkai Xu, and Johannes Bjerva"
@@ -29,7 +50,6 @@
   faculty: [Johannes Bjerva]
   themes: ["Security, Privacy & Safety"]
   impact: "Introduces a few-shot black-box method for recovering captions and sensitive attributes from image embeddings, and tests the utility cost of current defences."
-  featured: true
 
 - title: "Do LLMs Really Memorize Personally Identifiable Information? Revisiting PII Leakage with a Cue-Controlled Memorization Framework"
   authors: "Xiaoyu Luo, Yiyi Chen, Qiongxiu Li, and Johannes Bjerva"
@@ -41,6 +61,7 @@
   themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
   impact: "Separates genuine memorisation from reconstruction enabled by lexical cues across 32 languages, tightening the evidential standard for claims about PII leakage."
   featured: true
+  feature_order: 4
 
 - title: "MultiHal: Multilingual Dataset for Knowledge-Graph Grounded Evaluation of LLM Hallucinations"
   authors: "Ernests Lavrinovics, Russa Biswas, Katja Hose, and Johannes Bjerva"
@@ -52,6 +73,7 @@
   themes: ["Knowledge, Evidence & Reasoning", "Multilingual & Lower-Resource NLP"]
   impact: "Builds a multilingual multihop benchmark from 25,900 curated knowledge-graph paths for evaluating and reducing hallucinations."
   featured: true
+  feature_order: 5
 
 - title: "How Good is Your Wikipedia? Auditing Data Quality for Low-resource and Multilingual NLP"
   authors: "Kushal Tatariya, Artur Kulmizev, Wessel Poelman, Esther Ploeger, Marcel Bollmann, Johannes Bjerva, Jiaming Luo, Heather Lent, and Miryam de Lhoneux"
@@ -62,7 +84,6 @@
   faculty: [Johannes Bjerva, Heather Lent]
   themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
   impact: "Audits all non-English Wikipedia editions and shows why data quality—not language coverage alone—must be a first-class concern in multilingual NLP."
-  featured: true
 
 - title: "Stress Testing Factual Consistency Metrics for Long-Document Summarization"
   authors: "Zain Muhammad Mujahid, Dustin Wright, and Isabelle Augenstein"
@@ -73,7 +94,6 @@
   faculty: [Dustin Wright]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
   impact: "Demonstrates that commonly used factual-consistency metrics are brittle under controlled changes to long-document summaries."
-  featured: true
 
 - title: "Follow the Path: Reasoning over Knowledge Graph Paths to Improve Large Language Model Factuality"
   authors: "Mike Zhang, Johannes Bjerva, and Russa Biswas"
@@ -84,7 +104,6 @@
   faculty: [Johannes Bjerva, Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
   impact: "Grounds reasoning traces in knowledge-graph paths, improving factual question answering particularly for smaller models and multihop questions."
-  featured: true
 
 - title: "A Principled Framework for Evaluating on Typologically Diverse Languages"
   authors: "Esther Ploeger, Wessel Poelman, Andreas Holck Høeg-Petersen, Anders Schlichtkrull, Miryam de Lhoneux, and Johannes Bjerva"
@@ -132,6 +151,7 @@
   themes: ["Security, Privacy & Safety", "Communities, Domains & Consequences"]
   impact: "Audits ethical practice in NLP security and develops concrete guidance for harm minimisation and responsible disclosure."
   featured: true
+  feature_order: 1
 
 - title: "Shared Path: Unraveling Memorization in Multilingual LLMs through Language Similarities"
   authors: "Xiaoyu Luo, Yiyi Chen, Johannes Bjerva, and Qiongxiu Li"
@@ -411,6 +431,9 @@
   url: https://doi.org/10.3233/SW-222960
   faculty: [Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning"]
+  featured: true
+  feature_order: 3
+  impact: "Combines graph paths with entity descriptions to predict missing links in knowledge graphs."
 
 - title: "LLM Tropes: Revealing Fine-Grained Values and Opinions in Large Language Models"
   authors: "Dustin Wright, Arnav Arora, Nadav Borenstein, Srishti Yadav, Serge Belongie, and Isabelle Augenstein"

@@ -1,0 +1,5 @@
+{{ $projects := slice }}
+{{ range site.Data.projects }}
+  {{ if ne (partial "project-status.html" .) "completed" }}{{ $projects = $projects | append . }}{{ end }}
+{{ end }}
+{{ return $projects }}

@@ -1,4 +1,4 @@
 ---
 title: Research
-description: Four dimensions of trustworthy language technology spanning linguistic validity, knowledge representation and grounding, system integrity, and real-world fit.
+description: Research on language and meaning, knowledge representation, AI security, and language technology in use.
 ---

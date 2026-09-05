@@ -19,7 +19,8 @@
   <meta name="theme-color" content="#f7f4ef">
   <link rel="icon" type="image/png" href="{{ "images/site/aau-nlp-mark.png" | relURL }}">
   <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
-  <script>try{const t=localStorage.getItem('aau-nlp-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <script>document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';try{const t=localStorage.getItem('aau-nlp-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}</script>
+  <noscript><style>[data-nav]{display:flex!important;position:static!important;flex-wrap:wrap}[data-nav-toggle],[data-theme-toggle]{display:none!important}.header-inner{flex-wrap:wrap}</style></noscript>
   <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "ResearchOrganization" "name" "AAU NLP" "alternateName" "Natural Language Processing at Aalborg University" "url" site.BaseURL "parentOrganization" (dict "@type" "CollegeOrUniversity" "name" "Aalborg University" "url" "https://www.aau.dk/") "address" (dict "@type" "PostalAddress" "streetAddress" "A.C. Meyers Vænge 15" "postalCode" "2450" "addressLocality" "København SV" "addressCountry" "DK") | jsonify | safeJS }}</script>
 </head>
 <body>

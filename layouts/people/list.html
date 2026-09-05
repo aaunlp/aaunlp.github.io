@@ -10,10 +10,12 @@
 {{ $currentCount := add (len $faculty) (add (len $researchStaff) (len $phds)) }}
 <section class="page-hero">
   <div class="shell page-hero-grid">
-    <div><p class="eyebrow">People</p><h1>Distinct researchers. A shared intellectual home.</h1></div>
-    <div><p class="lede">AAU NLP brings together linguistics, formal semantics, machine learning, knowledge representation, security, privacy, sustainability, and domain expertise.</p><p>Faculty develop independent research programmes and collaborate where research questions intersect. Researchers at every career stage are expected to develop their own scientific judgement—with structure, feedback, and support around them.</p></div>
+    <div><p class="eyebrow">People</p><h1>People at AAU NLP</h1></div>
+    <div><p class="lede">Meet the researchers at Aalborg University Copenhagen working on language technology.</p><p>Our group includes faculty, research staff and PhD fellows. Follow a profile to find research interests and contact details.</p></div>
   </div>
 </section>
+
+<nav class="section-index" aria-label="People sections"><div class="shell"><a href="#faculty">Faculty</a><a href="#research-staff">Research staff</a><a href="#phd-fellows">PhD fellows</a><a href="#incoming">Incoming</a><a href="#alumni">Alumni</a></div></nav>
 
 <section class="section shell people-at-a-glance">
   <div class="people-snapshot" aria-labelledby="people-snapshot-title">
@@ -21,7 +23,7 @@
       <p class="eyebrow">At a glance</p>
       <div class="snapshot-total">
         <strong>{{ $currentCount }}</strong>
-        <div><h2 id="people-snapshot-title">Current researchers</h2><p>A research group bringing together five independent faculty programmes and a growing early-career community.</p></div>
+        <div><h2 id="people-snapshot-title">Current researchers</h2><p>Based at Aalborg University Copenhagen.</p></div>
       </div>
     </div>
     <div class="snapshot-current" aria-label="Current members by role">
@@ -44,8 +46,8 @@
 
 <section class="section shell">
   <div class="section-heading split-heading">
-    <div><p class="eyebrow">Faculty</p><h2>Five research programmes</h2></div>
-    <p>Group leadership provides a shared framework, while each faculty member contributes an independent intellectual direction.</p>
+    <div><p class="eyebrow">Faculty</p><h2 id="faculty">Faculty</h2></div>
+    <p>Research interests and supervision contacts.</p>
   </div>
   <div class="faculty-grid">
     {{ range $faculty }}{{ partial "person-card.html" . }}{{ end }}
@@ -55,8 +57,8 @@
 <section class="section section-tint">
   <div class="shell">
     <div class="section-heading split-heading">
-      <div><p class="eyebrow">Postdoctoral & research support</p><h2>Research staff</h2></div>
-      <p>Postdoctoral researchers develop independent scientific agendas within their projects; research assistants contribute focused expertise and build towards their next research stage.</p>
+      <div><p class="eyebrow">Postdoctoral & research support</p><h2 id="research-staff">Research staff</h2></div>
+      <p>Postdoctoral researchers and research assistants.</p>
     </div>
     <div class="people-grid compact-people">
       {{ range $researchStaff }}{{ partial "person-card.html" . }}{{ end }}
@@ -66,7 +68,7 @@
 
 <section class="section shell">
   <div class="section-heading split-heading">
-    <div><p class="eyebrow">Doctoral research</p><h2>PhD fellows</h2></div>
+    <div><p class="eyebrow">Doctoral research</p><h2 id="phd-fellows">PhD fellows</h2></div>
     <p>Our PhD researchers work across multilingual evaluation, model security, factuality, knowledge, finance, and the linguistic analysis of AI.</p>
   </div>
   <div class="people-grid">
@@ -76,17 +78,18 @@
 
 <section class="section shell">
   <div class="section-heading split-heading">
-    <div><p class="eyebrow">Next cohort</p><h2>Incoming members</h2></div>
-    <p>As our group is continuing to grow and expand, we are excited to welcome the following members in the coming months:</p>
+    <div><p class="eyebrow">Next cohort</p><h2 id="incoming">Incoming members</h2></div>
+    <p>Joining the group in the coming months.</p>
   </div>
   <div class="incoming-grid">
     {{ range $incoming }}
-      <article class="incoming-card">
+      <article class="incoming-card" id="{{ .slug }}">
         <span class="incoming-initials">{{ .initials }}</span>
         <div>
           <h3>{{ .name }}</h3>
           <p>{{ .role }}</p>
           {{ partial "person-timeline.html" . }}
+          {{ with .summary }}{{ if ne . "Research profile to follow." }}<p class="incoming-summary">{{ . }}</p>{{ end }}{{ end }}
         </div>
       </article>
     {{ end }}
@@ -96,8 +99,8 @@
 <section class="section section-tint alumni-section">
   <div class="shell">
     <div class="section-heading split-heading">
-      <div><p class="eyebrow">Alumni</p><h2>Work that continues beyond the group</h2></div>
-      <p>We celebrate our alumni and their continued work beyond AAU NLP, and follow along as they advance in their careers.</p>
+      <div><p class="eyebrow">Alumni</p><h2 id="alumni">Alumni</h2></div>
+      <p>Former group members and where they work now.</p>
     </div>
     <div class="people-grid compact-people">
       {{ range where site.Data.people "group" "Alumni" }}{{ partial "person-card.html" . }}{{ end }}

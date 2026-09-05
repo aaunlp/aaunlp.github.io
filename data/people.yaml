@@ -17,7 +17,7 @@
     - Multilingual NLP
     - Linguistic grounding
     - LLM security & privacy
-  summary: Johannes studies how linguistic structure can make multilingual language technology more capable, secure, private, and trustworthy. He leads AAU NLP and the Copenhagen Section of AAU's Department of Computer Science.
+  summary: Johannes studies how linguistic structure helps explain multilingual language models, particularly their security and privacy risks. He leads AAU NLP and AAU's Copenhagen Section of Computer Science.
 
 - name: Russa Biswas
   slug: russa-biswas
@@ -39,7 +39,7 @@
     - Knowledge representation
     - Factuality and LLM reasoning
     - Cultural Heritage
-  summary: Russa studies how explicit knowledge graphs and learned representations can strengthen one another, with applications in multilingual factuality and cultural heritage.
+  summary: Russa studies knowledge-graph representation and reasoning, and how graphs can support factual language-model outputs. She co-directs AI:PAGE-Lab, applying these methods to historical collections.
 
 - name: Dustin Wright
   slug: dustin-wright
@@ -60,7 +60,7 @@
     - Reliable information
     - Science communication
     - Sustainable AI
-  summary: Dustin studies how AI transforms information, spanning evidence attribution, science communication, factuality and evaluation, epistemic diversity, efficient modelling, and system-level sustainability.
+  summary: Dustin studies whether AI-generated information remains faithful to its sources and preserves diverse knowledge. He also works on efficient models and AI sustainability.
 
 - name: Heather Lent
   slug: heather-lent
@@ -79,10 +79,10 @@
     end_text: Now
     kind: faculty
   focus:
-    - Creole & lower-resourced NLP
-    - Multilingual evaluation
-    - Responsible security
-  summary: Heather develops community-grounded language technology for Creole and other lower-resourced languages, spanning multilingual evaluation, machine translation, data quality, security, and research ethics.
+    - Multilingual security
+    - Security research ethics
+    - Lower-resourced NLP
+  summary: Heather studies multilingual language-model security and the ethics of security research, including privacy risks from text embeddings. Her work also covers Creole and other lower-resourced languages.
 
 - name: Xikun Jiang
   slug: xikun-jiang
@@ -162,6 +162,8 @@
     - Language variation & typology
     - Parameter-efficient learning
   summary: Marcell studies language variation through parameter-efficient adaptation and comparisons between human and model language knowledge.
+
+  recognition: Awarded a DFF International Postdoc fellowship for Fast and Focused, starting November 2026.
 
 - name: Yiyi Chen
   slug: yiyi-chen
@@ -361,7 +363,7 @@
   slug: luc-raszewski
   initials: LR
   group: Incoming
-  role: Incoming PhD Fellow · 15 November 2026
+  role: Incoming PhD Fellow · DARA
   timeline:
     label: PhD at AAU NLP
     start: "2026-11-15"
@@ -369,7 +371,7 @@
     end_text: "3 years"
     horizon_months: 36
     kind: incoming
-  summary: Research profile to follow.
+  summary: Luc's DARA fellowship investigates how to preserve information diversity during language-model alignment, supervised by Dustin Wright and Johannes Bjerva.
 
 - name: Esther Ploeger
   slug: esther-ploeger

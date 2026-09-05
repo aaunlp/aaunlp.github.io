@@ -1,22 +1,30 @@
 {{ with .timeline }}
+  {{ $horizon := .horizon_months }}
+  {{ $endText := .end_text }}
+  {{ $extension := .extension_months }}
+  {{ if in (slice "phd" "incoming") .kind }}
+    {{ $anniversary := (time.AsTime .start).AddDate 3 0 0 }}
+    {{ $horizon = 36 }}{{ $endText = "3 years" }}{{ $extension = 0 }}
+    {{ if gt now $anniversary }}{{ $horizon = 48 }}{{ $endText = "3–4 years" }}{{ $extension = 12 }}{{ end }}
+  {{ end }}
   <div
     class="person-timeline person-timeline--{{ .kind }}"
     data-trajectory
     data-start="{{ .start }}"
     {{ with .end }}data-end="{{ . }}"{{ end }}
-    {{ with .horizon_months }}data-horizon-months="{{ . }}"{{ end }}
-    aria-label="{{ .label }}: {{ .start_text }}; {{ .end_text }}">
+    {{ with $horizon }}data-horizon-months="{{ . }}"{{ end }}
+    aria-label="{{ .label }}: {{ .start_text }}; {{ $endText }}">
     <div class="person-timeline-meta">
       <span>{{ .label }}</span>
       <span>
         {{ .start_text }}
-        {{ if .horizon_months }}<span aria-hidden="true">·</span>{{ else }}<span aria-hidden="true">→</span>{{ end }}
-        {{ .end_text }}
+        {{ if $horizon }}<span aria-hidden="true">·</span>{{ else }}<span aria-hidden="true">→</span>{{ end }}
+        <span data-trajectory-end-label>{{ $endText }}</span>
       </span>
     </div>
     <span class="person-timeline-track" aria-hidden="true">
       <span class="person-timeline-fill"></span>
-      {{ with .extension_months }}<span class="person-timeline-window"></span>{{ end }}
+      {{ if in (slice "phd" "incoming") .kind }}<span class="person-timeline-window" {{ if not $extension }}hidden{{ end }}></span>{{ end }}
       <span class="person-timeline-marker"></span>
     </span>
   </div>

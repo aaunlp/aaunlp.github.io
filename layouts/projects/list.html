@@ -1,42 +1,37 @@
 {{ define "main" }}
+{{ $current := partial "current-projects.html" . }}
+{{ $total := 0 }}{{ range $current }}{{ with .amount_dkk }}{{ $total = add $total . }}{{ end }}{{ end }}
 <section class="page-hero projects-hero">
   <div class="shell page-hero-grid">
-    <div><p class="eyebrow">Projects</p><h1>Research programmes built for difficult questions.</h1></div>
-    <div><p class="lede">Our active portfolio connects fundamental NLP with questions in security, privacy, and factuality in low resource settings and in domains of education, finance and cultural heritage.</p><p>Public records and confirmed award data itemise approximately DKK 38.5 million in current project support. This is gross project volume.</p></div>
+    <div><p class="eyebrow">Projects</p><h1>Projects and labs</h1></div>
+    <div><p class="lede">Funded research across AAU NLP, from multilingual model security to historical knowledge and accessible AI.</p><p>Our interdisciplinary labs <a href="#ai-page">AI:PAGE</a> and <a href="#ai-security">AI:SECURITY</a> connect NLP with history and cybersecurity.</p></div>
   </div>
 </section>
-
 <section class="section shell">
   <div class="project-summary-grid">
-    <div><strong>8</strong><span>active funded projects</span></div>
-    <div><strong>2022–2030</strong><span>current portfolio horizon</span></div>
-    <div><strong>Academia + industry</strong><span>partners across sectors and countries</span></div>
+    <div><strong>{{ len $current }}</strong><span>current and forthcoming projects</span></div>
+    <div><strong>≈ DKK {{ printf "%.1f" (div (float $total) 1000000) }}m</strong><span>gross listed awards for these projects</span></div>
+    <div><strong>{{ len (where site.Data.projects "lab" true) }}</strong><span>interdisciplinary labs</span></div>
   </div>
-  <div class="section-heading split-heading">
-    <div><p class="eyebrow">Current portfolio</p><h2>Funded projects</h2></div>
-    <p>Project descriptions and amounts are drawn from official VBN and funder records, supplemented by confirmed award data.</p>
-  </div>
+  <p class="source-note">Award totals cover full project grants, including partners’ shares; they do not represent AAU NLP’s own budget. Figures include approximate amounts for AI:PAGE and the DARA fellowship.</p>
+  <div class="section-heading"><p class="eyebrow">Current and forthcoming</p><h2>Funded research</h2></div>
   <div class="project-grid">
-    {{ range site.Data.projects }}{{ partial "project-card.html" . }}{{ end }}
+    {{ range sort (where $current "featured" true) "feature_order" }}{{ partial "project-card.html" . }}{{ end }}
+    {{ range $current }}{{ if not .featured }}{{ partial "project-card.html" . }}{{ end }}{{ end }}
   </div>
 </section>
-
-<section class="section section-tint">
+<section class="section section-tint" id="completed">
   <div class="shell">
-    <div class="section-heading split-heading">
-      <div><p class="eyebrow">Independent faculty leadership</p><h2>Labs</h2></div>
-      <p>AI:PAGE and AI:SECURITY operate as both funded projects and interdisciplinary labs. Their lab identities make sustained faculty leadership and cross-disciplinary collaboration visible.</p>
-    </div>
-    <div class="project-grid project-grid-labs">
-      {{ range where site.Data.projects "lab" true }}{{ partial "project-card.html" . }}{{ end }}
+    <div class="section-heading"><p class="eyebrow">Project archive</p><h2>Completed projects</h2></div>
+    <div class="project-grid">
+      {{ range site.Data.projects }}{{ if eq (partial "project-status.html" .) "completed" }}{{ partial "project-card.html" . }}{{ end }}{{ end }}
     </div>
   </div>
 </section>
-
 <section class="section shell">
   <div class="collaboration-panel">
-    <div><p class="eyebrow">Collaborate</p><h2>Projects should change what we can understand.</h2></div>
-    <div><p>We work with researchers, public institutions, language communities, and companies when collaboration creates a better research question, stronger evidence, or a credible path to use.</p><a class="button button-primary" href="{{ "contact/" | relURL }}">Discuss a collaboration</a></div>
+    <div><p class="eyebrow">Collaborate</p><h2>Work with us</h2></div>
+    <div><p>We work with researchers, public institutions and companies on questions that need language expertise.</p><a class="button button-primary" href="{{ "contact/" | relURL }}">Discuss a collaboration</a></div>
   </div>
 </section>
 {{ end }}

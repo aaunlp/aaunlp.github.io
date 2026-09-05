@@ -1,0 +1,10 @@
+<article class="faculty-preview">
+  <div class="faculty-preview-heading">
+    <div class="faculty-preview-portrait" data-portrait-wrap>
+      <img src="{{ .image | safeURL }}" alt="Portrait of {{ .name }}" width="80" height="80" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-portrait>
+      <span class="portrait-placeholder" aria-hidden="true" data-portrait-fallback hidden>{{ .initials }}</span>
+    </div>
+    <div><h3><a href="{{ .url | default .vbn | relURL }}">{{ .name }}</a></h3><p class="card-kicker">{{ .role }}</p></div>
+  </div>
+  <p>{{ .summary }}</p>
+</article>

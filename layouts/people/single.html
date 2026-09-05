@@ -22,7 +22,7 @@
     </div>
   </section>
   {{ with .Params.projects }}{{ if gt (len .) 0 }}
-  <section class="section section-tint"><div class="shell profile-section"><p class="eyebrow">Selected programmes</p><h2>Projects and labs</h2><div class="profile-projects">{{ range . }}<span>{{ . }}</span>{{ end }}</div></div></section>
+  <section class="section section-tint"><div class="shell profile-section"><p class="eyebrow">Selected programmes</p><h2>Projects and labs</h2><div class="profile-projects">{{ range . }}{{ $name := . }}{{ $match := false }}{{ range site.Data.projects }}{{ if or (eq .title $name) (eq .acronym $name) }}<a href="{{ printf "projects/#%s" .slug | relURL }}">{{ $name }}</a>{{ $match = true }}{{ end }}{{ end }}{{ if not $match }}<span>{{ $name }}</span>{{ end }}{{ end }}</div></div></section>
   {{ end }}{{ end }}
   {{ with .Params.selected_publications }}{{ if gt (len .) 0 }}
   <section class="section shell profile-section profile-publications">
@@ -38,7 +38,7 @@
   {{ end }}{{ end }}
   <section class="section shell profile-section">
     <p class="eyebrow">Supervision and collaboration</p>
-    <h2>Questions worth working on</h2>
+    <h2>Research with {{ .Title }}</h2>
     <p class="lede">{{ .Params.supervision }}</p>
     <div class="button-row"><a class="button button-primary" href="mailto:{{ .Params.email }}">Contact {{ .Title }}</a><a class="button button-secondary" href="{{ $publicationURL | safeURL }}">Browse all publications</a></div>
   </section>

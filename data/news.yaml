@@ -8,7 +8,7 @@
   label: Publications
   title: Five papers at EMNLP 2026
   text: Four Main Conference papers span multilingual language modelling, vision-language models, embedding security, and epistemic diversity. They include Tao's first paper and the final PhD thesis papers for Marcell and Yiyi. A fifth contribution was accepted to the System Demonstrations track.
-  url: https://bjerva.github.io/publications/
+  url: /publications/?q=EMNLP&year=2026
 
 - date: 2026-05-01
   label: Projects

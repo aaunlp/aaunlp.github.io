@@ -1,4 +1,4 @@
 ---
 title: Projects
-description: Current funded programmes and faculty-led initiatives across AAU NLP.
+description: Current and forthcoming projects, interdisciplinary labs, and completed research at AAU NLP.
 ---
