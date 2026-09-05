@@ -16,8 +16,9 @@
   <p class="source-note">Award totals cover full project grants, including partners’ shares; they do not represent AAU NLP’s own budget. Figures include approximate amounts for AI:PAGE and the DARA fellowship.</p>
   <div class="section-heading"><p class="eyebrow">Current and forthcoming</p><h2>Funded research</h2></div>
   <div class="project-grid">
-    {{ range sort (where $current "featured" true) "feature_order" }}{{ partial "project-card.html" . }}{{ end }}
-    {{ range $current }}{{ if not .featured }}{{ partial "project-card.html" . }}{{ end }}{{ end }}
+    {{ range where $current "priority" true }}{{ partial "project-card.html" . }}{{ end }}
+    {{ range sort (where $current "featured" true) "feature_order" }}{{ if not .priority }}{{ partial "project-card.html" . }}{{ end }}{{ end }}
+    {{ range $current }}{{ if and (not .featured) (not .priority) }}{{ partial "project-card.html" . }}{{ end }}{{ end }}
   </div>
 </section>
 <section class="section section-tint" id="completed">

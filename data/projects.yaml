@@ -16,6 +16,7 @@
   summary: Uses linguistic analysis to understand and mitigate security and privacy risks in multilingual language models.
   url: https://vbn.aau.dk/en/projects/linguistically-motivated-language-model-security/
   slug: lm2-sec
+  priority: true
   amount_dkk: 9904249
   start: "2025-09-01"
   end: "2030-08-31"
@@ -40,6 +41,7 @@
   summary: Develops linguistically grounded ways to detect poisoned or tampered language models and scalable safeguards across languages and domains.
   url: https://vbn.aau.dk/en/projects/building-trust-in-text-linguistically-motivated-language-model-de/
   slug: trust
+  priority: true
   amount_dkk: 6189732
   start: "2026-05-01"
   end: "2030-04-30"

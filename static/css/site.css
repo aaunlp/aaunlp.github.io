@@ -687,4 +687,13 @@ h3 { font-size: 1.28rem; line-height: 1.25; }
   .section-index { overflow-x: visible; }
   .section-index .shell { width: var(--shell); min-width: 0; }
   .section-index a { flex: 1 1 auto; min-width: 0; padding: 12px 10px; }
+  .people-section-index .shell { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; padding-block: 10px; }
+  .people-section-index a { justify-content: center; min-height: 44px; padding: 8px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); text-align: center; line-height: 1.3; }
+  .people-section-index a:hover { border-color: var(--purple); background: color-mix(in srgb, var(--purple) 8%, var(--surface)); }
+}
+@media (max-width: 620px) {
+  .people-section-index .shell { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .people-section-index a { grid-column: span 2; }
+  .people-section-index a:nth-last-child(-n+2) { grid-column: span 3; }
+  #faculty, #research-staff, #phd-fellows, #incoming, #alumni { scroll-margin-top: 104px; }
 }

@@ -87,7 +87,7 @@ Keep substantive content and design work on `development` until it has been revi
 
 Project `slug` fields provide stable links from profiles and research pages. ISO `start` and `end` dates determine forthcoming/completed status at build time; use `status: current` only where exact dates are not known. Update those dates from the official record when available. Numeric `amount_dkk` values feed the approximate gross total for current and forthcoming projects. Keep the display amount and funding-share explanation consistent with that figure; the total includes partners' shares.
 
-Use `featured: true` and `feature_order` to curate the homepage deliberately. Publication filters derive their options from the records. Papers without a faculty coauthor use `faculty: []` and remain available in the unfiltered list and author search. Link accepted papers to their camera-ready versions until proceedings appear.
+Use `featured: true` and `feature_order` to curate the homepage deliberately. Projects marked `priority: true` appear first on the Projects page, in data order. Publication filters derive their options from the records. Papers without a faculty coauthor use `faculty: []` and remain available in the unfiltered list and author search. Link accepted papers to their camera-ready versions until proceedings appear.
 
 People's roster categories remain editorial decisions. Timeline lengths update with elapsed time, but never change someone's appointment or infer graduation.
 
