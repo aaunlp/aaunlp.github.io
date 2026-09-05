@@ -1,0 +1,64 @@
+contributions:
+  - title: LLM security
+    tone: purple
+    description: Investigate privacy leakage and model vulnerabilities, and develop security evaluations grounded in language.
+    links:
+      - label: Security projects
+        url: /projects/#lm2-sec
+      - label: Security research
+        url: /people/heather-lent/
+  - title: Factuality and evidence
+    tone: blue
+    description: Evaluate factual accuracy and trace generated claims to their evidence, including in scientific communication.
+    links:
+      - label: MultiHal evaluation
+        url: /publications/?q=MultiHal
+      - label: Evidence attribution
+        url: /publications/?q=Unstructured%20Evidence
+  - title: Multilingual evaluation
+    tone: red
+    description: Design evaluations across languages and examine where findings transfer, with particular attention to lower-resourced languages.
+    links:
+      - label: CreoleVal
+        url: /publications/?q=CreoleVal
+      - label: Language sampling
+        url: /publications/?q=Typological
+  - title: Knowledge representation
+    tone: gold
+    description: Develop methods for representing and completing knowledge graphs, and connect structured knowledge with text.
+    links:
+      - label: AI:PAGE
+        url: /projects/#ai-page
+      - label: MADLINK
+        url: /publications/?q=MADLINK
+
+# Link to official programme guidance; keep deadlines and detailed eligibility there.
+routes:
+  - id: horizon-europe
+    audience: Consortium partners
+    title: Horizon Europe
+    description: We are open to joining consortia and helping shape proposals, including leading research work packages that fit our expertise.
+    detail: Examples include multilingual security testing and factuality evaluation, with application partners helping define what needs to be tested.
+    link_label: Explore Horizon Europe Cluster 4
+    url: https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/cluster-4-digital-industry-and-space_en
+  - id: doctoral-networks
+    audience: Doctoral training partners
+    title: MSCA Doctoral Networks
+    description: Work with us on a joint doctoral training proposal, with supervision and training contributions in the group’s areas of expertise.
+    detail: Discuss a potential doctoral project or a training contribution in multilingual NLP or reliable language technology.
+    link_label: About Doctoral Networks
+    url: https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks
+  - id: postdoctoral-fellowships
+    audience: Prospective fellows
+    title: MSCA Postdoctoral Fellowships
+    description: Explore AAU NLP as a host for your postdoctoral fellowship proposal, working with a faculty member whose research connects to yours.
+    detail: We consider hosting proposals based on research fit and supervisory capacity. Start a conversation early enough to develop the proposal together.
+    link_label: About Postdoctoral Fellowships
+    url: https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships
+  - id: staff-exchanges
+    audience: Research exchange partners
+    title: MSCA Staff Exchanges
+    description: Build a research partnership through staff secondments, connecting academic and non-academic teams.
+    detail: Tell us what colleagues would work on together, and what each team would learn through the exchanges.
+    link_label: About Staff Exchanges
+    url: https://marie-sklodowska-curie-actions.ec.europa.eu/actions/staff-exchanges

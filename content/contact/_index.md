@@ -1,4 +1,4 @@
 ---
-title: Contact
-description: Contact AAU NLP at Aalborg University Copenhagen.
+title: Collaborate
+description: Explore European research partnerships with AAU NLP in Copenhagen, including Horizon Europe consortia and MSCA proposals on LLM security, factuality and multilingual NLP.
 ---

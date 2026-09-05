@@ -17,6 +17,6 @@ main:
   - name: News
     url: news/
     weight: 60
-  - name: Contact
+  - name: Collaborate
     url: contact/
     weight: 70
