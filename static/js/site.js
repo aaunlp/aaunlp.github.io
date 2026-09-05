@@ -1,5 +1,8 @@
 (() => {
   const root = document.documentElement;
+  if (!root.dataset.theme) {
+    root.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
   const navToggle = document.querySelector('[data-nav-toggle]');
   const nav = document.querySelector('[data-nav]');
 
@@ -10,20 +13,32 @@
       nav.classList.toggle('is-open', !open);
     });
     document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape') {
+      if (event.key === 'Escape' && navToggle.getAttribute('aria-expanded') === 'true') {
         navToggle.setAttribute('aria-expanded', 'false');
         nav.classList.remove('is-open');
         navToggle.focus();
+      }
+    });
+    nav.addEventListener('click', (event) => {
+      if (event.target.closest('a')) {
+        navToggle.setAttribute('aria-expanded', 'false');
+        nav.classList.remove('is-open');
       }
     });
   }
 
   const themeToggle = document.querySelector('[data-theme-toggle]');
   if (themeToggle) {
+    const updateThemeLabel = () => {
+      const dark = root.dataset.theme === 'dark';
+      themeToggle.setAttribute('aria-label', `Switch to ${dark ? 'light' : 'dark'} theme`);
+    };
+    updateThemeLabel();
     themeToggle.addEventListener('click', () => {
       const current = root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
       const next = current === 'dark' ? 'light' : 'dark';
       root.dataset.theme = next;
+      updateThemeLabel();
       try { localStorage.setItem('aau-nlp-theme', next); } catch (error) {}
     });
   }
@@ -42,7 +57,17 @@
 
   document.querySelectorAll('[data-trajectory]').forEach((trajectory) => {
     const start = new Date(`${trajectory.dataset.start}T12:00:00`);
-    const horizonMonths = Number(trajectory.dataset.horizonMonths || 0);
+    let horizonMonths = Number(trajectory.dataset.horizonMonths || 0);
+    if (trajectory.classList.contains('person-timeline--phd') || trajectory.classList.contains('person-timeline--incoming')) {
+      const anniversary = new Date(start.getFullYear() + 3, start.getMonth(), start.getDate(), 12);
+      const extended = new Date() > anniversary;
+      horizonMonths = extended ? 48 : 36;
+      trajectory.dataset.horizonMonths = String(horizonMonths);
+      const duration = extended ? '3–4 years' : '3 years';
+      trajectory.querySelector('[data-trajectory-end-label]').textContent = duration;
+      trajectory.querySelector('.person-timeline-window').hidden = !extended;
+      trajectory.setAttribute('aria-label', trajectory.getAttribute('aria-label').replace(/3(?:–4)? years/, duration));
+    }
     const explicitEnd = trajectory.dataset.end
       ? new Date(`${trajectory.dataset.end}T12:00:00`)
       : null;
@@ -74,11 +99,23 @@
     const cards = [...document.querySelectorAll('[data-publication]')];
     const count = document.querySelector('[data-pub-count]');
     const empty = document.querySelector('[data-pub-empty]');
-    const requestedFaculty = new URLSearchParams(window.location.search).get('faculty');
-
-    if (requestedFaculty && [...faculty.options].some((option) => option.value === requestedFaculty)) {
-      faculty.value = requestedFaculty;
-    }
+    const controls = { q: search, faculty, theme, year };
+    const restoreFilters = () => {
+      const params = new URLSearchParams(window.location.search);
+      Object.entries(controls).forEach(([key, control]) => {
+        const value = params.get(key) || '';
+        control.value = control === search || [...control.options].some(option => option.value === value) ? value : '';
+      });
+    };
+    const updateURL = () => {
+      const url = new URL(window.location.href);
+      Object.entries(controls).forEach(([key, control]) => {
+        if (control.value.trim()) url.searchParams.set(key, control.value.trim());
+        else url.searchParams.delete(key);
+      });
+      history.replaceState(null, '', url);
+    };
+    restoreFilters();
 
     const applyFilters = () => {
       const query = search.value.trim().toLowerCase();
@@ -95,8 +132,13 @@
       empty.hidden = visible !== 0;
     };
 
-    filters.addEventListener('input', applyFilters);
-    filters.addEventListener('change', applyFilters);
+    const onChange = () => { applyFilters(); updateURL(); };
+    filters.addEventListener('input', onChange);
+    filters.addEventListener('change', onChange);
+    filters.querySelector('[data-pub-clear]').addEventListener('click', () => {
+      filters.reset(); onChange(); search.focus();
+    });
+    window.addEventListener('popstate', () => { restoreFilters(); applyFilters(); });
     applyFilters();
   }
 })();

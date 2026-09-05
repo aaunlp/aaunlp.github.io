@@ -1,0 +1,4 @@
+{{ $status := .status | default "current" }}
+{{ with .start }}{{ if gt (time.AsTime .) now }}{{ $status = "forthcoming" }}{{ end }}{{ end }}
+{{ with .end }}{{ if lt (time.AsTime (printf "%sT23:59:59Z" .)) now }}{{ $status = "completed" }}{{ end }}{{ end }}
+{{ return $status }}

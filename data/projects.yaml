@@ -15,7 +15,11 @@
     - Multilingual NLP
   summary: Uses linguistic analysis to understand and mitigate security and privacy risks in multilingual language models.
   url: https://vbn.aau.dk/en/projects/linguistically-motivated-language-model-security/
-  featured: true
+  slug: lm2-sec
+  priority: true
+  amount_dkk: 9904249
+  start: "2025-09-01"
+  end: "2030-08-31"
 
 - title: Building TRUST in Text
   acronym: TRUST
@@ -36,7 +40,11 @@
     - Explainable AI
   summary: Develops linguistically grounded ways to detect poisoned or tampered language models and scalable safeguards across languages and domains.
   url: https://vbn.aau.dk/en/projects/building-trust-in-text-linguistically-motivated-language-model-de/
-  featured: true
+  slug: trust
+  priority: true
+  amount_dkk: 6189732
+  start: "2026-05-01"
+  end: "2030-04-30"
 
 - title: Multilingual Modelling for Resource-Poor Languages
   acronym: MML-RPL
@@ -56,7 +64,10 @@
     - Linguistic typology
   summary: Explores how systematic linguistic similarities can extend useful language technology to languages with limited labelled data and digital resources.
   url: https://vbn.aau.dk/en/projects/multilingual-modelling-for-resource-poor-languages/
-  featured: true
+  slug: mml-rpl
+  amount_dkk: 5425000
+  start: "2022-09-01"
+  end: "2026-08-31"
 
 - title: Formal Semantic Methods for AI Safety
   acronym: FS-AIS
@@ -70,7 +81,10 @@
     - Interpretability
   summary: Combines formal semantic analysis and neural interpretability to identify and explain rare multilingual failures in generative AI.
   url: https://vbn.aau.dk/en/projects/formal-semantic-methods-for-ai-safety/
-  featured: true
+  slug: fs-ais
+  amount_dkk: 2400000
+  start: "2026-05-01"
+  end: "2028-04-30"
 
 - title: AI:SECURITY
   acronym: AI:SECURITY
@@ -90,6 +104,12 @@
   summary: Connects NLP and cybersecurity to protect AI systems from hijacking and misuse and to counter AI-enabled disinformation and phishing.
   url: https://vbn.aau.dk/en/projects/aisecurity/
   lab: true
+  slug: ai-security
+  amount_dkk: 7000000
+  start: "2025-08-01"
+  end: "2029-12-31"
+  featured: true
+  feature_order: 2
 
 - title: Digital Twins for Abundant Feedback
   acronym: DTAF
@@ -104,6 +124,10 @@
     - Explainable feedback
   summary: Builds explainable multilingual models of expert assessment to support timely, useful feedback at scale.
   url: https://vbn.aau.dk/en/projects/digital-twins-for-abundant-feedback-novel-feedback-paradigms-via-/
+  slug: dtaf
+  amount_dkk: 3000000
+  start: "2024-01-01"
+  end: "2026-12-31"
 
 - title: Guarantees of Factuality in Financial KPI Extraction
   acronym: HiFi-KPI
@@ -121,10 +145,13 @@
     - Information extraction
   summary: Develops reliable methods and data for extracting financial KPIs from earnings transcripts with explicit factuality guarantees.
   url: https://vbn.aau.dk/en/projects/guarantees-of-factuality-in-llm-based-extraction-of-financial-kpi/
+  slug: hifi-kpi
+  amount_dkk: 1072000
+  start: "2024-09-01"
+  end: "2027-08-31"
 
 - title: AI:PAGE-Lab
   acronym: AI:PAGE
-  dates: Faculty-led lab
   funder: Aalborg University · AI:X
   amount: ca. DKK 3.5m
   funding_share: 50% · Russa Biswas
@@ -137,3 +164,46 @@
   summary: Turns historical texts into searchable, connected knowledge so researchers can discover patterns and relationships across cultural-heritage collections.
   url: https://vbn.aau.dk/en/organisations/aipage-lab/
   lab: true
+  slug: ai-page
+  amount_dkk: 3500000
+  status: current
+  featured: true
+  feature_order: 1
+
+# DARA lists Johannes; AAU's announcement names Dustin as supervisor.
+# https://www.linkedin.com/posts/department-of-computer-science-aalborg-university_how-can-we-preserve-diversity-in-ai-language-activity-7488866162022264832-Rzvp
+- title: Mode Collapse Robust LLMs
+  slug: mode-collapse
+  acronym: DARA PhD fellowship
+  dates: Starts 15 November 2026
+  start: "2026-11-15"
+  fellow: Luc Raszewski
+  supervisors: [Dustin Wright, Johannes Bjerva]
+  funder: Danish Advanced Research Academy · Novo Nordisk Foundation
+  # Approximate award amount confirmed by Johannes Bjerva.
+  amount: ca. DKK 2m
+  amount_dkk: 2000000
+  themes: [Information diversity, LLM alignment]
+  summary: Investigates how alignment training narrows the range of ideas expressed by language models, and develops ways to preserve that diversity while maintaining safety.
+  url: https://daracademy.dk/current-fellows/luc-raszewski
+  featured: true
+  feature_order: 3
+
+# Dates and PI: VBN. Amount: award recipient's public announcement.
+# https://www.linkedin.com/posts/marcellfekete_nye-internationale-postdoc-bevillinger-skal-activity-7435271544072925184-w_Bh
+- title: "Fast and Focused: Information-Structure-Aware AI for Accessibility"
+  slug: fast-and-focused
+  acronym: DFF International Postdoc
+  dates: November 2026 – October 2028
+  start: "2026-11-01"
+  end: "2028-10-31"
+  pi: Marcell Richard Fekete
+  funder: Independent Research Fund Denmark · International Postdoc
+  amount: DKK 2,140,857
+  amount_dkk: 2140857
+  partners: [Budapest University of Technology and Economics]
+  themes: [Information structure, Accessible AI]
+  summary: Studies how AI handles the way speakers signal familiar and new information, with the aim of improving the speed and reliability of assistive language technology.
+  url: https://vbn.aau.dk/en/projects/fast-and-focused-information-structure-aware-ai-for-accessibility/
+  featured: true
+  feature_order: 4

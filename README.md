@@ -6,12 +6,12 @@ Source for the [AAU NLP research group website](https://aaunlp.github.io/) at Aa
 
 > **Language is where AI meets the world.**
 
-AAU NLP brings together distinct research programmes in natural language processing, computational linguistics, and trustworthy AI. Our work connects across four dimensions:
+AAU NLP researches how language models work and how they can be used reliably. The site connects four research areas:
 
-- **Linguistic validity** — how models represent language, meaning, and variation.
-- **Representation and grounding** — how systems encode knowledge and connect outputs to evidence.
-- **System integrity** — how language technology behaves under failure, uncertainty, or attack.
-- **Real-world fit** — how deployment choices affect communities, institutions, and the environment.
+- **Language and meaning** — multilingual representations and linguistic analysis.
+- **Knowledge and reasoning** — knowledge graphs and evidence behind generated claims.
+- **Security and reliability** — privacy risks, model vulnerabilities and evaluation.
+- **Language technology in use** — community priorities, applications and wider consequences.
 
 The site presents the group's people, research, funded projects, publications, news, and research culture. Our culture is organised around a simple commitment: setting people up for success.
 
@@ -82,5 +82,13 @@ Keep substantive content and design work on `development` until it has been revi
 - Verify people, project, and publication facts against authoritative records.
 - Link staff portraits from approved public sources rather than committing copied images without permission.
 - Remove inherited starter content instead of adapting it into new pages; the automated check rejects known template placeholders.
+
+### Maintaining project and publication records
+
+Project `slug` fields provide stable links from profiles and research pages. ISO `start` and `end` dates determine forthcoming/completed status at build time; use `status: current` only where exact dates are not known. Update those dates from the official record when available. Numeric `amount_dkk` values feed the approximate gross total for current and forthcoming projects. Keep the display amount and funding-share explanation consistent with that figure; the total includes partners' shares.
+
+Use `featured: true` and `feature_order` to curate the homepage deliberately. Projects marked `priority: true` appear first on the Projects page, in data order. Publication filters derive their options from the records. Papers without a faculty coauthor use `faculty: []` and remain available in the unfiltered list and author search. Link accepted papers to their camera-ready versions until proceedings appear.
+
+People's roster categories remain editorial decisions. Timeline lengths update with elapsed time, but never change someone's appointment or infer graduation.
 
 The repository retains the upstream theme's MIT notice in [`LICENSE.md`](LICENSE.md).

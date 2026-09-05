@@ -1,17 +1,17 @@
 {{ define "main" }}
 <section class="page-hero culture-hero">
   <div class="shell page-hero-grid">
-    <div><p class="eyebrow">Research culture</p><h1>Ambitious, collaborative, and supportive.</h1></div>
-    <div><p class="lede">We want people to develop their own ideas and research programmes—and to do better work together than they could alone.</p><p>Our culture is designed to support excellent research by making expertise visible, expectations clear, contributions recognised, and collaboration easier, all while providing a constant stream of quality feedback through close collaboration.</p></div>
+    <div><p class="eyebrow">Research culture</p><h1>How we work together</h1></div>
+    <div><p class="lede">We want people to develop their own ideas and research programmes—and to do better work together than they could alone.</p><p>We share work in progress and make time for useful feedback. People have room to develop their own questions, with support from colleagues when they need it.</p></div>
   </div>
 </section>
 
 <section class="section shell">
   <div class="section-heading split-heading">
-    <div><p class="eyebrow">Seven values</p><h2>What we try to make practical</h2></div>
-    <p>The core values of the group define our research culture, and ultimately, the quality of our research outcome.</p>
+    <div><p class="eyebrow">Seven values</p><h2>Our values</h2></div>
+    <p>These values guide how we conduct research and work together.</p>
   </div>
-  <div class="values-board">
+  <div class="values-board" id="values">
     <div class="values-spectrum" aria-hidden="true">
       {{ range site.Data.values }}<span class="value--{{ .tone }}"></span>{{ end }}
     </div>
@@ -21,37 +21,27 @@
   </div>
 </section>
 
-<section class="section culture-practice">
+<section class="section culture-practice" id="practice">
   <div class="shell culture-practice-grid">
-    <div><p class="eyebrow">In practice</p><h2>Five principles for everyday research.</h2><p class="culture-practice-intro">The concise formulations come from <em>AAU-NLP Start Here</em>: a practical bridge between the values and day-to-day decisions.</p></div>
+    <div><p class="eyebrow">In practice</p><h2>Everyday research practice</h2><p class="culture-practice-intro">Our Handbook and <em>Start Here</em> guide turn these values into commitments about research and working together.</p></div>
     <div class="practice-list">
-      <article><h3>Quality before deadlines</h3><p>A deadline does not make a paper ready. We submit when the claim, evidence, record, and author review are strong enough—not because a date has arrived. Quality-first is not perfection-first: once the paper is ready, it should move.</p></article>
-      <article><h3>Clarity before assumption</h3><p>Roles, decisions, commitments, feedback timing, and authorship should be explicit and revisited when the work changes.</p></article>
-      <article><h3>Ask early; help where you can</h3><p>Blockers and changing circumstances should be raised early. Feedback is a shared contribution, while requests may be accepted, declined, or renegotiated according to expertise and workload.</p></article>
-      <article><h3>Credit follows contribution</h3><p>Contributions and author order should be discussed early and revisited as work develops. Every author must approve submission, and work beyond publication lists should be recognised.</p></article>
-      <article><h3>Sustainable pace matters</h3><p>Research time should be protected and work should fit agreed hours. Meeting attendance, physical visibility, or instant responsiveness is not a proxy for contribution.</p></article>
+      <article><h3>Quality before deadlines</h3><p>We submit when the claims and evidence are ready and all authors have reviewed the paper. We aim for sound, completed work rather than perfection or a deadline at any cost.</p></article>
+      <article><h3>Clarity before assumption</h3><p>We agree roles and expectations, including when feedback is needed, and revisit them as the work changes.</p></article>
+      <article><h3>Ask early; help where you can</h3><p>We share unfinished work and raise blockers early. Colleagues can accept, decline or renegotiate feedback requests according to their expertise and workload. Disagreement should be candid and respectful.</p></article>
+      <article><h3>Credit follows contribution</h3><p>We discuss authorship early and revisit it as contributions develop. We also recognise mentoring and the practical work that keeps research possible, such as debugging and maintaining shared resources.</p></article>
+      <article><h3>Sustainable pace matters</h3><p>We protect research time and work within agreed hours. Attendance or instant replies do not measure contribution; progress can also take the form of documented negative results and better methods.</p></article>
     </div>
   </div>
 </section>
 
 <section class="section shell culture-commitments">
-  <div class="section-heading split-heading">
-    <div><p class="eyebrow">The collective system</p><h2>Ambition without a tournament culture.</h2></div>
-    <p>Excellent research depends on individual scientific judgement and on a group that makes expertise, support, credit, and principled disagreement available.</p>
-  </div>
-  <div class="commitment-grid">
-    <article><span>01</span><h3>Colleagues, not competitors</h3><p>Another member's success does not diminish our own; it can strengthen the group and create opportunities for others. Being a good colleague is part of being a good researcher.</p></article>
-    <article><span>02</span><h3>Independence without isolation</h3><p>People need space to develop questions and collaborations that are genuinely their own, together with access to feedback, expertise, mentoring, and practical help.</p></article>
-    <article><span>03</span><h3>Candour with respect</h3><p>Psychological safety does not lower standards. It lets unfinished ideas, uncertainty, failed experiments, and disagreement be discussed respectfully; independent routes remain available for concerns.</p></article>
-    <article><span>04</span><h3>More than papers</h3><p>Useful research may leave theory, data, code, methods, or documented negative results. We also recognise mentoring, debugging, infrastructure, onboarding, coordination, and care.</p></article>
-  </div>
-  <p class="culture-living-note"><strong>These are working commitments.</strong> The group reviews what helps, what does not, and what should change. The detailed procedures, current contacts, and onboarding information remain in the internal handbook and <em>Start Here</em> guide.</p>
+  <div class="section-heading split-heading"><div><p class="eyebrow">Working together</p><h2>Supporting each other’s research</h2></div><p>Another member’s success creates opportunities for the group. We make space for independent ideas and respectful disagreement, and review these commitments as we learn what helps. Detailed procedures and independent routes for raising concerns are in the internal Handbook.</p></div>
 </section>
 
 <section class="section shell">
   <div class="opportunity-panel">
-    <div><p class="eyebrow">Opportunities</p><h2>No current vacancies</h2><p>There are no open AAU NLP positions at present. New positions are advertised through Aalborg University's official vacancy portal.</p></div>
-    <div><a class="button button-secondary" href="https://www.vacancies.aau.dk/">AAU vacancies ↗</a><p>Students interested in a thesis or project collaboration may contact the faculty member whose research is the closest fit.</p><a class="text-link" href="{{ "people/" | relURL }}">Find a potential supervisor <span aria-hidden="true">→</span></a></div>
+    <div><p class="eyebrow">Opportunities</p><h2>Join the group</h2><p>Check Aalborg University's official vacancy portal for advertised positions.</p></div>
+    <div><a class="button button-secondary" href="https://www.vacancies.aau.dk/">AAU vacancies ↗</a><p>Students interested in a thesis or project collaboration may contact the faculty member whose research is the closest fit.</p><a class="text-link" href="{{ "people/#faculty" | relURL }}">Find a potential supervisor <span aria-hidden="true">→</span></a></div>
   </div>
 </section>
 {{ end }}

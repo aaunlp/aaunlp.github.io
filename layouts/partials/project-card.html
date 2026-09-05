@@ -1,19 +1,22 @@
 {{ $project := . }}
-<article class="project-card">
+{{ $status := partial "project-status.html" . }}
+<article class="project-card" id="{{ .slug }}">
   <div class="project-topline">
-    <span class="project-acronym">{{ $project.acronym }}</span>
-    <span>{{ $project.dates }}</span>
+    <span class="project-acronym">{{ .acronym }}</span>
+    <span>{{ if eq $status "forthcoming" }}Forthcoming · {{ else if eq $status "completed" }}Completed · {{ end }}{{ .dates | default "Interdisciplinary lab" }}</span>
   </div>
-  <h3><a href="{{ $project.url }}">{{ $project.title }}</a></h3>
-  {{ with $project.subtitle }}<p class="project-subtitle">{{ . }}</p>{{ end }}
-  <p>{{ $project.summary }}</p>
-  <ul class="tag-list" aria-label="Project themes">{{ range $project.themes }}<li>{{ . }}</li>{{ end }}</ul>
+  <h3><a href="{{ .url }}">{{ .title }}</a></h3>
+  {{ with .subtitle }}<p class="project-subtitle">{{ . }}</p>{{ end }}
+  <p>{{ .summary }}</p>
+  <ul class="tag-list" aria-label="Project themes">{{ range .themes }}<li>{{ . }}</li>{{ end }}</ul>
   <dl class="project-meta">
-    <div><dt>PI</dt><dd>{{ $project.pi }}</dd></div>
-    <div><dt>Funder</dt><dd>{{ $project.funder }}</dd></div>
-    {{ with $project.amount }}<div><dt>Amount</dt><dd><strong>{{ . }}</strong></dd></div>{{ end }}
-    {{ with $project.funding_share }}<div><dt>Funding share</dt><dd>{{ . }}</dd></div>{{ end }}
-    {{ with $project.partners }}<div><dt>Partners</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
+    {{ with .pi }}<div><dt>PI</dt><dd>{{ . }}</dd></div>{{ end }}
+    {{ with .fellow }}<div><dt>PhD fellow</dt><dd>{{ . }}</dd></div>{{ end }}
+    {{ with .supervisors }}<div><dt>Supervisors</dt><dd>{{ delimit . " and " }}</dd></div>{{ end }}
+    <div><dt>Funder</dt><dd>{{ .funder }}</dd></div>
+    {{ with .amount }}<div><dt>Amount</dt><dd><strong>{{ . }}</strong></dd></div>{{ end }}
+    {{ with .funding_share }}<div><dt>Funding share</dt><dd>{{ . }}</dd></div>{{ end }}
+    {{ with .partners }}<div><dt>Partners</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
   </dl>
-  <a class="text-link" href="{{ $project.url }}">Official record <span aria-hidden="true">↗</span></a>
+  <a class="text-link" href="{{ .url }}">Official record <span aria-hidden="true">↗</span></a>
 </article>

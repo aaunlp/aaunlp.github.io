@@ -8,7 +8,7 @@
     <div class="hero-copy">
       <p class="eyebrow">Natural Language Processing · Aalborg University</p>
       <h1>Language is where AI meets the world.</h1>
-      <p class="hero-lede">We study <strong>how AI represents language and knowledge</strong>, connect its outputs to evidence, and test whether systems remain reliable across languages, communities, threats, and real-world constraints.</p>
+      <p class="hero-lede">We study <strong>how language models represent meaning and knowledge</strong>, and how to make them work reliably across languages and uses. Our research connects computational linguistics with knowledge representation and AI security.</p>
       <div class="button-row">
         <a class="button button-primary" href="{{ "research/" | relURL }}">Explore our research</a>
         <a class="button button-secondary" href="{{ "people/" | relURL }}">Meet the group</a>
@@ -20,45 +20,45 @@
     </figure>
   </div>
   <div class="shell evidence-strip" aria-label="AAU NLP at a glance">
-    <div><strong>5</strong><span>faculty with distinct research programmes</span></div>
+    <div><strong>{{ len $faculty }}</strong><span>faculty</span></div>
     <div><strong>{{ $currentCount }}</strong><span>current researchers across career stages</span></div>
-    <div><strong>8</strong><span>active funded projects</span></div>
-    <div><strong>≈ DKK 38.5m</strong><span>gross current project volume</span></div>
+    <div><strong>{{ len (partial "current-projects.html" .) }}</strong><span>current and forthcoming projects</span></div>
+    <div><strong>{{ len (where site.Data.projects "lab" true) }}</strong><span>interdisciplinary labs</span></div>
   </div>
 </section>
 
 <section class="section shell" id="research-directions">
   <div class="section-heading split-heading">
     <div>
-      <p class="eyebrow">A shared intellectual framework</p>
-      <h2>Four dimensions of trustworthy language technology</h2>
+      <p class="eyebrow">Research areas</p>
+      <h2>What we study</h2>
     </div>
-    <p>Our faculty pursue distinct programmes across four dimensions: linguistic validity; knowledge representation and grounding; integrity under failure or attack; and real-world fit and consequences for communities, institutions, and the material environment.</p>
+    <p>We investigate how models handle language and knowledge, focusing particularly on security and factuality. We study how to protect models from attacks and privacy leakage, and how to ground their outputs in evidence.</p>
   </div>
   <div class="theme-grid">
     <article class="theme-card theme-red">
-      <span class="theme-number">01 · Linguistic validity</span>
-      <h3>Language, meaning & variation</h3>
-      <p>We study linguistic structure, semantics, multilinguality, low-resource languages, and what model representations reveal about transfer and failure.</p>
-      <a href="{{ "research/#language-meaning" | relURL }}">Explore language & representation <span aria-hidden="true">→</span></a>
+      <span class="theme-number">01</span>
+      <h3>Language & meaning</h3>
+      <p>How do models handle differences between languages? We study meaning and multilingual representations, including languages with limited training data.</p>
+      <a href="{{ "research/#language-meaning" | relURL }}">Explore language & meaning <span aria-hidden="true">→</span></a>
     </article>
     <article class="theme-card theme-gold">
-      <span class="theme-number">02 · Representation & grounding</span>
-      <h3>Knowledge & grounding</h3>
-      <p>We build and reason over knowledge graphs, connecting model outputs to source documents and other traceable evidence.</p>
-      <a href="{{ "research/#knowledge" | relURL }}">Explore knowledge & grounding <span aria-hidden="true">→</span></a>
+      <span class="theme-number">02</span>
+      <h3>Knowledge & reasoning</h3>
+      <p>How can models use structured knowledge? We study graph representation and reasoning, alongside the evidence behind generated claims.</p>
+      <a href="{{ "research/#knowledge" | relURL }}">Explore knowledge & reasoning <span aria-hidden="true">→</span></a>
     </article>
     <article class="theme-card theme-purple">
-      <span class="theme-number">03 · System integrity</span>
-      <h3>Security, reliability & risk</h3>
-      <p>We study attacks, privacy, uncertainty, robustness, evaluation, and the conditions under which apparently capable systems break.</p>
-      <a href="{{ "research/#security" | relURL }}">Explore reliability & risk <span aria-hidden="true">→</span></a>
+      <span class="theme-number">03</span>
+      <h3>Security & reliability</h3>
+      <p>Where do models fail or expose private information? We test multilingual vulnerabilities and develop methods for reliable evaluation.</p>
+      <a href="{{ "research/#security" | relURL }}">Explore security & reliability <span aria-hidden="true">→</span></a>
     </article>
     <article class="theme-card theme-blue">
-      <span class="theme-number">04 · Real-world fit</span>
-      <h3>Communities & consequences</h3>
-      <p>We examine how community priorities and institutional settings—including environmental and social costs—change what responsible success means.</p>
-      <a href="{{ "research/#communities" | relURL }}">Explore communities & consequences <span aria-hidden="true">→</span></a>
+      <span class="theme-number">04</span>
+      <h3>Language technology in use</h3>
+      <p>Whose needs do language tools serve? We study community priorities and applications, as well as AI’s effects on information diversity and the environment.</p>
+      <a href="{{ "research/#communities" | relURL }}">Explore language technology in use <span aria-hidden="true">→</span></a>
     </article>
   </div>
 </section>
@@ -68,13 +68,13 @@
     <div class="section-heading split-heading">
       <div>
         <p class="eyebrow">Faculty</p>
-        <h2>Distinct programmes, shared foundations</h2>
+        <h2>Meet our faculty</h2>
       </div>
-      <p>Each faculty member has an independent intellectual centre of gravity. Collaboration grows from genuine overlap across language, knowledge, evidence, reliability, and consequences—not from forcing every project into one agenda.</p>
+      <p>Our faculty work on different questions and collaborate where their interests meet.</p>
     </div>
     <div class="faculty-grid">
       {{ range where site.Data.people "group" "Faculty" }}
-        {{ partial "person-card.html" . }}
+        {{ partial "faculty-preview.html" . }}
       {{ end }}
     </div>
     <div class="section-action"><a class="text-link" href="{{ "people/" | relURL }}">Meet everyone at AAU NLP <span aria-hidden="true">→</span></a></div>
@@ -84,13 +84,13 @@
 <section class="section shell">
   <div class="section-heading split-heading">
     <div>
-      <p class="eyebrow">Selected programmes</p>
-      <h2>Long-horizon questions, properly resourced</h2>
+      <p class="eyebrow">Project highlights</p>
+      <h2>Projects and fellowships</h2>
     </div>
-    <p>Our projects connect fundamental research with concrete risks and settings, from multilingual model security to educational feedback and cultural heritage.</p>
+    <p>Two interdisciplinary labs and two forthcoming fellowships, spanning historical knowledge, AI security, information diversity and accessibility.</p>
   </div>
   <div class="project-grid project-grid-home">
-    {{ range where site.Data.projects "featured" true }}
+    {{ range sort (where site.Data.projects "featured" true) "feature_order" }}
       {{ partial "project-card.html" . }}
     {{ end }}
   </div>
@@ -102,7 +102,7 @@
     <div>
       <p class="eyebrow">How we work</p>
       <h2>Setting people up for success</h2>
-      <p class="lede">Excellent research depends on individual judgement and a healthy collective system: expertise should be visible, feedback routine, expectations clear, contributions recognised, and collaboration easier.</p>
+      <p class="lede">We share work in progress, make expectations explicit and recognise the contributions that research depends on. Our Handbook sets out how we put these commitments into practice.</p>
       <a class="button button-light" href="{{ "culture/" | relURL }}">Our research culture</a>
     </div>
     <ol class="value-list">
@@ -120,16 +120,16 @@
   <div class="section-heading split-heading">
     <div>
       <p class="eyebrow">Selected work</p>
-      <h2>Research across the programme</h2>
+      <h2>Selected papers</h2>
     </div>
-    <p>A small selection spanning multilingual evaluation, language-model security, structured knowledge, factuality, and reliable information.</p>
+    <p>Examples of our work on language and knowledge, including security research and the diversity of information generated by AI.</p>
   </div>
   <div class="publication-grid publication-grid-home">
-    {{ range first 6 (where site.Data.publications "featured" true) }}
+    {{ range sort (where site.Data.publications "featured" true) "feature_order" }}
       {{ partial "publication-card.html" . }}
     {{ end }}
   </div>
-  <div class="section-action"><a class="text-link" href="{{ "publications/" | relURL }}">Browse selected work by our faculty <span aria-hidden="true">→</span></a></div>
+  <div class="section-action"><a class="text-link" href="{{ "publications/" | relURL }}">Browse group publications <span aria-hidden="true">→</span></a></div>
 </section>
 
 <section class="section section-tint">
@@ -156,7 +156,7 @@
     <p class="eyebrow">Work with us</p>
     <h2>Bring us a hard language problem.</h2>
   </div>
-  <p>We collaborate across linguistics, semantics, logic, machine learning, AI, security, privacy, HCI, and the domains where language technology has to work in practice.</p>
+  <p>Have a question that needs language expertise? Get in touch about research collaborations or student projects.</p>
   <a class="button button-primary" href="{{ "contact/" | relURL }}">Start a conversation</a>
 </section>
 {{ end }}

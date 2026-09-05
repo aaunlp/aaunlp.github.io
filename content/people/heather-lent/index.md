@@ -1,31 +1,34 @@
 ---
 title: Heather Lent
 role: Assistant Professor
-image: "https://vbn.aau.dk/files-asset/743381083/HeatherChristineLent.jpg?f=jpg&w=480"
+image: https://vbn.aau.dk/files-asset/743381083/HeatherChristineLent.jpg?f=jpg&w=480
 initials: HL
 email: hcle@cs.aau.dk
 vbn: https://vbn.aau.dk/en/persons/hcle/
-eyebrow: Creole & lower-resourced NLP · Multilingual evaluation · Responsible security
-intro: In my work on Creole and other lower-resourced languages, I take community needs—not simply inherited English benchmarks—as a starting point. Across my research, I study machine translation, transfer, multilingual data quality, language-model security, and the ethics of security research.
+eyebrow: Multilingual security · Security research ethics · Lower-resourced NLP
+intro: Heather studies security and privacy in multilingual language models, and how to conduct NLP security research responsibly.
 focus:
-  - title: Creole and lower-resourced NLP
-    text: Language modelling, transfer, machine translation, semantic parsing, and evaluation beyond the best-resourced languages.
-  - title: Community-grounded evaluation
-    text: Letting community priorities and sociolinguistic realities change the tasks, datasets, benchmarks, and measures of success.
-  - title: Multilingual security and ethics
-    text: Testing whether vulnerabilities, defences, and disclosure practices protect lower-resourced languages on their own terms.
+- title: Multilingual model security
+  text: Testing privacy leakage through text embeddings and how vulnerabilities differ across languages.
+- title: Security research ethics
+  text: Examining harm minimisation and responsible disclosure in NLP security research.
+- title: Lower-resourced NLP
+  text: Developing and evaluating language technology for Creole and other lower-resourced languages, with attention to community
+    priorities.
 projects:
-  - LM²-SEC
-  - CREOLE
-  - Multilingual Modelling for Resource-Poor Languages
+- LM²-SEC
+- Multilingual Modelling for Resource-Poor Languages
 selected_publications:
-  - "How Good is Your Wikipedia? Auditing Data Quality for Low-resource and Multilingual NLP"
-  - "NLP Security and Ethics, in the Wild"
-  - "Text Embedding Inversion Security for Multilingual Language Models"
-  - "CreoleVal: Multilingual Multitask Benchmarks for Creoles"
-  - "What a Creole Wants, What a Creole Needs"
-supervision: I am interested in projects on lower-resourced and multilingual NLP, Creole languages, machine translation, data and evaluation quality, multilingual security, and responsible research practice.
+- NLP Security and Ethics, in the Wild
+- Text Embedding Inversion Security for Multilingual Language Models
+- How Good is Your Wikipedia? Auditing Data Quality for Low-resource and Multilingual NLP
+- 'CreoleVal: Multilingual Multitask Benchmarks for Creoles'
+- What a Creole Wants, What a Creole Needs
+supervision: Heather welcomes projects on multilingual model security, privacy risks, and security research ethics, as well
+  as lower-resourced NLP and evaluation.
+description: Heather studies security and privacy in multilingual language models, and how to conduct NLP security research
+  responsibly.
 ---
-Heather's research asks how language technology can serve languages and communities overlooked by mainstream NLP. She develops methods, datasets, benchmarks, and machine-translation systems for Creole and other lower-resourced languages, combining work on transfer, sociolinguistic variation, semantic parsing, and data quality with direct attention to what communities actually need.
+Her work on embedding inversion tests whether an attacker can recover text from multilingual model representations. In NLP Security and Ethics, in the Wild, she and her coauthors examine how NLP security papers handle potential harms and propose guidance on responsible disclosure.
 
-She has also established a complementary strand in multilingual language-model security and research ethics. This work examines multilingual vulnerabilities and defences, alongside broader questions of harm minimisation and responsible disclosure. Across both strands, community considerations are part of the technical design—not an assessment added after a system is built.
+Heather also develops resources and evaluations for Creole languages. CreoleVal provides multilingual benchmarks, while What a Creole Wants, What a Creole Needs examines how community priorities should shape the tasks researchers choose. Her work on multilingual data quality connects these concerns to the resources used to train and evaluate models.
