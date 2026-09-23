@@ -1,3 +1,93 @@
+- title: "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models"
+  authors: "Xiaoyu Luo, Tao Ren, Wenrui Yu, Xiao Li, Qiongxiu Li, and Johannes Bjerva"
+  venue: "arXiv · Preprint"
+  year: 2026
+  type: Preprint
+  url: https://arxiv.org/abs/2609.26637
+  faculty: [Johannes Bjerva]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
+
+- title: "A Hierarchical Evaluation Framework for LLM-driven Threat Modelling Tools"
+  authors: "Josephine Marie Bakka, Tobias Worm Bøgedal, Andreas Kjeldgaard Brandhøj, and Johannes Bjerva"
+  venue: "SECRYPT 2026"
+  year: 2026
+  type: Conference paper
+  url: https://doi.org/10.5220/0015000400004103
+  faculty: [Johannes Bjerva]
+  themes: ["Security, Privacy & Safety", "Factuality, Reliability & Evaluation"]
+
+- title: "SigmaScale: LLM Compression with SVD-based Low-Rank Decomposition and Learned Scaling Matrices"
+  authors: "Ernests Lavrinovics, Marco Letizia, Roy Janco, Shai Segal, Johannes Bjerva, and Maurizio Pierini"
+  venue: "arXiv · Preprint"
+  year: 2026
+  type: Preprint
+  url: https://arxiv.org/abs/2606.07098
+  faculty: [Johannes Bjerva]
+  themes: ["Factuality, Reliability & Evaluation"]
+
+- title: "HiFi-KPI: A Dataset for Hierarchical KPI Extraction from Earnings Filings"
+  authors: "Rasmus T. Aavang, Giovanni Rizzi, Rasmus Tjalk-Bøggild, Alexandre Iolov, Mike Zhang, and Johannes Bjerva"
+  venue: "LREC 2026"
+  year: 2026
+  type: Conference paper
+  url: https://aclanthology.org/2026.lrec-1.30/
+  faculty: [Johannes Bjerva]
+  themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
+
+- title: "SEFL: A Framework for Generating Synthetic Educational Assignment Feedback with LLM Agents"
+  authors: "Mike Zhang, Amalie Pernille Dilling, Léon Gondelman, Niels Erik Ruan Lyngdorf, Euan D. Lindsay, and Johannes Bjerva"
+  venue: "LREC 2026"
+  year: 2026
+  type: Conference paper
+  url: https://aclanthology.org/2026.lrec-1.811/
+  faculty: [Johannes Bjerva]
+  themes: ["Communities, Domains & Consequences", "Factuality, Reliability & Evaluation"]
+
+- title: "Characterizing Memorization in Diffusion Language Models: Generalized Extraction and Sampling Effects"
+  authors: "Xiaoyu Luo, Wenrui Yu, Qiongxiu Li, and Johannes Bjerva"
+  venue: "arXiv · Preprint"
+  year: 2026
+  type: Preprint
+  url: https://arxiv.org/abs/2603.02333
+  faculty: [Johannes Bjerva]
+  themes: ["Security, Privacy & Safety"]
+
+- title: "Semantic Leakage from Image Embeddings"
+  authors: "Yiyi Chen, Qiongkai Xu, Desmond Elliott, Qiongxiu Li, and Johannes Bjerva"
+  venue: "arXiv · Preprint"
+  year: 2026
+  type: Preprint
+  url: https://arxiv.org/abs/2601.22929
+  faculty: [Johannes Bjerva]
+  themes: ["Security, Privacy & Safety"]
+
+- title: "Knowledgeless Language Models: Suppressing Parametric Recall for Evidence-Grounded Language Modeling"
+  authors: "Roi Cohen, Yvan Carré, Nick Lechtenbörger, Hendrik Droste, Lucas Kerschke, Russa Biswas, Gerard de Melo, and Jan Buys"
+  venue: "arXiv · Preprint"
+  year: 2026
+  type: Preprint
+  url: https://arxiv.org/abs/2607.12831
+  faculty: [Russa Biswas]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
+
+- title: "APEX: Probing Neural Networks via Activation Perturbation"
+  authors: "Tao Ren, Xiaoyu Luo, and Qiongxiu Li"
+  venue: "arXiv · Preprint"
+  year: 2026
+  type: Preprint
+  url: https://vbn.aau.dk/en/publications/apex-probing-neural-networks-via-activation-perturbation/
+  faculty: []
+  themes: ["Factuality, Reliability & Evaluation", "Security, Privacy & Safety"]
+
+- title: "Towards Trustworthy Machine Learning in High-Stakes Decision Making"
+  authors: "Anahita Baninajjar"
+  venue: "Lund University"
+  year: 2026
+  type: PhD thesis
+  url: https://vbn.aau.dk/en/publications/towards-trustworthy-machine-learning-in-high-stakes-decision-maki/
+  faculty: []
+  themes: ["Security, Privacy & Safety", "Factuality, Reliability & Evaluation"]
+
 - title: "When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning"
   authors: "Wenrui Yu, Changlong Ji, Johannes Bjerva, and Qiongxiu Li"
   venue: "CCS 2026 · Accepted"
@@ -150,6 +240,87 @@
   url: https://aclanthology.org/2026.findings-acl.2060/
   faculty: [Dustin Wright]
   themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
+
+- title: "Scaling Course Evaluations with Large Language Models: Semester-level Digestible Student Feedback for Program Leaders"
+  authors: "Mike Zhang, Euan Lindsay, Maj-Britt Quitzau, and Johannes Bjerva"
+  venue: "SEFI 2025"
+  year: 2025
+  type: Conference paper
+  url: https://doi.org/10.5281/zenodo.17631533
+  faculty: [Johannes Bjerva]
+  themes: ["Communities, Domains & Consequences", "Factuality, Reliability & Evaluation"]
+
+- title: "LAGO: Few-shot Crosslingual Embedding Inversion Attacks via Language Similarity-Aware Graph Optimization"
+  authors: "Wenrui Yu, Yiyi Chen, Johannes Bjerva, Sokol Kosta, and Qiongxiu Li"
+  venue: "arXiv · Preprint"
+  year: 2025
+  type: Preprint
+  url: https://arxiv.org/abs/2505.16008
+  faculty: [Johannes Bjerva]
+  themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
+
+- title: "Beyond Weaponization: NLP Security for Medium and Lower-Resourced Languages in Their Own Right"
+  authors: "Heather Lent"
+  venue: "arXiv · Preprint"
+  year: 2025
+  type: Preprint
+  url: https://arxiv.org/abs/2507.03473
+  faculty: [Heather Lent]
+  themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
+
+- title: "Draw a Portrait of Your Graph Data: An Instance-Level Profiling Framework for Graph-Structured Data"
+  authors: "Tianqi Zhao, Russa Biswas, and Megha Khosla"
+  venue: "arXiv · Preprint"
+  year: 2025
+  type: Preprint
+  url: https://arxiv.org/abs/2509.12094
+  faculty: [Russa Biswas]
+  themes: ["Factuality, Reliability & Evaluation", "Knowledge, Evidence & Reasoning"]
+
+- title: "Modeling Public Perceptions of Science in Media"
+  authors: "Jiaxin Pei, Dustin Wright, Isabelle Augenstein, and David Jurgens"
+  venue: "arXiv · Preprint"
+  year: 2025
+  type: Preprint
+  url: https://arxiv.org/abs/2506.16622
+  faculty: [Dustin Wright]
+  themes: ["Communities, Domains & Consequences"]
+
+- title: "Robustness and Privacy Interplay in Patient Membership Inference"
+  authors: "Anahita Baninajjar, Amin Aminifar, Kamran Hosseini, Amir Aminifar, and Ahmed Rezine"
+  venue: "IJCNN 2025"
+  year: 2025
+  type: Conference paper
+  url: https://vbn.aau.dk/en/publications/robustness-and-privacy-interplay-in-patient-membership-inference/
+  faculty: []
+  themes: ["Security, Privacy & Safety"]
+
+- title: "Formal Local Implication Between Two Neural Networks"
+  authors: "Anahita Baninajjar, Ahmed Rezine, and Amir Aminifar"
+  venue: "ECAI 2025"
+  year: 2025
+  type: Conference paper
+  url: https://vbn.aau.dk/en/publications/formal-local-implication-between-two-neural-networks/
+  faculty: []
+  themes: ["Security, Privacy & Safety", "Factuality, Reliability & Evaluation"]
+
+- title: "AnthroSet: a Challenge Dataset for Anthropomorphic Language Detection"
+  authors: "Dorielle Lonke, Jelke Bloem, and Pia Sommerauer"
+  venue: "First Interdisciplinary Workshop on Observations of Misunderstood, Misguided and Malicious Use of Language Models 2025"
+  year: 2025
+  type: Workshop paper
+  url: https://vbn.aau.dk/en/publications/anthroset-a-challenge-dataset-for-anthropomorphic-language-detect/
+  faculty: []
+  themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
+
+- title: "NLPnorth @ TalentCLEF 2025: Comparing Discriminative, Contrastive, and Prompt-Based Methods for Job Title and Skill Matching"
+  authors: "Mike Zhang and Rob van der Goot"
+  venue: "CLEF 2025 · Working Notes"
+  year: 2025
+  type: Workshop paper
+  url: https://vbn.aau.dk/en/publications/nlpnorth-talentclef-2025-comparing-discriminative-contrastive-and-2/
+  faculty: []
+  themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
 - title: "NLP Security and Ethics, in the Wild"
   authors: "Heather Lent, Erick Galinkin, Yiyi Chen, Jens Myrup Pedersen, Leon Derczynski, and Johannes Bjerva"
