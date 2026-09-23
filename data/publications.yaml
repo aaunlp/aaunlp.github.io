@@ -5,7 +5,7 @@
   type: Preprint
   url: https://arxiv.org/abs/2609.26637
   faculty: [Johannes Bjerva]
-  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
+  themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation", "Security, Privacy & Safety"]
 
 - title: "A Hierarchical Evaluation Framework for LLM-driven Threat Modelling Tools"
   authors: "Josephine Marie Bakka, Tobias Worm Bøgedal, Andreas Kjeldgaard Brandhøj, and Johannes Bjerva"
