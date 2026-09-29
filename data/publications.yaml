@@ -3,7 +3,7 @@
   venue: "arXiv · Preprint"
   year: 2026
   type: Preprint
-  url: https://arxiv.org/abs/2609.26637
+  url: https://vbn.aau.dk/en/publications/capable-yet-parsimonious-extracting-and-characterizing-hidden-cha/
   faculty: [Johannes Bjerva]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation", "Security, Privacy & Safety"]
 
@@ -12,7 +12,7 @@
   venue: "SECRYPT 2026"
   year: 2026
   type: Conference paper
-  url: https://doi.org/10.5220/0015000400004103
+  url: https://vbn.aau.dk/en/publications/a-hierarchical-evaluation-framework-for-llm-driven-threat-modelli/
   faculty: [Johannes Bjerva]
   themes: ["Security, Privacy & Safety", "Factuality, Reliability & Evaluation"]
 
@@ -21,7 +21,7 @@
   venue: "arXiv · Preprint"
   year: 2026
   type: Preprint
-  url: https://arxiv.org/abs/2606.07098
+  url: https://vbn.aau.dk/en/publications/sigmascale-llm-compression-with-svd-based-low-rank-decomposition-/
   faculty: [Johannes Bjerva]
   themes: ["Factuality, Reliability & Evaluation"]
 
@@ -30,7 +30,7 @@
   venue: "LREC 2026"
   year: 2026
   type: Conference paper
-  url: https://aclanthology.org/2026.lrec-1.30/
+  url: https://vbn.aau.dk/en/publications/hifi-kpi-a-dataset-for-hierarchical-kpi-extraction-from-earnings--2/
   faculty: [Johannes Bjerva]
   themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
@@ -39,7 +39,7 @@
   venue: "LREC 2026"
   year: 2026
   type: Conference paper
-  url: https://aclanthology.org/2026.lrec-1.811/
+  url: https://vbn.aau.dk/en/publications/sefl-a-framework-for-generating-synthetic-educational-assignment--2/
   faculty: [Johannes Bjerva]
   themes: ["Communities, Domains & Consequences", "Factuality, Reliability & Evaluation"]
 
@@ -48,7 +48,7 @@
   venue: "NeurIPS 2026 · Accepted"
   year: 2026
   type: Conference paper
-  url: https://arxiv.org/abs/2603.02333
+  url: https://vbn.aau.dk/en/publications/characterizing-memorization-in-diffusion-language-models-generali/
   faculty: [Johannes Bjerva]
   themes: ["Security, Privacy & Safety"]
 
@@ -57,7 +57,7 @@
   venue: "arXiv · Preprint"
   year: 2026
   type: Preprint
-  url: https://arxiv.org/abs/2601.22929
+  url: https://vbn.aau.dk/en/publications/semantic-leakage-from-image-embeddings/
   faculty: [Johannes Bjerva]
   themes: ["Security, Privacy & Safety"]
 
@@ -103,7 +103,7 @@
   venue: "EMNLP 2026 · Accepted"
   year: 2026
   type: Conference paper
-  url: https://arxiv.org/abs/2510.04226v7
+  url: https://vbn.aau.dk/en/publications/epistemic-diversity-and-knowledge-collapse-in-large-language-mode/
   faculty: [Dustin Wright]
   themes: ["Communities, Domains & Consequences", "Factuality, Reliability & Evaluation"]
   impact: "Measures the diversity of claims in language-model outputs across topics and cultural contexts."
@@ -115,7 +115,7 @@
   venue: "EMNLP 2026 · System Demonstrations · Accepted"
   year: 2026
   type: Demonstration paper
-  url: https://arxiv.org/abs/2603.00620v3
+  url: https://vbn.aau.dk/en/publications/qq-a-toolkit-for-language-identifiers-and-metadata/
   faculty: []
   themes: ["Multilingual & Lower-Resource NLP", "Language, Meaning & Typology"]
 
@@ -124,7 +124,7 @@
   venue: "EMNLP 2026"
   year: 2026
   type: Conference paper
-  url: https://openreview.net/forum?id=TrNWQl6zPS
+  url: https://vbn.aau.dk/en/publications/tbls-transition-based-language-similarity-through-activation-pert/
   faculty: [Johannes Bjerva]
   themes: ["Multilingual & Lower-Resource NLP", "Language, Meaning & Typology"]
   impact: "Measures language similarity through perturbation-induced cross-lingual transitions, finding stable structure across multilingual models and datasets."
@@ -134,7 +134,7 @@
   venue: "EMNLP 2026"
   year: 2026
   type: Conference paper
-  url: https://openreview.net/forum?id=eB1qFlfQh1
+  url: https://vbn.aau.dk/en/publications/when-discourse-pressures-conflict-information-structure-in-vision/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Factuality, Reliability & Evaluation"]
   impact: "Shows that vision-language models respond to discourse context in Hungarian but compress interacting information-structural pressures into narrow patterns."
@@ -146,7 +146,7 @@
   venue: "EMNLP 2026"
   year: 2026
   type: Conference paper
-  url: https://openreview.net/forum?id=DNfp3FMWS2
+  url: https://vbn.aau.dk/en/publications/few-shot-semantic-recovery-attacks-on-image-embeddings/
   faculty: [Johannes Bjerva]
   themes: ["Security, Privacy & Safety"]
   impact: "Introduces a few-shot black-box method for recovering captions and sensitive attributes from image embeddings, and tests the utility cost of current defences."
@@ -156,7 +156,7 @@
   venue: "ACL 2026"
   year: 2026
   type: Conference paper
-  url: https://aclanthology.org/2026.acl-long.1560/
+  url: https://vbn.aau.dk/en/publications/do-llms-really-memorize-personally-identifiable-information-revis-2/
   faculty: [Johannes Bjerva]
   themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
   impact: "Separates genuine memorisation from reconstruction enabled by lexical cues across 32 languages, tightening the evidential standard for claims about PII leakage."
@@ -168,7 +168,7 @@
   venue: "ICML 2026"
   year: 2026
   type: Conference paper
-  url: https://openreview.net/forum?id=kGSwStubjL
+  url: https://vbn.aau.dk/en/publications/multihal-multilingual-dataset-for-knowledge-graph-grounded-evalua-2/
   faculty: [Johannes Bjerva, Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning", "Multilingual & Lower-Resource NLP"]
   impact: "Builds a multilingual multihop benchmark from 25,900 curated knowledge-graph paths for evaluating and reducing hallucinations."
@@ -180,7 +180,7 @@
   venue: "ACL 2026"
   year: 2026
   type: Conference paper
-  url: https://aclanthology.org/2026.acl-long.1373/
+  url: https://vbn.aau.dk/en/publications/how-good-is-your-wikipedia-auditing-data-quality-for-low-resource-2/
   faculty: [Johannes Bjerva, Heather Lent]
   themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
   impact: "Audits all non-English Wikipedia editions and shows why data quality—not language coverage alone—must be a first-class concern in multilingual NLP."
@@ -190,7 +190,7 @@
   venue: "ACL 2026"
   year: 2026
   type: Conference paper
-  url: https://aclanthology.org/2026.acl-long.1472/
+  url: https://vbn.aau.dk/en/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/
   faculty: [Dustin Wright]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
   impact: "Demonstrates that commonly used factual-consistency metrics are brittle under controlled changes to long-document summaries."
@@ -200,7 +200,7 @@
   venue: "Findings of ACL 2026"
   year: 2026
   type: Conference paper
-  url: https://aclanthology.org/2026.findings-acl.561/
+  url: https://vbn.aau.dk/en/publications/follow-the-path-reasoning-over-knowledge-graph-paths-to-improve-l-2/
   faculty: [Johannes Bjerva, Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
   impact: "Grounds reasoning traces in knowledge-graph paths, improving factual question answering particularly for smaller models and multihop questions."
@@ -210,7 +210,7 @@
   venue: "Computational Linguistics"
   year: 2026
   type: Journal article
-  url: https://aclanthology.org/2026.cl-1.7/
+  url: https://vbn.aau.dk/en/publications/a-principled-framework-for-evaluating-on-typologically-diverse-la/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -228,7 +228,7 @@
   venue: "WWW Companion 2026"
   year: 2026
   type: Conference paper
-  url: https://doi.org/10.1145/3774905.3794645
+  url: https://vbn.aau.dk/en/publications/towards-understanding-professional-ai-assistant-use-human-in-the-/
   faculty: [Johannes Bjerva]
   themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
@@ -237,7 +237,7 @@
   venue: "Findings of ACL 2026"
   year: 2026
   type: Conference paper
-  url: https://aclanthology.org/2026.findings-acl.2060/
+  url: https://vbn.aau.dk/en/publications/real-or-robotic-assessing-whether-llms-accurately-simulate-qualit/
   faculty: [Dustin Wright]
   themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
@@ -246,7 +246,7 @@
   venue: "SEFI 2025"
   year: 2025
   type: Conference paper
-  url: https://doi.org/10.5281/zenodo.17631533
+  url: https://vbn.aau.dk/en/publications/scaling-course-evaluations-with-large-language-models-semester-le/
   faculty: [Johannes Bjerva]
   themes: ["Communities, Domains & Consequences", "Factuality, Reliability & Evaluation"]
 
@@ -255,7 +255,7 @@
   venue: "arXiv · Preprint"
   year: 2025
   type: Preprint
-  url: https://arxiv.org/abs/2505.16008
+  url: https://vbn.aau.dk/en/publications/lago-few-shot-crosslingual-embedding-inversion-attacks-via-langua/
   faculty: [Johannes Bjerva]
   themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
@@ -264,7 +264,7 @@
   venue: "arXiv · Preprint"
   year: 2025
   type: Preprint
-  url: https://arxiv.org/abs/2507.03473
+  url: https://vbn.aau.dk/en/publications/beyond-weaponization-nlp-security-for-medium-and-lower-resourced-/
   faculty: [Heather Lent]
   themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
@@ -273,7 +273,7 @@
   venue: "arXiv · Preprint"
   year: 2025
   type: Preprint
-  url: https://arxiv.org/abs/2509.12094
+  url: https://vbn.aau.dk/en/publications/draw-a-portrait-of-your-graph-data-an-instance-level-profiling-fr/
   faculty: [Russa Biswas]
   themes: ["Factuality, Reliability & Evaluation", "Knowledge, Evidence & Reasoning"]
 
@@ -282,7 +282,7 @@
   venue: "arXiv · Preprint"
   year: 2025
   type: Preprint
-  url: https://arxiv.org/abs/2506.16622
+  url: https://vbn.aau.dk/en/publications/modeling-public-perceptions-of-science-in-media/
   faculty: [Dustin Wright]
   themes: ["Communities, Domains & Consequences"]
 
@@ -327,7 +327,7 @@
   venue: "Transactions of the ACL"
   year: 2025
   type: Journal article
-  url: https://aclanthology.org/2025.tacl-1.33/
+  url: https://vbn.aau.dk/en/publications/nlp-security-and-ethics-in-the-wild/
   faculty: [Heather Lent, Johannes Bjerva]
   themes: ["Security, Privacy & Safety", "Communities, Domains & Consequences"]
   impact: "Audits ethical practice in NLP security and develops concrete guidance for harm minimisation and responsible disclosure."
@@ -339,7 +339,7 @@
   venue: "EMNLP 2025"
   year: 2025
   type: Conference paper
-  url: https://aclanthology.org/2025.emnlp-main.978/
+  url: https://vbn.aau.dk/en/publications/shared-path-unraveling-memorization-in-multilingual-llms-through-/
   faculty: [Johannes Bjerva]
   themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
@@ -348,7 +348,7 @@
   venue: "Findings of NAACL 2025"
   year: 2025
   type: Conference paper
-  url: https://aclanthology.org/2025.findings-naacl.210/
+  url: https://vbn.aau.dk/en/publications/large-language-models-are-easily-confused-a-quantitative-metric-s/
   faculty: [Johannes Bjerva, Russa Biswas]
   themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
@@ -357,7 +357,7 @@
   venue: "Findings of EMNLP 2025"
   year: 2025
   type: Conference paper
-  url: https://aclanthology.org/2025.findings-emnlp.971/
+  url: https://vbn.aau.dk/en/publications/infact-informativeness-alignment-for-improved-llm-factuality/
   faculty: [Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -366,7 +366,7 @@
   venue: "AAAI 2025"
   year: 2025
   type: Conference paper
-  url: https://ojs.aaai.org/index.php/AAAI/article/view/34533
+  url: https://vbn.aau.dk/en/publications/against-all-odds-overcoming-typology-script-and-language-confusio/
   faculty: [Johannes Bjerva, Russa Biswas, Heather Lent]
   themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
@@ -375,7 +375,7 @@
   venue: "ACL 2025"
   year: 2025
   type: Conference paper
-  url: https://aclanthology.org/2025.acl-long.1185/
+  url: https://vbn.aau.dk/en/publications/algen-few-shot-inversion-attacks-on-textual-embeddings-using-alig/
   faculty: [Johannes Bjerva]
   themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
@@ -384,7 +384,7 @@
   venue: "ACL 2025 · Short Papers"
   year: 2025
   type: Conference paper
-  url: https://aclanthology.org/2025.acl-short.19/
+  url: https://vbn.aau.dk/en/publications/limited-resource-adapters-are-regularizers-not-linguists/
   faculty: [Johannes Bjerva, Heather Lent]
   themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
@@ -393,7 +393,7 @@
   venue: "NoDaLiDa/Baltic-HLT 2025"
   year: 2025
   type: Conference paper
-  url: https://aclanthology.org/2025.nodalida-1.52/
+  url: https://vbn.aau.dk/en/publications/tokenization-on-trial-the-case-of-kalaallisutdanish-legal-machine/
   faculty: [Johannes Bjerva, Heather Lent]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -402,7 +402,7 @@
   venue: "WMT 2025"
   year: 2025
   type: Conference paper
-  url: https://aclanthology.org/2025.wmt-1.21/
+  url: https://vbn.aau.dk/en/publications/a-cross-lingual-perspective-on-neural-machine-translation-difficu/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -411,7 +411,7 @@
   venue: "WMT 2025"
   year: 2025
   type: Shared-task report
-  url: https://aclanthology.org/2025.wmt-1.28/
+  url: https://vbn.aau.dk/en/publications/findings-of-the-first-shared-task-for-creole-language-machine-tra/
   faculty: [Heather Lent]
   themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
@@ -420,7 +420,7 @@
   venue: "Findings of NAACL 2025"
   year: 2025
   type: Conference paper
-  url: https://aclanthology.org/2025.findings-naacl.49/
+  url: https://vbn.aau.dk/en/publications/linguistically-grounded-analysis-of-language-models-using-shapley/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Factuality, Reliability & Evaluation"]
 
@@ -429,7 +429,7 @@
   venue: "Journal of Web Semantics"
   year: 2025
   type: Journal article
-  url: https://doi.org/10.1016/j.websem.2024.100844
+  url: https://vbn.aau.dk/en/publications/knowledge-graphs-large-language-models-and-hallucinations-an-nlp-/
   faculty: [Johannes Bjerva, Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -438,7 +438,7 @@
   venue: "EMNLP 2025"
   year: 2025
   type: Conference paper
-  url: https://aclanthology.org/2025.emnlp-main.95/
+  url: https://vbn.aau.dk/en/publications/unstructured-evidence-attribution-for-long-context-query-focused-/
   faculty: [Dustin Wright]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -447,7 +447,7 @@
   venue: "Communications of the ACM"
   year: 2025
   type: Journal perspective
-  url: https://dl.acm.org/doi/10.1145/3724500
+  url: https://vbn.aau.dk/en/publications/efficiency-is-not-enough-a-critical-perspective-on-environmentall/
   faculty: [Dustin Wright]
   themes: ["Communities, Domains & Consequences"]
 
@@ -456,7 +456,7 @@
   venue: "SIGIR 2025"
   year: 2025
   type: Conference paper
-  url: https://dl.acm.org/doi/10.1145/3726302.3729960
+  url: https://vbn.aau.dk/en/publications/efficiency-and-effectiveness-of-llm-based-summarization-of-eviden/
   faculty: [Dustin Wright]
   themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
@@ -474,7 +474,7 @@
   venue: "W-NUT 2025"
   year: 2025
   type: Workshop paper
-  url: https://aclanthology.org/2025.wnut-1.7/
+  url: https://vbn.aau.dk/en/publications/on-device-llms-for-home-assistant-dual-role-in-intent-detection-a/
   faculty: [Johannes Bjerva]
   themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
@@ -483,7 +483,7 @@
   venue: "CHI 2025"
   year: 2025
   type: Conference paper
-  url: https://doi.org/10.1145/3706598.3713447
+  url: https://vbn.aau.dk/en/publications/how-do-hackathons-foster-creativity-towards-ai-collaborative-eval/
   faculty: [Johannes Bjerva]
   themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
@@ -492,7 +492,7 @@
   venue: "IEEE EDUCON 2025"
   year: 2025
   type: Conference paper
-  url: https://doi.org/10.1109/EDUCON62633.2025.11016572
+  url: https://vbn.aau.dk/en/publications/the-responsible-development-of-automated-student-feedback-with-ge/
   faculty: [Johannes Bjerva]
   themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
@@ -501,7 +501,7 @@
   venue: "Language Resources and Evaluation"
   year: 2025
   type: Journal article
-  url: https://doi.org/10.1007/s10579-025-09812-9
+  url: https://vbn.aau.dk/en/publications/utilizing-phonetic-similarity-for-cross-source-and-cross-language/
   faculty: [Johannes Bjerva]
   themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
@@ -510,7 +510,7 @@
   venue: "Experimental Dermatology"
   year: 2025
   type: Journal article
-  url: https://onlinelibrary.wiley.com/doi/10.1111/exd.70175
+  url: https://vbn.aau.dk/en/publications/putting-ai-chatbots-to-the-test-a-comparative-analysis-of-large-l/
   faculty: [Johannes Bjerva, Heather Lent]
   themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
@@ -519,7 +519,7 @@
   venue: "Computational Linguistics"
   year: 2024
   type: Journal article
-  url: https://aclanthology.org/2024.cl-2.8/
+  url: https://vbn.aau.dk/en/publications/the-role-of-typological-feature-prediction-in-nlp-and-linguistics/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -528,7 +528,7 @@
   venue: "Transactions of the ACL"
   year: 2024
   type: Journal article
-  url: https://aclanthology.org/2024.tacl-1.53/
+  url: https://vbn.aau.dk/en/publications/creoleval-multilingual-multitask-benchmarks-for-creoles-2/
   faculty: [Heather Lent, Johannes Bjerva]
   themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
@@ -537,7 +537,7 @@
   venue: "ACL 2024"
   year: 2024
   type: Conference paper
-  url: https://aclanthology.org/2024.acl-long.422/
+  url: https://vbn.aau.dk/en/publications/text-embedding-inversion-security-for-multilingual-language-model/
   faculty: [Heather Lent, Johannes Bjerva]
   themes: ["Security, Privacy & Safety", "Multilingual & Lower-Resource NLP"]
 
@@ -546,7 +546,7 @@
   venue: "EMNLP 2024"
   year: 2024
   type: Conference paper
-  url: https://aclanthology.org/2024.emnlp-main.326/
+  url: https://vbn.aau.dk/en/publications/what-is-typological-diversity-in-nlp/
   faculty: [Johannes Bjerva]
   themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
@@ -555,7 +555,7 @@
   venue: "EACL 2024 · Short Papers"
   year: 2024
   type: Conference paper
-  url: https://aclanthology.org/2024.eacl-short.6/
+  url: https://vbn.aau.dk/en/publications/multilingual-gradient-word-order-typology-from-universal-dependen/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -564,7 +564,7 @@
   venue: "SIGTYP 2024"
   year: 2024
   type: Workshop paper
-  url: https://aclanthology.org/2024.sigtyp-1.9/
+  url: https://vbn.aau.dk/en/publications/sociolinguistically-informed-interpretability-a-case-study-on-hin/
   faculty: [Heather Lent, Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -573,7 +573,7 @@
   venue: "SIGTYP 2024"
   year: 2024
   type: Workshop paper
-  url: https://aclanthology.org/2024.sigtyp-1.10/
+  url: https://vbn.aau.dk/en/publications/a-call-for-consistency-in-reporting-typological-diversity/
   faculty: [Johannes Bjerva]
   themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
@@ -582,7 +582,7 @@
   venue: "MRL 2024"
   year: 2024
   type: Workshop paper
-  url: https://aclanthology.org/2024.mrl-1.17/
+  url: https://vbn.aau.dk/en/publications/leveraging-adapters-for-improved-cross-lingual-transfer-for-low-r/
   faculty: [Heather Lent, Johannes Bjerva]
   themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
@@ -591,7 +591,7 @@
   venue: "Findings of EMNLP 2024"
   year: 2024
   type: Conference paper
-  url: https://aclanthology.org/2024.findings-emnlp.111/
+  url: https://vbn.aau.dk/en/publications/llms-cannot-yet-match-the-specificity-and-simplicity-of-online-fi/
   faculty: [Russa Biswas]
   themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
@@ -600,7 +600,7 @@
   venue: "ALVR 2024"
   year: 2024
   type: Workshop paper
-  url: https://aclanthology.org/2024.alvr-1.16/
+  url: https://vbn.aau.dk/en/publications/wiki-vel-visual-entity-linking-for-structured-data-on-wikimedia-c/
   faculty: [Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
@@ -609,7 +609,7 @@
   venue: "Semantic Web"
   year: 2024
   type: Journal article
-  url: https://doi.org/10.3233/SW-222960
+  url: https://vbn.aau.dk/en/publications/madlink-attentive-multihop-and-entity-descriptions-for-link-predi/
   faculty: [Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning"]
   featured: true
@@ -621,7 +621,7 @@
   venue: "Findings of EMNLP 2024"
   year: 2024
   type: Conference paper
-  url: https://aclanthology.org/2024.findings-emnlp.995/
+  url: https://vbn.aau.dk/en/publications/llm-tropes-revealing-fine-grained-values-and-opinions-in-large-la/
   faculty: [Dustin Wright]
   themes: ["Factuality, Reliability & Evaluation", "Communities, Domains & Consequences"]
 
@@ -630,7 +630,7 @@
   venue: "Findings of ACL 2024"
   year: 2024
   type: Conference paper
-  url: https://aclanthology.org/2024.findings-acl.369/
+  url: https://vbn.aau.dk/en/publications/understanding-fine-grained-distortions-in-reports-of-scientific-f/
   faculty: [Dustin Wright]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -639,7 +639,7 @@
   venue: "NeurIPS 2024 · Spotlight"
   year: 2024
   type: Conference paper
-  url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/7538e7a7a589a267f49527fe6fbc640e-Abstract-Conference.html
+  url: https://vbn.aau.dk/en/publications/bmrs-bayesian-model-reduction-for-structured-pruning/
   faculty: [Dustin Wright]
   themes: ["Communities, Domains & Consequences"]
 
@@ -648,7 +648,7 @@
   venue: "JEADV Clinical Practice"
   year: 2024
   type: Journal short report
-  url: https://onlinelibrary.wiley.com/doi/10.1002/jvc2.263
+  url: https://vbn.aau.dk/en/publications/a-chat-about-actinic-keratosis-examining-capabilities-and-user-ex/
   faculty: [Heather Lent]
   themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
@@ -657,7 +657,7 @@
   venue: "Natural Language Engineering"
   year: 2024
   type: Journal article
-  url: https://doi.org/10.1017/S1351324923000219
+  url: https://vbn.aau.dk/en/publications/recommending-tasks-based-on-search-queries-and-missions/
   faculty: [Johannes Bjerva]
   themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
@@ -666,7 +666,7 @@
   venue: "Findings of EMNLP 2023"
   year: 2023
   type: Conference paper
-  url: https://aclanthology.org/2023.findings-emnlp.82/
+  url: https://vbn.aau.dk/en/publications/the-past-present-and-future-of-typological-databases-in-nlp/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -675,7 +675,7 @@
   venue: "NoDaLiDa 2023"
   year: 2023
   type: Conference paper
-  url: https://aclanthology.org/2023.nodalida-1.67/
+  url: https://vbn.aau.dk/en/publications/colex2lang-language-embeddings-from-semantic-typology/
   faculty: [Johannes Bjerva, Russa Biswas]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -684,7 +684,7 @@
   venue: "WWW Companion 2023"
   year: 2023
   type: Conference paper
-  url: https://doi.org/10.1145/3543873.3587590
+  url: https://vbn.aau.dk/en/publications/do-bridges-dream-of-water-pollutants-towards-dreamskg-a-knowledge/
   faculty: [Johannes Bjerva]
   themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
@@ -702,7 +702,7 @@
   venue: "Transactions on Graph Data and Knowledge"
   year: 2023
   type: Journal article
-  url: https://drops.dagstuhl.de/entities/document/10.4230/TGDK.1.1.4
+  url: https://vbn.aau.dk/en/publications/knowledge-graph-embeddings-open-challenges-and-opportunities/
   faculty: [Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -711,7 +711,7 @@
   venue: "Transactions on Graph Data and Knowledge"
   year: 2023
   type: Journal article
-  url: https://drops.dagstuhl.de/entities/document/10.4230/TGDK.1.1.2
+  url: https://vbn.aau.dk/en/publications/large-language-models-and-knowledge-graphs-opportunities-and-chal/
   faculty: [Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -720,7 +720,7 @@
   venue: "NAACL 2022"
   year: 2022
   type: Conference paper
-  url: https://aclanthology.org/2022.naacl-main.94/
+  url: https://vbn.aau.dk/en/publications/quantifying-synthesis-and-fusion-and-their-impact-on-machine-tran/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -729,7 +729,7 @@
   venue: "LREC 2022"
   year: 2022
   type: Conference paper
-  url: https://aclanthology.org/2022.lrec-1.691/
+  url: https://vbn.aau.dk/en/publications/what-a-creole-wants-what-a-creole-needs/
   faculty: [Heather Lent]
   themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
@@ -747,7 +747,7 @@
   venue: "ACL 2022"
   year: 2022
   type: Conference paper
-  url: https://aclanthology.org/2022.acl-long.482/
+  url: https://vbn.aau.dk/en/publications/challenges-and-strategies-in-cross-cultural-nlp/
   faculty: [Heather Lent]
   themes: ["Multilingual & Lower-Resource NLP", "Communities, Domains & Consequences"]
 
@@ -756,7 +756,7 @@
   venue: "ACL 2022"
   year: 2022
   type: Conference paper
-  url: https://aclanthology.org/2022.acl-long.175/
+  url: https://vbn.aau.dk/en/publications/generating-scientific-claims-for-zero-shot-scientific-fact-checki/
   faculty: [Dustin Wright]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -765,7 +765,7 @@
   venue: "EMNLP 2022"
   year: 2022
   type: Conference paper
-  url: https://aclanthology.org/2022.emnlp-main.117/
+  url: https://vbn.aau.dk/en/publications/modeling-information-change-in-science-communication-with-semanti/
   faculty: [Dustin Wright]
   themes: ["Knowledge, Evidence & Reasoning", "Communities, Domains & Consequences"]
 
@@ -774,7 +774,7 @@
   venue: "ISWC 2022"
   year: 2022
   type: Conference paper
-  url: https://link.springer.com/chapter/10.1007/978-3-031-19433-7_23
+  url: https://vbn.aau.dk/en/publications/entity-type-prediction-leveraging-graph-walks-and-entity-descript/
   faculty: [Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning"]
 
@@ -792,7 +792,7 @@
   venue: "EACL 2021"
   year: 2021
   type: Conference paper
-  url: https://aclanthology.org/2021.eacl-main.38/
+  url: https://vbn.aau.dk/en/publications/does-typological-blinding-impede-cross-lingual-sharing/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -801,7 +801,7 @@
   venue: "*SEM 2021"
   year: 2021
   type: Conference paper
-  url: https://aclanthology.org/2021.starsem-1.22/
+  url: https://vbn.aau.dk/en/publications/inducing-language-agnostic-multilingual-representations/
   faculty: [Johannes Bjerva]
   themes: ["Multilingual & Lower-Resource NLP", "Factuality, Reliability & Evaluation"]
 
@@ -810,7 +810,7 @@
   venue: "CoNLL 2021"
   year: 2021
   type: Conference paper
-  url: https://aclanthology.org/2021.conll-1.5/
+  url: https://vbn.aau.dk/en/publications/on-language-models-for-creoles/
   faculty: [Heather Lent]
   themes: ["Multilingual & Lower-Resource NLP", "Language, Meaning & Typology"]
 
@@ -819,7 +819,7 @@
   venue: "Semantic Web"
   year: 2021
   type: Journal survey
-  url: https://doi.org/10.3233/SW-200404
+  url: https://vbn.aau.dk/en/publications/a-survey-on-knowledge-graph-embeddings-with-literals-which-model-/
   faculty: [Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning"]
 
@@ -828,7 +828,7 @@
   venue: "K-CAP 2021"
   year: 2021
   type: Conference paper
-  url: https://doi.org/10.1145/3460210.3493575
+  url: https://vbn.aau.dk/en/publications/cat2type-wikipedia-category-embeddings-for-entity-typing-in-knowl/
   faculty: [Russa Biswas]
   themes: ["Knowledge, Evidence & Reasoning"]
 
@@ -837,7 +837,7 @@
   venue: "Findings of ACL 2021"
   year: 2021
   type: Conference paper
-  url: https://aclanthology.org/2021.findings-acl.157/
+  url: https://vbn.aau.dk/en/publications/citeworth-cite-worthiness-detection-for-improved-scientific-docum/
   faculty: [Dustin Wright]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -846,7 +846,7 @@
   venue: "EMNLP 2021"
   year: 2021
   type: Conference paper
-  url: https://aclanthology.org/2021.emnlp-main.845/
+  url: https://vbn.aau.dk/en/publications/semi-supervised-exaggeration-detection-of-health-science-press-re/
   faculty: [Dustin Wright]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -855,7 +855,7 @@
   venue: "EMNLP 2020"
   year: 2020
   type: Conference paper
-  url: https://aclanthology.org/2020.emnlp-main.442/
+  url: https://vbn.aau.dk/en/publications/subjqa-a-dataset-for-subjectivity-and-review-comprehension/
   faculty: [Johannes Bjerva]
   themes: ["Knowledge, Evidence & Reasoning", "Factuality, Reliability & Evaluation"]
 
@@ -882,7 +882,7 @@
   venue: "Computational Linguistics"
   year: 2019
   type: Journal article
-  url: https://aclanthology.org/J19-2006/
+  url: https://vbn.aau.dk/en/publications/what-do-language-representations-really-represent
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -891,7 +891,7 @@
   venue: "ACL 2019"
   year: 2019
   type: Conference paper
-  url: https://aclanthology.org/P19-1382/
+  url: https://vbn.aau.dk/en/publications/uncovering-probabilistic-implications-in-typological-knowledge-ba/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Knowledge, Evidence & Reasoning"]
 
@@ -900,7 +900,7 @@
   venue: "NAACL 2019"
   year: 2019
   type: Conference paper
-  url: https://aclanthology.org/N19-1156/
+  url: https://vbn.aau.dk/en/publications/a-probabilistic-generative-model-of-linguistic-typology/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -909,7 +909,7 @@
   venue: "NAACL 2018"
   year: 2018
   type: Conference paper
-  url: https://aclanthology.org/N18-1083/
+  url: https://vbn.aau.dk/en/publications/from-phonology-to-syntax-unsupervised-linguistic-typology-at-diff/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -918,7 +918,7 @@
   venue: "EACL 2017"
   year: 2017
   type: Conference paper
-  url: https://aclanthology.org/E17-2039/
+  url: https://vbn.aau.dk/en/publications/the-parallel-meaning-bank-towards-a-multilingual-corpus-of-transl/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
@@ -927,7 +927,7 @@
   venue: "COLING 2016"
   year: 2016
   type: Conference paper
-  url: https://aclanthology.org/C16-1333/
+  url: https://vbn.aau.dk/en/publications/semantic-tagging-with-deep-residual-networks/
   faculty: [Johannes Bjerva]
   themes: ["Language, Meaning & Typology", "Multilingual & Lower-Resource NLP"]
 
