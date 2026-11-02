@@ -146,45 +146,47 @@
 - name: Marcell Richard Fekete
   slug: marcell-fekete
   initials: MF
-  group: PhD Fellows
-  role: PhD Fellow · MML-RPL
+  group: Research Staff
+  role: Postdoc
+  staff_type: Postdoc
+  alumni_type: PhD
   image: "https://vbn.aau.dk/files-asset/841013954/marcell_profile.jpeg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/mrfe/
   timeline:
-    label: PhD at AAU NLP
-    start: "2022-09-01"
-    start_text: "Sep 2022"
-    end_text: "3–4 years"
-    horizon_months: 48
-    extension_months: 12
-    kind: phd
+    label: Postdoc at AAU NLP
+    start: "2026-11-01"
+    start_text: "Nov 2026"
+    end_text: "2 years"
+    horizon_months: 24
+    kind: staff
   focus:
     - Language variation & typology
     - Parameter-efficient learning
-  summary: Marcell studies language variation through parameter-efficient adaptation and comparisons between human and model language knowledge.
+  summary: Marcell studies language variation through parameter-efficient adaptation and comparisons between human and model language knowledge. He completed his PhD in the AAU NLP group.
 
-  recognition: Awarded a DFF International Postdoc fellowship for Fast and Focused, starting November 2026.
+  recognition: Awarded a DFF International Postdoc fellowship for Fast and Focused, which began in November 2026.
 
 - name: Yiyi Chen
   slug: yiyi-chen
   initials: YC
-  group: PhD Fellows
-  role: PhD Fellow · MML-RPL
+  group: Research Staff
+  role: Postdoc
+  staff_type: Postdoc
+  alumni_type: PhD
   image: "https://vbn.aau.dk/files-asset/743589182/YiyiChen.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/yiyic/
   timeline:
-    label: PhD at AAU NLP
-    start: "2022-11-01"
-    start_text: "Nov 2022"
-    end_text: "3–4 years"
-    horizon_months: 48
-    extension_months: 12
-    kind: phd
+    label: Postdoc at AAU NLP
+    start: "2026-11-01"
+    start_text: "Nov 2026"
+    end_text: "2 years"
+    horizon_months: 24
+    kind: staff
   focus:
     - LLM Security
     - Embedding Inversion
     - Multilinguality
-  summary: Yiyi researches security vulnerabilities such as embedding inversion on multilingual and multimodal language models, and in a broader context of multilingual NLP.
+  summary: Yiyi researches security vulnerabilities such as embedding inversion on multilingual and multimodal language models, and in a broader context of multilingual NLP. She completed her PhD in the AAU NLP group.
 
 - name: Ernests Lavrinovics
   slug: ernests-lavrinovics
