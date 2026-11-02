@@ -35,7 +35,7 @@
     <div class="snapshot-pathways">
       <p>Researcher development</p>
       <div>
-        <article><strong>{{ len $phdGraduates }}</strong><span>PhD graduate</span></article>
+        <article><strong>{{ len $phdGraduates }}</strong><span>{{ if eq (len $phdGraduates) 1 }}PhD graduate{{ else }}PhD graduates{{ end }}</span></article>
         <article><strong>{{ len $completedPostdocs }}</strong><span>Completed postdocs</span></article>
         <article><strong>{{ len $incoming }}</strong><span>Joining in 2026</span></article>
       </div>
