@@ -126,22 +126,24 @@
 - name: Yingming Wang
   slug: yingming-wang
   initials: YW
-  group: Research Staff
-  role: Research Assistant
-  staff_type: Research Assistant
+  group: Alumni
+  role: Research Assistant alumnus · 2026
+  alumni_type: Research Assistant
+  destination: PhD student · with Shaoxiong Ji
+  destination_url: https://www.olaresearch.org/jis/
   image: "https://vbn.aau.dk/files-asset/829517408/YingmingWang.jpg?f=jpg&w=480"
   vbn: https://vbn.aau.dk/en/persons/yingwang/
   timeline:
     label: At AAU NLP
     start: "2026-05-01"
+    end: "2026-10-31"
     start_text: "May 2026"
-    end_text: "12 months"
-    horizon_months: 12
-    kind: staff
+    end_text: "Oct 2026"
+    kind: alumni
   focus:
     - Safety & Security
     - Interpretability
-  summary: Yingming studies the trustworthiness of LLMs and LLM-based agents, with particular attention to linguistically motivated approaches.
+  summary: Yingming spent six months as a research assistant in AAU NLP, studying the trustworthiness of LLMs and LLM-based agents with particular attention to linguistically motivated approaches. He is starting a PhD with Shaoxiong Ji.
 
 - name: Marcell Richard Fekete
   slug: marcell-fekete
