@@ -1,3 +1,21 @@
+- date: 2026-11-02
+  label: "People"
+  title: "Marcell Fekete and Yiyi Chen begin postdoctoral positions"
+  text: "Congratulations to Marcell Fekete and Yiyi Chen, who have both successfully defended their PhDs in AAU NLP and started postdoctoral positions on 1 November 2026. Their research spans linguistic structure in language models and security vulnerabilities in multilingual and multimodal embeddings. Marcell’s DFF International Postdoc fellowship, “Fast and Focused,” explores information-structure-aware AI for accessibility."
+  url: "/people/"
+
+- date: 2026-11-02
+  label: "Publications"
+  title: "AAU NLP papers accepted at CCS and NeurIPS 2026"
+  text: "Two papers examine privacy risks in machine learning. “When Topology Betrays Privacy,” accepted at CCS 2026, investigates reconstruction attacks on secure aggregation in decentralized federated learning. “Characterizing Memorization in Diffusion Language Models,” accepted at NeurIPS 2026, studies training-data extraction and how sampling choices affect memorization."
+  url: "/publications/?year=2026"
+
+- date: 2026-11-02
+  label: "People"
+  title: "Ivaylo Mitov joins AAU NLP"
+  text: "Ivaylo Mitov joined the group as a PhD fellow on 1 October 2026. He is part of LM²-SEC, our Novo Nordisk Foundation-funded programme on linguistically motivated language-model security."
+  url: "/people/#ivaylo-mitov"
+
 - date: 2026-09-04
   label: People
   title: Six new researchers join AAU NLP
